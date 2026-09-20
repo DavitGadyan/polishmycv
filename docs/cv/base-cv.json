@@ -1,0 +1,109 @@
+{
+  "_about": "Structured transcription of docs/cv/David_Gadyan_Resume4.pdf (the original CV published on the portfolio site). `/polishmycv polish` starts from this file; `/polishmycv refresh` re-downloads the PDF and flags this file if the PDF text changed. Inline **bold** and [text](url) are allowed in strings.",
+  "source_pdf": "docs/cv/David_Gadyan_Resume4.pdf",
+  "source_pdf_sha256": "d3f0045508feaa6e91f9ad87ade7576a9dfb24d667120839c10c9324a86fd9a0",
+  "name": "David Gadyan",
+  "headline": "Data Scientist | AI Architect | AI SAAS Engineer | Generative AI Dev | Full Stack",
+  "photo": "docs/cv/headshot.png",
+  "contact": [
+    {
+      "label": "Email",
+      "text": "david.gadyan@bse.eu",
+      "url": "mailto:david.gadyan@bse.eu"
+    },
+    {
+      "label": "Linkedin",
+      "text": "linkedin.com/in/davidgadyan",
+      "url": "https://www.linkedin.com/in/davidgadyan/",
+      "underline": true
+    },
+    {
+      "label": "Upwork",
+      "text": "upwork.com/freelancers/davidgadyan",
+      "url": "https://www.upwork.com/freelancers/davidgadyan",
+      "underline": true
+    },
+    {
+      "label": "Portfolio",
+      "text": "davidgadyan.com/portfolio",
+      "url": "https://davidgadyan.com/portfolio",
+      "underline": true
+    }
+  ],
+  "summary": null,
+  "sections": [
+    {
+      "title": "Professional Experience",
+      "entries": [
+        {
+          "heading": "Upwork (Freelancer)",
+          "subheading": "Data Scientist",
+          "right": "Yerevan, Armenia",
+          "right_sub": "01/2018 – Present",
+          "bullets": [
+            "Bringing AI Transformation to businesses more than 8 years",
+            "Working with 180+ clients around the globe to leverage the data to drive business solutions, cut costs, increase profits",
+            "\"Expert-Vetted Data Scientist\" badge TOP 1% of Platform",
+            "500k+ USD earnings"
+          ]
+        },
+        {
+          "heading": "Ernst & Young",
+          "subheading": "Tax Accountant",
+          "right": "Yerevan, Armenia",
+          "right_sub": "10/2017 – 05/2018",
+          "bullets": [
+            "Focusing on tax consulting, tax accounting and tax compliance as well as assisting with internal control deficiencies of a company with turnover and assets close to $10,000,000",
+            "Working on tax compliance process, including review of tax returns and tax projections for more than 3 clients at the same time"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "entries": [
+        {
+          "heading": "Barcelona School of Economics",
+          "subheading": "Master Program in Data Science for Decision Making",
+          "right": "Barcelona, Spain",
+          "right_sub": "09/2022 – 08/2023",
+          "paragraph": "Relevant courses: Computational Machine Learning, Data Visualization, Deep Learning\nDegree awarded by Universitat Pompeu Fabra and Universitat Autònoma de Barcelona"
+        },
+        {
+          "heading": "American University of Armenia",
+          "subheading": "Master of Business Administration / Finance, Data Science / Applications of Data Science",
+          "right": "Yerevan, Armenia",
+          "right_sub": "09/2017 – 06/2020",
+          "paragraph": "Degree awarded by American University of Armenia"
+        }
+      ]
+    },
+    {
+      "title": "Languages & Technical Skills",
+      "lines": [
+        {
+          "label": "Language skills",
+          "text": "English (Fluent), Russian (Fluent), Armenian (Native), Spanish (Conversational)"
+        },
+        {
+          "label": "Technical skills",
+          "text": "Python, R, SQL, Data Science, Generative AI, Agentic Systems, Machine Learning, Deep Learning, SAAS, LLMOps DevOps, HIPPA, GDPR, SOC20"
+        }
+      ]
+    },
+    {
+      "title": "Additional Information & Personal Projects",
+      "italic": true,
+      "bullets": [
+        "Expert-vetted status on Upwork top 1 percent of 10+ million developers, Toptal Developer",
+        "AI powered Crypto Algorithmic Trading Strategy: XGBoost model with hundreds of features to predict Long/Neutral/Short positions, Meta Labeler XGBoost model to predict regime Up, Flat, Down. Breakout, Trendline and Stop Loss, Take Profit logic integrated",
+        "ImprovTalk (Beta) IOS application to practice improvisation and communication skills"
+      ]
+    }
+  ],
+  "style": {
+    "font_size_pt": 10,
+    "line_height": 1.25,
+    "margin_in": 0.5
+  }
+}

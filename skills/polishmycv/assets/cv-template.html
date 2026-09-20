@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ cv.name }} — CV</title>
+<style>
+  /* Layout mirrors David_Gadyan_Resume4.pdf: Letter, single column, ruled section headings,
+     name + headline + contact top-left, headshot top-right. Sizes are variables so the
+     renderer's --fit loop can shrink type slightly before asking for content cuts. */
+  :root {
+    --fs: {{ style.font_size_pt }}pt;
+    --lh: {{ style.line_height }};
+    --margin: {{ style.margin_in }}in;
+    --section-gap: {{ style.section_gap_pt }}pt;
+    --entry-gap: {{ style.entry_gap_pt }}pt;
+    --link: #1a4fd6;
+  }
+  @page { size: Letter; margin: var(--margin) {{ style.margin_in + 0.05 }}in var(--margin) {{ style.margin_in + 0.05 }}in; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: var(--fs);
+    line-height: var(--lh);
+    color: #000;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  a { color: var(--link); text-decoration: none; }
+  a.u { text-decoration: underline; }
+  strong { font-weight: bold; }
+
+  /* header */
+  .header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12pt; }
+  .header .who { flex: 1 1 auto; }
+  .name { font-size: calc(var(--fs) * 1.5); font-weight: bold; margin: 0 0 6pt 0; }
+  .headline { font-weight: bold; margin: 0 0 8pt 0; }
+  .contact { margin: 0; }
+  .contact div { margin: 0; }
+  .contact .label { color: #000; }
+  .photo { flex: 0 0 auto; width: 76pt; height: 76pt; object-fit: cover; border: 0.5pt solid #ccc; }
+  .summary { margin: 6pt 0 0 0; }
+
+  /* sections */
+  .section { margin-top: var(--section-gap); }
+  .section-title {
+    font-weight: bold; text-transform: uppercase; letter-spacing: 0.2pt;
+    border-bottom: 1pt solid #000; padding-bottom: 1.5pt; margin: 0 0 4pt 0;
+  }
+  .entry { margin-top: var(--entry-gap); }
+  .entry:first-of-type { margin-top: 2pt; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; gap: 10pt; }
+  .row .l { flex: 1 1 auto; }
+  .row .r { flex: 0 0 auto; text-align: right; white-space: nowrap; }
+  .h { font-weight: bold; }
+  .sub { }
+  .para { margin: 1pt 0 0 0; }
+  ul.bullets { list-style: none; margin: 1pt 0 0 0; padding: 0; }
+  ul.bullets li { position: relative; padding-left: 12pt; margin: 0; }
+  ul.bullets li::before { content: "{{ style.bullet_char }}"; position: absolute; left: 1pt; top: 0; font-size: calc(var(--fs) * 0.8); }
+  ul.bullets.tight li { margin: 0; }
+  .lines div { margin: 0 0 2pt 0; }
+  .italic { font-style: italic; }
+  .small { font-size: calc(var(--fs) * 0.92); }
+  .muted { color: #333; }
+  .kv .k { font-weight: bold; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="who">
+      <div class="name">{{ cv.name }}</div>
+      {% if cv.headline %}<div class="headline">{{ cv.headline | md }}</div>{% endif %}
+      <div class="contact">
+        {% for c in cv.contact %}
+          <div><span class="label">{{ c.label }}:</span> {% if c.url %}<a class="{{ 'u' if c.underline else '' }}" href="{{ c.url }}">{{ c.text }}</a>{% else %}{{ c.text }}{% endif %}</div>
+        {% endfor %}
+      </div>
+      {% if cv.summary %}<div class="summary">{{ cv.summary | md }}</div>{% endif %}
+    </div>
+    {% if photo_data_uri %}<img class="photo" src="{{ photo_data_uri }}" alt="">{% endif %}
+  </div>
+
+  {% for s in cv.sections %}
+  <div class="section">
+    <div class="section-title">{{ s.title }}</div>
+    {% for e in s.entries or [] %}
+      <div class="entry{% if e.italic %} italic{% endif %}">
+        {% if e.heading or e.right %}
+        <div class="row">
+          <div class="l h">{{ e.heading | md if e.heading else '' }}</div>
+          <div class="r h">{{ e.right | md if e.right else '' }}</div>
+        </div>
+        {% endif %}
+        {% if e.subheading or e.right_sub %}
+        <div class="row">
+          <div class="l sub">{{ e.subheading | md if e.subheading else '' }}</div>
+          <div class="r sub">{{ e.right_sub | md if e.right_sub else '' }}</div>
+        </div>
+        {% endif %}
+        {% if e.paragraph %}<div class="para">{{ e.paragraph | md }}</div>{% endif %}
+        {% if e.bullets %}
+        <ul class="bullets">
+          {% for b in e.bullets %}<li>{{ b | md }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    {% endfor %}
+    {% if s.lines %}
+      <div class="lines">
+        {% for l in s.lines %}<div><span class="k">{{ l.label }}:</span> {{ l.text | md }}</div>{% endfor %}
+      </div>
+    {% endif %}
+    {% if s.paragraph %}<div class="para">{{ s.paragraph | md }}</div>{% endif %}
+    {% if s.bullets %}
+      <ul class="bullets{% if s.italic %} italic{% endif %}">
+        {% for b in s.bullets %}<li>{{ b | md }}</li>{% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+</body>
+</html>

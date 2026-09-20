@@ -1,0 +1,21 @@
+Senior Machine Learning Engineer (LLM / Agents) — Remote
+Meridian Health Technologies
+
+About the role
+We're building AI copilots for insurance underwriting and patient onboarding. You'll own production LLM systems end to end: RAG pipelines, agentic workflows with tool use, evaluation, and deployment on AWS with Kubernetes.
+
+What you'll do
+- Design and ship LLM-powered features (RAG, agents, structured extraction from documents such as insurance cards and IDs)
+- Build and maintain FastAPI services, vector stores and retrieval quality evals
+- Fine-tune and serve open-source models when hosted APIs aren't suitable
+- Work under HIPAA constraints with PHI; partner with compliance
+- Deploy with Docker/Kubernetes on AWS; monitoring and cost control
+- Collaborate with product, clinicians and brokers; communicate trade-offs clearly
+
+Must have
+- 5+ years in ML engineering or data science, 2+ shipping LLM applications in production
+- Python, FastAPI, LangChain or LangGraph, vector databases (Pinecone/pgvector)
+- Docker, Kubernetes, AWS
+- Strong SQL (PostgreSQL) and data pipeline experience
+- Experience with OCR / document extraction is a plus
+- Healthcare or insurance domain experience is a strong plus

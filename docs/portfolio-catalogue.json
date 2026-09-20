@@ -1,0 +1,3268 @@
+{
+  "catalogue_version": "1.1",
+  "generated": "2026-09-20",
+  "source": "https://davitgadyan.github.io/portfolio_app/ (site content extracted from the published pages)",
+  "purpose": "Reference catalogue for tailoring David's CV to a job post and picking the most relevant portfolio projects to attach.",
+  "profile": {
+    "name": "David Gadyan",
+    "headline": "Data Scientist, Agentic AI Developer and AI Marketing Specialist",
+    "positioning": "Builds AI and machine learning systems that reach production — agentic workflows, RAG pipelines, computer vision, forecasting and full-stack data applications — and sets up the analytics and conversion tracking that prove those systems moved a business number.",
+    "experience_years": 8,
+    "projects_delivered": "180+",
+    "long_term_clients": "50+",
+    "location": "Remote, working worldwide",
+    "education": [
+      "Barcelona School of Economics — MSc Data Science for Decision Making (graduated with honours, 2023)",
+      "American University of Armenia — PMBA, Data Science"
+    ],
+    "previously": "Ernst & Young",
+    "credentials": [
+      "Upwork Expert-Vetted (top 1%), awarded 2022 after 4 years, 100+ clients and 6,000+ hours"
+    ],
+    "services": [
+      "Generative AI | Agentic Systems",
+      "Machine Learning",
+      "Deep Learning",
+      "Computer Vision",
+      "Full Stack Development",
+      "Web Scraping",
+      "Database Management",
+      "AI Software Development",
+      "MLOps/DevOps/LLMOps",
+      "Web development",
+      "GA4 and conversion tracking setup",
+      "Marketing analytics and tracking audits",
+      "AI marketing automation and lead handling"
+    ],
+    "core_stack": {
+      "languages": [
+        "Python",
+        "R",
+        "JavaScript",
+        "SQL"
+      ],
+      "ai": [
+        "LangChain",
+        "LangGraph",
+        "RAG with vector stores (Pinecone)",
+        "MCP",
+        "n8n",
+        "major LLM APIs (OpenAI, Gemini, Claude)",
+        "HuggingFace fine-tuning"
+      ],
+      "ml": [
+        "XGBoost",
+        "scikit-learn",
+        "BERT",
+        "LSTM",
+        "U-Net",
+        "YOLO",
+        "Stable Diffusion",
+        "PCA",
+        "clustering"
+      ],
+      "interfaces": [
+        "React",
+        "Next.js",
+        "React Native",
+        "Python Dash",
+        "Streamlit",
+        "D3.js",
+        "Plotly"
+      ],
+      "serving": [
+        "FastAPI",
+        "Flask",
+        "REST APIs"
+      ],
+      "infra": [
+        "AWS",
+        "GCP",
+        "Docker",
+        "Kubernetes",
+        "Vercel",
+        "Heroku",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Supabase",
+        "BigQuery",
+        "Firebase"
+      ],
+      "marketing": [
+        "GA4",
+        "Google Tag Manager",
+        "Google Ads",
+        "Meta Ads",
+        "LinkedIn Ads",
+        "schema.org JSON-LD",
+        "Playwright",
+        "Technical SEO / GEO-AEO"
+      ]
+    },
+    "named_clients_and_references": [
+      "Reuben Vandeventer — CEO | Founder, SecondSight",
+      "Jake Happe — President, Happe Homes",
+      "Isabel Gonzalez — CEO, Equeum",
+      "Kevin Dorry — CEO | Lolly",
+      "David Imrem — CPO, SecondSight",
+      "Alan Arnott — Managing Partner, Arnotts Technology Lawyers",
+      "Aras — Financial Analyst, KPMG",
+      "Rania Kabbara — Chief Financial Officer, linkaX",
+      "Joerg Twachtmann — Managing Partner, FCL Analytics GmbH",
+      "Andrea Graziano — Director of Operations, ScanLabMR",
+      "Cary Sparrow — CEO, Greenwich.HR",
+      "Felix Forsgren — Co-Founder, LoopLabz.com",
+      "Jacqueline McShan — Data Science Research",
+      "Rostislav Pankratov — Founder | NLOAI",
+      "Federico Rossi — Founder | Chilldays"
+    ],
+    "links": {
+      "portfolio": "https://davitgadyan.github.io/portfolio_app/",
+      "all_projects": "https://davitgadyan.github.io/portfolio_app/portfolio/",
+      "cv_pdf": "https://davitgadyan.github.io/portfolio_app/David_Gadyan_Resume4.pdf",
+      "linkedin": "https://www.linkedin.com/in/davidgadyan/",
+      "github": "https://github.com/DavitGadyan",
+      "book_a_call": "https://calendly.com/davidgadyan/15min"
+    },
+    "hours_worked": "8,700+",
+    "knows_about": [
+      "Agentic AI",
+      "Generative AI",
+      "Large Language Models",
+      "Retrieval Augmented Generation",
+      "Machine Learning",
+      "Deep Learning",
+      "Computer Vision",
+      "Natural Language Processing",
+      "MLOps",
+      "Data Engineering",
+      "Web Scraping",
+      "Data Visualization",
+      "Marketing analytics",
+      "Conversion tracking",
+      "Google Analytics 4",
+      "Google Tag Manager",
+      "Google Ads",
+      "Lead scoring",
+      "Marketing automation"
+    ],
+    "about_text": "Welcome! I’m David, a seasoned Data Scientist & Agentic AI Developer with over 8 years of experience and a track record of 180+ successful projects. My expertise lies in transforming complex business challenges into innovative solutions powered by AI and my creative problem-solving skills.",
+    "self_rated_skills_pct": {
+      "Generative AI | Agentic Systems": 95,
+      "Data Science": 95,
+      "Machine Learning": 90,
+      "Deep Learning": 85,
+      "Computer Vision": 70,
+      "Full Stack Development | Interactive Dashboards": 90,
+      "Web Scraping | Web Crawling": 90,
+      "DevOps | MLOps | LLMOps": 70,
+      "Python": 90,
+      "R": 85,
+      "Javascript": 70,
+      "SQL": 85
+    },
+    "testimonials": [
+      {
+        "name": "Reuben Vandeventer",
+        "role": "CEO | Founder, SecondSight",
+        "quote": "Our team has been using Upwork since it began, and amongst us have engaged hundreds of freelancers. David is by far the most talented freelancer we’ve ever worked with. He has the perfect balance of technical competence, ability to quickly learn new things, and creativity to design elegant solutions to complex requirements. This particular project spanned across not only python and D3 challenges but the implementation of complex mathematic methods taken from algebraic topology, graph theory, and some of the more esoteric nuances of machine learning. Our team will definitely use David again on future projects."
+      },
+      {
+        "name": "Jake Happe",
+        "role": "President, Happe Homes",
+        "quote": "David did an outstanding job designing an AI program for me. His technical expertise was evident from day one, and he quickly grasped the requirements of the project. David was not only highly skilled but also communicative, proactive, and committed to delivering high-quality results. He kept me updated throughout the entire process and went above and beyond to ensure the final product exceeded my expectations. I highly recommend David to anyone in need of an AI solution, you won’t be disappointed!"
+      },
+      {
+        "name": "Isabel Gonzalez",
+        "role": "CEO, Equeum",
+        "quote": "David took up a difficult and experimental initiative focusing on a highly domain specific application with verve. We were very impressed with his ability to work independently, to present findings, and to manage the research, development, and deployment pipeline end to end for a large and complex dataset. He is excellent about communicating the rationale behind his decisions in the context of data analysis, especially given the asynchronous nature of remote work.\nDavid: Kudos! Thanks for your contribution, and we look forward to working with you again in the future!"
+      },
+      {
+        "name": "Kevin Dorry",
+        "role": "CEO | Lolly",
+        "quote": "David was a pleasure to work with. He came into a difficult situation and made the best of it!"
+      },
+      {
+        "name": "David Imrem",
+        "role": "CPO, SecondSight",
+        "quote": "David has been an incredibly valuable resource to my R&D team to explore a use case that we’ve been working on for many years.  The area of focus for our use case involved algebraic topology and graph theory to be used for high-dimensional feature discovery and analysis. The process our team used with David was to guide particular math challenges that we understood from an abstract standpoint but needed a prototype that resulted in either data frames or working visuals to which we could provide additional guidance.  This process resulted in a very loosely defined framework that David had to adapt. As a data science company, we have observed in the many other data scientists that we attempted to use before David for this same project that the loose definition of requirements is counter to the typical workflow of data science and, even more broadly speaking, engineering. David proved he had the skills and abilities to help us define what requirements should be as we progressed through the project together."
+      },
+      {
+        "name": "Alan Arnott",
+        "role": "Managing Partner, Arnotts Technology Lawyers",
+        "quote": "David is an excellent freelancer, very easy to talk to and highly efficient and engaged"
+      },
+      {
+        "name": "Aras",
+        "role": "Financial Analyst, KPMG",
+        "quote": "David was amazing to work with, he was very professional, knowledgeable and a great communicator. We will definitely hire him again."
+      },
+      {
+        "name": "Rania Kabbara",
+        "role": "Chief Financial Officer, linkaX",
+        "quote": "David was very professional, helpful and very skilled! Will certainly work with him again. Highly recommended"
+      },
+      {
+        "name": "Joerg Twachtmann",
+        "role": "Managing Partner, FCL Analytics GmbH",
+        "quote": "David is an ambitious, conscientious and reliable partner. He incorporated his own ideas into the project, which helped us a lot as non-technicians. If we find clients who would like to work with us, we will be happy to continue working with David. Thank you very much for the trusting cooperation."
+      },
+      {
+        "name": "Andrea Graziano",
+        "role": "Director of Operations, ScanLabMR",
+        "quote": "David was fantastic to work with! He was excellent at communicating with our team and making sure that every task was done to meet our deadlines. He was innovative and always had alternative ideas to offer if needed. We will definitely work with David again should another project come up."
+      },
+      {
+        "name": "Cary Sparrow",
+        "role": "CEO, Greenwich.HR",
+        "quote": "David does outstanding work, is excellent at communicating and keeping us informed, and is a proactive thinker. He understands the objectives and not just the tasks, and is collaborative to optimize the approach he takes to best meet the objective. For this project, we tapped into his strong expertise in web scraping methods and database operations. We absolutely plan to be working with David in the future and can highly recommend."
+      },
+      {
+        "name": "Felix Forsgren",
+        "role": "Co-Founder, LoopLabz.com",
+        "quote": "Had a great experience working with David."
+      },
+      {
+        "name": "Jacqueline McShan",
+        "role": "Data Science Research",
+        "quote": "David was essential in helping me debug and deploy my website.He is very knowledgeable and skilled with setting up projects using AWS infrastructure. David clearly communicated with me in a timely matter if there were issues or questions concerning the project. I would definitely recommend working with David and I will most likely have more jobs for him as my website continues to evolve."
+      },
+      {
+        "name": "Rostislav Pankratov",
+        "role": "Founder | NLOAI",
+        "quote": "I’m thrilled to share my positive experience working with David. His professionalism, dedication, and quality of work exceeded my expectations. Communication was clear and prompt, and he delivered exceptional results within the agreed timeframe. I highly recommend David and look forward to collaborating with him again in the future."
+      },
+      {
+        "name": "Federico Rossi",
+        "role": "Founder | Chilldays",
+        "quote": "David’s skills in production are top-notch. He’s got a real knack for bringing AI models into the real world, ensuring they perform seamlessly in live environments. His work has been key to the app’s success, making it not just functional but also reliable and efficient for everyday users. He’s a wizard at making sure everything runs smoothly, from the backend to the user interface, which speaks volumes about his expertise in production."
+      }
+    ]
+  },
+  "counts": {
+    "projects": 37,
+    "needs_curation": 0
+  },
+  "themes": [
+    "Agentic AI & LLM systems",
+    "Classical ML & predictive modelling",
+    "Computer vision",
+    "Data apps, dashboards & visualisation",
+    "Data engineering & web scraping",
+    "LLM fine-tuning & generative content",
+    "MLOps, cloud & deployment",
+    "Marketing analytics & growth",
+    "NLP & text analytics",
+    "Quantitative finance & trading",
+    "RAG & document intelligence",
+    "Recommender systems & matching"
+  ],
+  "index_by_theme": {
+    "Classical ML & predictive modelling": [
+      "project-35",
+      "project-30",
+      "project-27",
+      "project-26",
+      "project-23",
+      "project-20",
+      "project-15",
+      "project-4",
+      "project-1",
+      "project-9"
+    ],
+    "Data apps, dashboards & visualisation": [
+      "project-33",
+      "project-30",
+      "project-29",
+      "project-23",
+      "project-16",
+      "project-19",
+      "project-13",
+      "project-10",
+      "project-2",
+      "project-1"
+    ],
+    "Data engineering & web scraping": [
+      "project-38",
+      "project-30",
+      "project-29",
+      "project-17",
+      "project-13",
+      "project-15",
+      "project-11",
+      "project-5",
+      "project-8"
+    ],
+    "MLOps, cloud & deployment": [
+      "project-34",
+      "project-22",
+      "project-25",
+      "project-18",
+      "project-16",
+      "project-11",
+      "project-5",
+      "project-3",
+      "project-6"
+    ],
+    "Agentic AI & LLM systems": [
+      "project-35",
+      "project-34",
+      "project-33",
+      "project-32",
+      "project-31",
+      "project-28",
+      "project-17"
+    ],
+    "Computer vision": [
+      "project-24",
+      "project-21",
+      "project-18",
+      "project-14",
+      "project-3",
+      "project-6"
+    ],
+    "NLP & text analytics": [
+      "project-27",
+      "project-20",
+      "project-10",
+      "project-2",
+      "project-8"
+    ],
+    "LLM fine-tuning & generative content": [
+      "project-36",
+      "project-22",
+      "project-24",
+      "project-21"
+    ],
+    "Marketing analytics & growth": [
+      "project-38",
+      "project-36",
+      "project-35",
+      "project-13"
+    ],
+    "Quantitative finance & trading": [
+      "project-26",
+      "project-12",
+      "project-7",
+      "project-2"
+    ],
+    "RAG & document intelligence": [
+      "project-31",
+      "project-28",
+      "project-14"
+    ],
+    "Recommender systems & matching": [
+      "project-25",
+      "project-19",
+      "project-9"
+    ]
+  },
+  "index_by_industry": {
+    "Marketing / B2B services": [
+      "project-38",
+      "project-36",
+      "project-35",
+      "project-21",
+      "project-13"
+    ],
+    "B2B / SME services": [
+      "project-16",
+      "project-19",
+      "project-17",
+      "project-1"
+    ],
+    "Finance & capital markets": [
+      "project-26",
+      "project-12",
+      "project-2"
+    ],
+    "Healthcare & insurance": [
+      "project-34",
+      "project-23",
+      "project-14"
+    ],
+    "Research & public sector": [
+      "project-27",
+      "project-4",
+      "project-10"
+    ],
+    "SaaS": [
+      "project-35",
+      "project-33",
+      "project-32"
+    ],
+    "Automotive": [
+      "project-11",
+      "project-3"
+    ],
+    "Consumer & leisure": [
+      "project-25",
+      "project-9"
+    ],
+    "Crypto & blockchain": [
+      "project-31",
+      "project-7"
+    ],
+    "E-commerce & retail": [
+      "project-18",
+      "project-6"
+    ],
+    "HR & recruitment": [
+      "project-20",
+      "project-5"
+    ],
+    "Legal & compliance": [
+      "project-31",
+      "project-28"
+    ],
+    "Real estate & construction": [
+      "project-30",
+      "project-15"
+    ],
+    "Advertising": [
+      "project-24"
+    ],
+    "B2B data / lead generation": [
+      "project-8"
+    ],
+    "Consumer mobile": [
+      "project-36"
+    ],
+    "Content & publishing": [
+      "project-22"
+    ],
+    "IoT & edge": [
+      "project-3"
+    ],
+    "Media & reporting": [
+      "project-29"
+    ],
+    "Productivity": [
+      "project-32"
+    ],
+    "Social media": [
+      "project-21"
+    ]
+  },
+  "index_by_domain": {
+    "Machine learning": [
+      "project-30",
+      "project-27",
+      "project-26",
+      "project-25",
+      "project-20",
+      "project-19",
+      "project-15",
+      "project-4",
+      "project-7",
+      "project-1",
+      "project-9"
+    ],
+    "Cloud": [
+      "project-25",
+      "project-11",
+      "project-5",
+      "project-7",
+      "project-6",
+      "project-1",
+      "project-8"
+    ],
+    "Web development": [
+      "project-29",
+      "project-16",
+      "project-19",
+      "project-17",
+      "project-13",
+      "project-2",
+      "project-1"
+    ],
+    "Web scraping": [
+      "project-30",
+      "project-17",
+      "project-15",
+      "project-11",
+      "project-5",
+      "project-8"
+    ],
+    "Computer vision": [
+      "project-24",
+      "project-21",
+      "project-18",
+      "project-3",
+      "project-6"
+    ],
+    "Generative AI / agents": [
+      "project-35",
+      "project-34",
+      "project-33",
+      "project-32",
+      "project-28"
+    ],
+    "API": [
+      "project-28",
+      "project-22",
+      "project-23",
+      "project-14"
+    ],
+    "Data visualisation": [
+      "project-29",
+      "project-23",
+      "project-10",
+      "project-1"
+    ],
+    "NLP": [
+      "project-27",
+      "project-22",
+      "project-20",
+      "project-10"
+    ],
+    "Financial analysis": [
+      "project-13",
+      "project-12",
+      "project-2"
+    ],
+    "Full-stack": [
+      "project-35",
+      "project-34",
+      "project-33"
+    ],
+    "API integration": [
+      "project-13",
+      "project-15"
+    ],
+    "Data engineering": [
+      "project-11",
+      "project-5"
+    ],
+    "Deep learning": [
+      "project-3",
+      "project-6"
+    ],
+    "Document intelligence": [
+      "project-28",
+      "project-14"
+    ],
+    "E-commerce": [
+      "project-18",
+      "project-6"
+    ],
+    "Generative AI": [
+      "project-36",
+      "project-20"
+    ],
+    "Generative AI (image)": [
+      "project-24",
+      "project-21"
+    ],
+    "Marketing analytics": [
+      "project-38",
+      "project-13"
+    ],
+    "Real estate": [
+      "project-30",
+      "project-15"
+    ],
+    "Recommender systems": [
+      "project-25",
+      "project-9"
+    ],
+    "Workflow automation": [
+      "project-33",
+      "project-32"
+    ],
+    "AI video": [
+      "project-36"
+    ],
+    "Advertising": [
+      "project-24"
+    ],
+    "Algorithmic trading": [
+      "project-7"
+    ],
+    "Automotive safety": [
+      "project-3"
+    ],
+    "B2B matching": [
+      "project-19"
+    ],
+    "Cloud AI": [
+      "project-18"
+    ],
+    "Computer vision / OCR": [
+      "project-14"
+    ],
+    "Consumer product": [
+      "project-9"
+    ],
+    "Conversion tracking": [
+      "project-38"
+    ],
+    "Crypto": [
+      "project-7"
+    ],
+    "Crypto / blockchain": [
+      "project-31"
+    ],
+    "Data quality": [
+      "project-4"
+    ],
+    "Decision support": [
+      "project-30"
+    ],
+    "Edge / IoT": [
+      "project-3"
+    ],
+    "Entity matching": [
+      "project-27"
+    ],
+    "Fixed income": [
+      "project-26"
+    ],
+    "Generative AI / LLM": [
+      "project-17"
+    ],
+    "Generative AI / LLM fine-tuning": [
+      "project-22"
+    ],
+    "Generative AI / RAG": [
+      "project-31"
+    ],
+    "HR / recruitment analytics": [
+      "project-20"
+    ],
+    "Healthcare": [
+      "project-14"
+    ],
+    "Healthcare / insurance": [
+      "project-34"
+    ],
+    "Healthcare / medtech": [
+      "project-23"
+    ],
+    "Influencer marketing": [
+      "project-21"
+    ],
+    "Lead scoring & churn": [
+      "project-35"
+    ],
+    "Legal & regulatory": [
+      "project-31"
+    ],
+    "Legal tech": [
+      "project-28"
+    ],
+    "MLOps": [
+      "project-22"
+    ],
+    "MLOps / DevOps": [
+      "project-16"
+    ],
+    "Machine learning / deep learning": [
+      "project-8"
+    ],
+    "Marketing automation": [
+      "project-35"
+    ],
+    "Mobile / iOS": [
+      "project-36"
+    ],
+    "NLP / sentiment": [
+      "project-2"
+    ],
+    "Performance marketing": [
+      "project-36"
+    ],
+    "Productivity tooling": [
+      "project-32"
+    ],
+    "Quantitative finance": [
+      "project-26"
+    ],
+    "Record linkage": [
+      "project-4"
+    ],
+    "Regulated data": [
+      "project-34"
+    ],
+    "Reporting": [
+      "project-29"
+    ],
+    "Research / social science": [
+      "project-10"
+    ],
+    "Research data": [
+      "project-27"
+    ],
+    "SEO / GEO-AEO": [
+      "project-38"
+    ],
+    "Statistics": [
+      "project-12"
+    ],
+    "Statistics in R": [
+      "project-23"
+    ],
+    "Team leadership": [
+      "project-25"
+    ],
+    "Web performance": [
+      "project-38"
+    ]
+  },
+  "index_by_skill": {
+    "Python": [
+      "project-38",
+      "project-30",
+      "project-29",
+      "project-27",
+      "project-28",
+      "project-26",
+      "project-25",
+      "project-20",
+      "project-18",
+      "project-13",
+      "project-15",
+      "project-4",
+      "project-12",
+      "project-7",
+      "project-10",
+      "project-2",
+      "project-6",
+      "project-1",
+      "project-8",
+      "project-9"
+    ],
+    "LangChain": [
+      "project-35",
+      "project-34",
+      "project-33",
+      "project-31",
+      "project-28",
+      "project-22"
+    ],
+    "Cloud deployment": [
+      "project-19",
+      "project-11",
+      "project-7",
+      "project-8"
+    ],
+    "FastAPI": [
+      "project-38",
+      "project-35",
+      "project-34",
+      "project-22"
+    ],
+    "AWS EC2": [
+      "project-16",
+      "project-5",
+      "project-6"
+    ],
+    "Docker": [
+      "project-34",
+      "project-31",
+      "project-3"
+    ],
+    "Scrapy": [
+      "project-11",
+      "project-5",
+      "project-8"
+    ],
+    "Web scraping": [
+      "project-31",
+      "project-17",
+      "project-15"
+    ],
+    "XGBoost": [
+      "project-30",
+      "project-15",
+      "project-3"
+    ],
+    "pandas": [
+      "project-30",
+      "project-29",
+      "project-26"
+    ],
+    "EDA": [
+      "project-20",
+      "project-10"
+    ],
+    "Feature engineering": [
+      "project-20",
+      "project-15"
+    ],
+    "GCP": [
+      "project-25",
+      "project-18"
+    ],
+    "KPI design": [
+      "project-23",
+      "project-13"
+    ],
+    "Kubernetes": [
+      "project-35",
+      "project-34"
+    ],
+    "MCP": [
+      "project-34",
+      "project-33"
+    ],
+    "NLP": [
+      "project-20",
+      "project-14"
+    ],
+    "OpenAI GPT-4o": [
+      "project-33",
+      "project-32"
+    ],
+    "Plotly": [
+      "project-26",
+      "project-16"
+    ],
+    "Plotly Dash": [
+      "project-29",
+      "project-13"
+    ],
+    "PostgreSQL": [
+      "project-38",
+      "project-35"
+    ],
+    "Prompt engineering": [
+      "project-36",
+      "project-24"
+    ],
+    "Python Dash": [
+      "project-16",
+      "project-17"
+    ],
+    "Random Forest": [
+      "project-27",
+      "project-9"
+    ],
+    "React": [
+      "project-33",
+      "project-19"
+    ],
+    "SQLAlchemy": [
+      "project-30",
+      "project-29"
+    ],
+    "Stable Diffusion": [
+      "project-24",
+      "project-21"
+    ],
+    "24/7 scheduling": [
+      "project-11"
+    ],
+    "AWS": [
+      "project-34"
+    ],
+    "AWS Comprehend": [
+      "project-14"
+    ],
+    "AWS Rekognition": [
+      "project-14"
+    ],
+    "AWS S3": [
+      "project-5"
+    ],
+    "AWS Textract": [
+      "project-14"
+    ],
+    "Active-learning labelling": [
+      "project-4"
+    ],
+    "Apify": [
+      "project-33"
+    ],
+    "Applied research": [
+      "project-3"
+    ],
+    "Automated Valuation Model": [
+      "project-30"
+    ],
+    "Automatic1111": [
+      "project-21"
+    ],
+    "BERT": [
+      "project-27"
+    ],
+    "Batch image processing": [
+      "project-18"
+    ],
+    "BigQuery": [
+      "project-11"
+    ],
+    "Binance API": [
+      "project-7"
+    ],
+    "Bloomberg data via xbbg": [
+      "project-26"
+    ],
+    "CSV/HTML parsing": [
+      "project-31"
+    ],
+    "CSV/XLSX I/O": [
+      "project-1"
+    ],
+    "ChatGPT API": [
+      "project-17"
+    ],
+    "Claude": [
+      "project-36"
+    ],
+    "Click-ID attribution (gclid/gbraid/wbraid)": [
+      "project-38"
+    ],
+    "Code review": [
+      "project-25"
+    ],
+    "Collaborative filtering": [
+      "project-9"
+    ],
+    "Compute/performance benchmarking": [
+      "project-4"
+    ],
+    "Content pipeline": [
+      "project-21"
+    ],
+    "Content-based filtering": [
+      "project-9"
+    ],
+    "ControlNet (tile_resample)": [
+      "project-24"
+    ],
+    "Core Web Vitals": [
+      "project-38"
+    ],
+    "Correlation analysis": [
+      "project-2"
+    ],
+    "Crawlera proxy rotation": [
+      "project-5"
+    ],
+    "Creative automation": [
+      "project-36"
+    ],
+    "Custom scoring algorithm": [
+      "project-19"
+    ],
+    "D3.js": [
+      "project-29"
+    ],
+    "D3.js force-directed graphs": [
+      "project-1"
+    ],
+    "DBSCAN": [
+      "project-1"
+    ],
+    "Dashboards": [
+      "project-30"
+    ],
+    "Data normalisation": [
+      "project-1"
+    ],
+    "Data wrangling": [
+      "project-13"
+    ],
+    "Dataset curation": [
+      "project-21"
+    ],
+    "Deep learning": [
+      "project-8"
+    ],
+    "Dependency/version management": [
+      "project-16"
+    ],
+    "Documentation": [
+      "project-16"
+    ],
+    "Domain.com.au API": [
+      "project-15"
+    ],
+    "ETL": [
+      "project-29"
+    ],
+    "Encoder-decoder networks": [
+      "project-6"
+    ],
+    "Ensemble modelling": [
+      "project-9"
+    ],
+    "Excel export": [
+      "project-17"
+    ],
+    "Excel reporting": [
+      "project-18"
+    ],
+    "External API integration": [
+      "project-28"
+    ],
+    "FFmpeg": [
+      "project-29"
+    ],
+    "Facebook/Meta API": [
+      "project-13"
+    ],
+    "Facial landmark detection": [
+      "project-3"
+    ],
+    "Fine-tuning": [
+      "project-22"
+    ],
+    "Firebase": [
+      "project-25"
+    ],
+    "Fuzzy string matching": [
+      "project-27"
+    ],
+    "GA4": [
+      "project-38"
+    ],
+    "GPT-4": [
+      "project-31"
+    ],
+    "GPT-4 few-shot labelling": [
+      "project-27"
+    ],
+    "GPU infrastructure (Paperspace, DigitalOcean, Kaggle, GCP GPU VMs)": [
+      "project-22"
+    ],
+    "Geospatial matching": [
+      "project-27"
+    ],
+    "Gmail": [
+      "project-32"
+    ],
+    "Gmail API": [
+      "project-33"
+    ],
+    "Google Ads": [
+      "project-38"
+    ],
+    "Google Ads API": [
+      "project-13"
+    ],
+    "Google Analytics": [
+      "project-13"
+    ],
+    "Google Calendar": [
+      "project-32"
+    ],
+    "Google Calendar API": [
+      "project-33"
+    ],
+    "Google Cloud Product Search API": [
+      "project-18"
+    ],
+    "Google Gemini": [
+      "project-28"
+    ],
+    "Google Sheets": [
+      "project-32"
+    ],
+    "Google Tag Manager": [
+      "project-38"
+    ],
+    "Google Trends": [
+      "project-33"
+    ],
+    "Google Trends API": [
+      "project-2"
+    ],
+    "Grounding DINO": [
+      "project-24"
+    ],
+    "HIPAA-compliant data handling": [
+      "project-34"
+    ],
+    "Heroku": [
+      "project-1"
+    ],
+    "Higgsfield API": [
+      "project-36"
+    ],
+    "HubSpot": [
+      "project-35"
+    ],
+    "HuggingFace": [
+      "project-22"
+    ],
+    "Hypothesis testing": [
+      "project-12"
+    ],
+    "Image segmentation": [
+      "project-6"
+    ],
+    "Inpainting": [
+      "project-24"
+    ],
+    "Instagram / Meta / TikTok / YouTube ads": [
+      "project-36"
+    ],
+    "Iterative delivery": [
+      "project-23"
+    ],
+    "JavaScript animation": [
+      "project-29"
+    ],
+    "JedAI evaluation": [
+      "project-4"
+    ],
+    "Jetson Nano": [
+      "project-3"
+    ],
+    "KMeans": [
+      "project-26"
+    ],
+    "Kling 2.6 Pro": [
+      "project-36"
+    ],
+    "LDA topic modelling": [
+      "project-10"
+    ],
+    "LIWC2015": [
+      "project-10"
+    ],
+    "LLM / ChatGPT": [
+      "project-20"
+    ],
+    "LSTM": [
+      "project-8"
+    ],
+    "LangGraph": [
+      "project-28"
+    ],
+    "Latency optimisation": [
+      "project-14"
+    ],
+    "LinkedIn Ads": [
+      "project-38"
+    ],
+    "Local GPU (NVIDIA 2080 Ti)": [
+      "project-21"
+    ],
+    "Logistic Regression": [
+      "project-9"
+    ],
+    "Long-context processing": [
+      "project-28"
+    ],
+    "MCP servers": [
+      "project-35"
+    ],
+    "ML model": [
+      "project-19"
+    ],
+    "MLOps / deployment": [
+      "project-17"
+    ],
+    "MST clustering": [
+      "project-1"
+    ],
+    "Market data": [
+      "project-12"
+    ],
+    "Market microstructure analysis": [
+      "project-7"
+    ],
+    "Matplotlib": [
+      "project-26"
+    ],
+    "MeanShift": [
+      "project-1"
+    ],
+    "Meta Ads": [
+      "project-38"
+    ],
+    "Mistral 7B": [
+      "project-22"
+    ],
+    "Model comparison": [
+      "project-15"
+    ],
+    "Model fine-tuning": [
+      "project-21"
+    ],
+    "Model tuning": [
+      "project-20"
+    ],
+    "Monday": [
+      "project-35"
+    ],
+    "MongoDB": [
+      "project-35"
+    ],
+    "Multi-agent workflows": [
+      "project-28"
+    ],
+    "Multilingual NLP": [
+      "project-22"
+    ],
+    "MySQL": [
+      "project-35"
+    ],
+    "Neural networks": [
+      "project-9"
+    ],
+    "Next.js": [
+      "project-35"
+    ],
+    "OCR for scanned PDFs": [
+      "project-31"
+    ],
+    "ONNX": [
+      "project-3"
+    ],
+    "OpenAI GPT-o4": [
+      "project-34"
+    ],
+    "OpenCV": [
+      "project-24"
+    ],
+    "PCA": [
+      "project-26"
+    ],
+    "Pinecone": [
+      "project-31"
+    ],
+    "Playwright": [
+      "project-38"
+    ],
+    "Pro forma / scenario modelling": [
+      "project-30"
+    ],
+    "QA process design": [
+      "project-27"
+    ],
+    "R": [
+      "project-23"
+    ],
+    "R Plotly": [
+      "project-23"
+    ],
+    "RAG": [
+      "project-32"
+    ],
+    "REST API": [
+      "project-14"
+    ],
+    "REST API design": [
+      "project-25"
+    ],
+    "REST API in R": [
+      "project-23"
+    ],
+    "REST over HTTPS": [
+      "project-33"
+    ],
+    "Raspberry Pi 4": [
+      "project-3"
+    ],
+    "Reddit data": [
+      "project-2"
+    ],
+    "Regex extraction": [
+      "project-14"
+    ],
+    "Route 53": [
+      "project-16"
+    ],
+    "Rule-based + collaborative + content-based filtering": [
+      "project-25"
+    ],
+    "SVM": [
+      "project-27"
+    ],
+    "Scheduled jobs": [
+      "project-5"
+    ],
+    "Scrapy middleware": [
+      "project-5"
+    ],
+    "Scrapy pipelines": [
+      "project-11"
+    ],
+    "Seedance": [
+      "project-36"
+    ],
+    "Selenium": [
+      "project-30"
+    ],
+    "Sentiment analysis APIs": [
+      "project-2"
+    ],
+    "StandardScaler": [
+      "project-26"
+    ],
+    "Streamlit": [
+      "project-31"
+    ],
+    "Stripe API": [
+      "project-13"
+    ],
+    "Supabase": [
+      "project-35"
+    ],
+    "Technical SEO": [
+      "project-38"
+    ],
+    "Technical mentoring": [
+      "project-25"
+    ],
+    "Text preprocessing": [
+      "project-10"
+    ],
+    "Time-series analysis": [
+      "project-12"
+    ],
+    "Time-series features (FFT/FFV)": [
+      "project-3"
+    ],
+    "TradingView webhooks/signals": [
+      "project-7"
+    ],
+    "Training-set labelling": [
+      "project-8"
+    ],
+    "U-Net": [
+      "project-6"
+    ],
+    "Ultimate SD Upscale": [
+      "project-24"
+    ],
+    "Vector embeddings": [
+      "project-31"
+    ],
+    "Vercel": [
+      "project-19"
+    ],
+    "Vue.js integration": [
+      "project-23"
+    ],
+    "Web app development": [
+      "project-2"
+    ],
+    "Web development": [
+      "project-34"
+    ],
+    "Word report generation": [
+      "project-28"
+    ],
+    "X/Twitter API": [
+      "project-32"
+    ],
+    "YOLO": [
+      "project-14"
+    ],
+    "Zoho": [
+      "project-35"
+    ],
+    "dedupe (Python)": [
+      "project-4"
+    ],
+    "n8n": [
+      "project-32"
+    ],
+    "numpy": [
+      "project-26"
+    ],
+    "pyLDAvis": [
+      "project-10"
+    ],
+    "schema.org JSON-LD": [
+      "project-38"
+    ],
+    "scikit-learn": [
+      "project-26"
+    ]
+  },
+  "projects": [
+    {
+      "id": "project-38",
+      "title": "AI Marketing — Tracking, SEO & GEO/AEO",
+      "site_title": "AI Marketing — Tracking, SEO & GEO/AEO",
+      "date": "2026-08-29",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-38/",
+      "client": null,
+      "listed": false,
+      "summary": "Rebuilt the missing measurement layer for a business site so every enquiry is counted and traced back to the ad click that paid for it, plus technical SEO and AI-answer-engine readiness.",
+      "themes": [
+        "Marketing analytics & growth",
+        "Data engineering & web scraping"
+      ],
+      "industries": [
+        "Marketing / B2B services"
+      ],
+      "domains": [
+        "Marketing analytics",
+        "Conversion tracking",
+        "SEO / GEO-AEO",
+        "Web performance"
+      ],
+      "skills": [
+        "GA4",
+        "Google Tag Manager",
+        "Google Ads",
+        "Meta Ads",
+        "LinkedIn Ads",
+        "Click-ID attribution (gclid/gbraid/wbraid)",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "schema.org JSON-LD",
+        "Playwright",
+        "Technical SEO",
+        "Core Web Vitals"
+      ],
+      "site_tags": [
+        "Ai Marketing",
+        "Google Analytics",
+        "Google Ads",
+        "Seo",
+        "Geo Aeo"
+      ],
+      "role": "Sole consultant — audit, implementation and verification",
+      "outcomes": [
+        "Enquiries measured: 0 of 3 routes → 3 of 3",
+        "Page weight 11.58 MB → 1.21 MB (one image 6.67 MB → 102 KB)",
+        "Indexable pages 1 → 116",
+        "Google ad click ID captured so an enquiry traces to the exact paid click",
+        "Meta description and heading/schema structure rewritten for search and AI answer engines"
+      ],
+      "cv_bullet": "Rebuilt a B2B site's conversion measurement end to end — GA4 + GTM events for off-site forms, booking tools and DM links, Google Ads click-ID capture and conversion import — taking measured enquiry routes from 0/3 to 3/3, cutting page weight 11.58 MB → 1.21 MB and indexable pages from 1 to 116.",
+      "links": [
+        {
+          "label": "Live Project",
+          "url": "https://davidgadyan.com/AIMarketing"
+        },
+        {
+          "label": "Walkthrough Video",
+          "url": "https://www.loom.com/share/9e18da56b3af46d59dd7f7a2e699931b"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/ai-marketing-card.png",
+      "source_text": "Most businesses can see how many people visit their website. Very few can tell you how many of them tried to get in touch — and almost none can tell you which ad, post or search brought the ones who did.\n\nI rebuild that missing layer: every enquiry counted, traced back to the click that produced it, and turned into something the ad platforms can actually optimise toward.\n\n### The problem I usually find\n\nAnalytics is installed and reporting happily, so nobody suspects anything. But the ways people actually make contact bypass it completely — contact forms that post to an external handler, buttons that only scroll down the page, and links out to LinkedIn or WhatsApp. None of them produce a page view, so none of them is recorded.\n\nThe result is a business that knows its traffic and cannot answer the only question that matters: *did any of this bring us customers?* Until that is fixed, every ad budget is being spent on a guess.\n\n![Typical before and after, measured on a live site](https://DavitGadyan.github.io/portfolio_app/images/portfolio/ai-marketing-results.png)\n\n### What that fix is worth — a recent rebuild, measured\n\n- **Enquiries measured: 0 of 3 routes → 3 of 3**\n- **Page weight: 11.58 MB → 1.21 MB** (a single image was 6.67 MB, now 102 KB)\n- **Pages search engines could index: 1 → 116**\n- **Google ad click ID captured**, so an enquiry traces to the exact click that paid for it\n- Search description was still the site builder’s placeholder — rewritten for an actual buyer\n- Heading structure and schema corrected for search and AI answer engines\n\n### 💼 What I can do for you\n\n- Audit your tracking and tell you plainly what is and is not being counted\n- Set up conversion tracking that works with off-site forms, booking tools and DM links\n- Capture ad click IDs so paid spend can be judged on customers, not clicks\n- Cut page weight so you stop paying for visitors who leave before the page loads\n- Fix the technical SEO that decides whether you appear at all\n- Prepare the site for AI answer engines, so it can be quoted and not just linked\n- Set up ad accounts properly — conversion-led, with the wrong traffic excluded\n\n### 🧠 Technologies Used\n\n- **GA4 + Google Tag Manager** – events, key events, DebugView verification\n- **Google Ads / Meta / LinkedIn** – conversion import and click-ID attribution\n- **Python + FastAPI** – the crawler and audit engine behind the findings\n- **PostgreSQL** – measurement facts, provenance and history\n- **schema.org JSON-LD** – Person, Organization, Product, FAQPage\n- **Playwright** – automated verification that every event actually fires\n\n### How I work\n\nI start with an audit, because there is no point optimising numbers that are not real. You get a plain-language report of what is broken, what it is costing, and what I would fix first — and you can verify every claim in it yourself.\n\nIf the tracking turns out to be clean, I will tell you that too.\n\nTwo swaps worth noting: the results are now framed as “a recent rebuild” rather than your own site, and 💼 Capabilities became “What I can do for you” — same list, written as an offer instead of a spec. The numbers stay, because they’re what separates this from every other consultant’s page.\n\n**See it live:** [davidgadyan.com/AIMarketing](https://davidgadyan.com/AIMarketing)\n\n### Walkthrough\n\n[embedded: https://www.loom.com/embed/9e18da56b3af46d59dd7f7a2e699931b]",
+      "also_published_as": [
+        "https://davitgadyan.github.io/portfolio_app/portfolio/project-37/"
+      ]
+    },
+    {
+      "id": "project-36",
+      "title": "Generative AI: Video Ads",
+      "site_title": "Gene rative AI: Video Ads",
+      "date": "2026-08-20",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-36/",
+      "client": null,
+      "listed": true,
+      "summary": "AI-generated video ad content to promote ImprovTalk, an iOS app for charisma and communication skills, targeted per customer segment and social platform.",
+      "themes": [
+        "LLM fine-tuning & generative content",
+        "Marketing analytics & growth"
+      ],
+      "industries": [
+        "Marketing / B2B services",
+        "Consumer mobile"
+      ],
+      "domains": [
+        "Generative AI",
+        "AI video",
+        "Performance marketing",
+        "Mobile / iOS"
+      ],
+      "skills": [
+        "Higgsfield API",
+        "Claude",
+        "Seedance",
+        "Kling 2.6 Pro",
+        "Prompt engineering",
+        "Creative automation",
+        "Instagram / Meta / TikTok / YouTube ads"
+      ],
+      "site_tags": [
+        "Generative Ai",
+        "Higgsfield",
+        "Ai Video",
+        "Marketing",
+        "Mobile",
+        "Ios"
+      ],
+      "role": "Built the generation pipeline and the creative variants",
+      "outcomes": [
+        "Segment- and platform-specific video ad variants generated from a single pipeline"
+      ],
+      "cv_bullet": "Built an AI video-ad pipeline (Higgsfield API driven by Claude, with Seedance and Kling 2.6 Pro) that generates segment- and platform-specific promo creative for an iOS app across Instagram, Meta, TikTok and YouTube.",
+      "links": [
+        {
+          "label": "Github Link",
+          "url": "https://github.com/DavitGadyan/AIVideo_Generation_higgsfield"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/improvtalk.png",
+      "source_text": "The goal of the project was to build an AI Video content to promote ImprovTalk IOS application. ImprovTalk helps to develop charisma, communiation & raport skills.\n\nAI content would be promoted on popular social media apps to reach the targeted customer sectors, specifically on Instagram, Meta, TikTok, Youtube.\n\n### Project Details\n\nI have used Higgsfield API with Claude to generate customized content for specific customer segement and social media. I have used several models and below are results.\n\nSeedance:\n\n[embedded: https://www.youtube.com/embed/x0TMzQMH-w0]\n\nKling 2.6 Pro:\n\n[embedded: https://www.youtube.com/embed/dzK5pUgSMo0]",
+      "also_published_as": []
+    },
+    {
+      "id": "project-35",
+      "title": "AI Lead Scoring — S1mple.ai",
+      "site_title": "AI Lead Scoring — S1mple.ai",
+      "date": "2026-03-28",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-35/",
+      "client": null,
+      "listed": true,
+      "summary": "AI lead-scoring and churn-risk engine inside the S1mple.ai platform, so marketing spend concentrates on customers likely to convert again.",
+      "themes": [
+        "Agentic AI & LLM systems",
+        "Classical ML & predictive modelling",
+        "Marketing analytics & growth"
+      ],
+      "industries": [
+        "Marketing / B2B services",
+        "SaaS"
+      ],
+      "domains": [
+        "Generative AI / agents",
+        "Lead scoring & churn",
+        "Marketing automation",
+        "Full-stack"
+      ],
+      "skills": [
+        "Next.js",
+        "FastAPI",
+        "LangChain",
+        "MCP servers",
+        "HubSpot",
+        "Monday",
+        "Zoho",
+        "PostgreSQL",
+        "MySQL",
+        "Supabase",
+        "MongoDB",
+        "Kubernetes"
+      ],
+      "site_tags": [
+        "Generative Ai",
+        "Llm",
+        "Chat Gpt",
+        "N8n",
+        "Mcp"
+      ],
+      "role": "Designed and built the scoring engine, backend and dashboard",
+      "outcomes": [
+        "Scores leads by repeat-conversion likelihood and flags churn risk for targeted campaigns"
+      ],
+      "cv_bullet": "Built an AI lead-scoring and churn-detection engine (Next.js + FastAPI + LangChain, MCP server connectors into HubSpot/Monday/Zoho and Postgres/MySQL/Supabase/Mongo, Kubernetes-scaled) so marketing effort concentrates on high-conversion and at-risk accounts.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/aileadscores.png",
+      "source_text": "Project goals were to build a AI Lead Score algorithm to detect customers who are more likely to convert again and ones at the risk of churn to concentrate marketing efforts with targeted high-impact campaings\n\n### Project Details\n\n🚀 Lead SCoring S1mple AI Engine that seamlessly connects with your custom data connectors ranging from , trading and other tools.Advanced AI Agent platform created by David G. Connects data, management tools, trading systems, and deploy powerful analytics for all your use cases at scale.\n\n### 💼 Capabilities\n\n- Lead Scroing using AI\n- Churn rate detection using AI\n\n### 🧠 Technologies Used\n\n- **Next.js** – frontend dashboard\n- **FastAPI** – backend\n- **LangChain** – AI Frameworks\n- **Hubspot Monday Zoho** – CRM systems\n- **Postgress MySQL Supabase Mongo** – databases\n- **MCPs** – MCP servers for AI Agentic system\n- **Kubernestess** – scaling and management of containers",
+      "also_published_as": []
+    },
+    {
+      "id": "project-34",
+      "title": "AI Health care — Virgil.ai",
+      "site_title": "AI Health care — Virgil.ai",
+      "date": "2026-02-03",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-34/",
+      "client": null,
+      "listed": true,
+      "summary": "Virgil.ai — an agentic AI system that onboards US users and finds them the best health-insurance plan, automating medication price lookup and underwriting under HIPAA constraints.",
+      "themes": [
+        "Agentic AI & LLM systems",
+        "MLOps, cloud & deployment"
+      ],
+      "industries": [
+        "Healthcare & insurance"
+      ],
+      "domains": [
+        "Generative AI / agents",
+        "Healthcare / insurance",
+        "Regulated data",
+        "Full-stack"
+      ],
+      "skills": [
+        "LangChain",
+        "FastAPI",
+        "OpenAI GPT-o4",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "MCP",
+        "HIPAA-compliant data handling",
+        "Web development"
+      ],
+      "site_tags": [
+        "Generative Ai",
+        "Llm",
+        "Chat Gpt",
+        "Web Development"
+      ],
+      "role": "Built the AI backend and agentic tooling, working with broker partner One Health",
+      "outcomes": [
+        "Underwriting reduced from days to minutes",
+        "Automated medication-price lookup to test plan coverage",
+        "All AI and data handling built to HIPAA regulations"
+      ],
+      "cv_bullet": "Built Virgil.ai, an agentic health-insurance assistant (LangChain + FastAPI + GPT-o4, Docker/Kubernetes on AWS) that automates plan selection, medication-coverage lookup and underwriting — cutting underwriting from days to minutes under HIPAA controls.",
+      "links": [
+        {
+          "label": "Private Project Link",
+          "url": "https://virgil.liambo.ai"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/virgilai.jpg",
+      "source_text": "Project goals were to automate onaboarding and assist US users to find best insurance plans without any hustle using AI Agentic system with support of custom tools, MCPs.\n\n### Project Details\n\n🚀 Virgil HealthCare AI was a developed to assist with user healtcare plan selection, a cumbersome task for many US citizens. One Health was broker agent collaborating with our team on this project. There were many challenging tasks that were automated like medication price efficient lookup to detect whether applicant was covered by different health care plans, underwriting done in minutes instead of days.\n\nAll AI and data was stored and trasnfered securely guided by HIPPA regualtions and best security practices.\n\nHuge potenrial user base and ease of use for this application compared to market standards made it really viable option for clients to use.\n\n### 🧠 Technologies Used\n\n- **Langchain** – Langchain Framework\n- **Fast API** – AI Backend Rest Framework\n- **OpenAI GPT-o4** – Backbone Reasoning model\n- **Docker** – Virtualiztion\n- **Kubernetess** – Scaling\n- **AWS** – SAAS, PAAS, IAAS platform",
+      "also_published_as": []
+    },
+    {
+      "id": "project-33",
+      "title": "S1mple.ai",
+      "site_title": "S1mple.ai",
+      "date": "2025-07-04",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-33/",
+      "client": null,
+      "listed": true,
+      "summary": "S1mple.ai — an agentic AI platform with custom tools and MCP support that connects a client's data, management and trading systems.",
+      "themes": [
+        "Agentic AI & LLM systems",
+        "Data apps, dashboards & visualisation"
+      ],
+      "industries": [
+        "SaaS"
+      ],
+      "domains": [
+        "Generative AI / agents",
+        "Workflow automation",
+        "Full-stack"
+      ],
+      "skills": [
+        "LangChain",
+        "OpenAI GPT-4o",
+        "MCP",
+        "React",
+        "Apify",
+        "Google Calendar API",
+        "Gmail API",
+        "Google Trends",
+        "REST over HTTPS"
+      ],
+      "site_tags": [
+        "Generative Ai",
+        "Llm",
+        "Chat Gpt",
+        "N8n"
+      ],
+      "role": "Product owner and builder (platform created by David G.)",
+      "outcomes": [
+        "Agent researches the web, manages calendar events, sends email and detects trending topics through custom tools",
+        "Video demo published"
+      ],
+      "cv_bullet": "Created S1mple.ai, an agentic AI platform (LangChain + GPT-4o backend, React frontend) with custom tools and MCP support that plugs into client data, management and trading systems — web research via Apify, calendar, Gmail and Google Trends actions.",
+      "links": [
+        {
+          "label": "Referenced",
+          "url": "https://youtu.be/qQK39qO-mBI?t=37"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/s1mpleai.png",
+      "source_text": "Project goals were to build a AI Agentic system with support of custom tools, MCP and complete customizations based on client needs.\n\n### Project Details\n\n🚀 S1mple AI that seamlessly connects with your custom data management, trading and other tools.Advanced AI Agent platform created by David G. Connects data, management tools, trading systems, and deploy powerful analytics for all your use cases at scale.\n\n### 💼 Capabilities\n\n- Research any topic from the Web. (Apify)\n- Create, update, and delete calendar events.\n- Send emails using Gmail.\n- Look for trending topics with Google Trends.\n\n### 🧠 Technologies Used\n\n- **Langchain** – Langchain Framework\n- **OpenAI GPT-4o** – Embedding and content generation\n- **Google Calendar** – For scheduling and event management\n- **Gmail** – For sending emails\n- **Google Trends** – For trends detection\n\n> ✅ Backend built with Langchain and custom tools, Frontend built React, data is stored and communicated with secure HTTPS endpoints. You can view video demo following link »> https://youtu.be/qQK39qO-mBI?t=37",
+      "also_published_as": []
+    },
+    {
+      "id": "project-32",
+      "title": "AI Assistant n8n",
+      "site_title": "AI Assistant n8n",
+      "date": "2025-06-01",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-32/",
+      "client": null,
+      "listed": true,
+      "summary": "Low-code AI assistant built in n8n that handles research, calendar, email, contact capture and social post generation.",
+      "themes": [
+        "Agentic AI & LLM systems"
+      ],
+      "industries": [
+        "SaaS",
+        "Productivity"
+      ],
+      "domains": [
+        "Generative AI / agents",
+        "Workflow automation",
+        "Productivity tooling"
+      ],
+      "skills": [
+        "n8n",
+        "OpenAI GPT-4o",
+        "Google Calendar",
+        "Gmail",
+        "Google Sheets",
+        "X/Twitter API",
+        "RAG"
+      ],
+      "site_tags": [
+        "Generative Ai",
+        "Llm",
+        "Chat Gpt",
+        "N8n"
+      ],
+      "role": "Sole builder; published as an open workflow",
+      "outcomes": [
+        "Single assistant covering web research, calendar CRUD, email sending, contact capture and X post generation"
+      ],
+      "cv_bullet": "Built a production AI assistant in n8n (GPT-4o) that researches topics, manages Google Calendar events, sends Gmail, logs contacts to Sheets and drafts X posts — published as a reusable open workflow.",
+      "links": [
+        {
+          "label": "Private Project Link",
+          "url": "https://github.com/DavidGadyan/n8n_projects/tree/main/ai_assistant"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/ai_assistant_f.png",
+      "source_text": "Project goals were to build a Retrieval-Augmented Generation (RAG) chatbot that leverages ChatGPT-4 and Pinecone for fast, accurate research on 2024 blockchain and crypto regulations across multiple jurisdictions.\n\n### Project Details\n\n🚀 An advanced AI Assistant that helps manage daily productivity tasks like researching topics, handling calendar events, sending emails, and automating social media content creation.\n\n### 💼 Capabilities\n\n- Research any topic from the Web.\n- Create, update, and delete calendar events.\n- Send emails using Gmail.\n- Save contact information to Google Sheets.\n- Generate posts for X (formerly Twitter).\n\n### 🧠 Technologies Used\n\n- **n8n** – Low-code workflow automation\n- **OpenAI GPT-4o** – Embedding and content generation\n- **Google Calendar** – For scheduling and event management\n- **Gmail** – For sending emails\n- **Google Sheets** – For contact management\n- **X (formerly Twitter)** – For post generation\n\n> ✅ Perfect for entrepreneurs and busy professionals—this assistant showcases how n8n can bring AI productivity tools into your daily workflow.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-30",
+      "title": "AI Real Estate Analysis Program",
+      "site_title": "AI Real Estate Analysis Program",
+      "date": "2024-10-30",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-30/",
+      "client": "Jake Happe",
+      "listed": true,
+      "summary": "AI real-estate analysis platform that models new-construction scenarios per lot and ranks them by projected profit, ROI and time-to-sell.",
+      "themes": [
+        "Classical ML & predictive modelling",
+        "Data engineering & web scraping",
+        "Data apps, dashboards & visualisation"
+      ],
+      "industries": [
+        "Real estate & construction"
+      ],
+      "domains": [
+        "Machine learning",
+        "Real estate",
+        "Web scraping",
+        "Decision support"
+      ],
+      "skills": [
+        "Python",
+        "Selenium",
+        "pandas",
+        "SQLAlchemy",
+        "XGBoost",
+        "Automated Valuation Model",
+        "Pro forma / scenario modelling",
+        "Dashboards"
+      ],
+      "site_tags": [
+        "Machine Learning",
+        "Web Scraping"
+      ],
+      "role": "End-to-end: scraping, data model, AVM, scenario engine, dashboards, handover",
+      "outcomes": [
+        "365-day MLS data (active, pending, sold) captured automatically",
+        "XGBoost AVM feeding profit and risk KPIs",
+        "Hundreds of lot-and-style combinations scored, with zoning and quota constraints enforced",
+        "Full documentation and reproducible code for in-house handover"
+      ],
+      "cv_bullet": "Built an AI real-estate development platform: Selenium MLS scraper, pandas/SQLAlchemy data model, XGBoost automated valuation model and a rule-based pro forma engine scoring hundreds of lot-and-home-style scenarios on profit, ROI and time-to-sell within zoning constraints.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/ai_house.png",
+      "source_text": "Project goals were to build an AI‐driven real estate analysis platform that models and compares new‐construction scenarios—home styles, sizes, garages, basements, prices and locations—to pinpoint the most profitable builds on each lot.\n\n### Project Details\n\n- Built and deployed a Python Selenium web-scraping bot to log into our MLS portal and extract 365-day data on active, pending, and sold homes—capturing styles, garage count, square footage, basement finishing, prices, and geolocations.\n- Ingested and harmonized MLS data via pandas and SQLAlchemy into a unified dataset of home attributes (ranch, 2-story, 1.5-story; above-ground size; attached garages; basement specs; sale price; location).\n- Implemented a rule-based pro forma engine that calculates build costs, timelines, and sale schedules for customizable development scenarios.\n- Developed an XGBoost-powered Automated Valuation Model (AVM) using historical comps to predict future home values and feed profit-and-risk KPIs.\n- Modeled scenario KPIs—projected profit, ROI, time-to-sell—across hundreds of lot-and-home-style combinations under varying cost and market assumptions.\n- Embedded regulatory constraints (zoning rules and quota limits in the American housing market) into the scenario engine so only compliant build options surface.\n- Generated actionable recommendations, ranking lots by their highest-yield home style and configuration, complete with dynamic dashboards and exportable reports.\n- Delivered full documentation and reproducible code, enabling seamless hand-off and future enhancements by the client’s in-house team.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-31",
+      "title": "Crypto Blockchain Analysis RAG",
+      "site_title": "Crypto Blockchain Analysis RAG",
+      "date": "2024-09-30",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-31/",
+      "client": null,
+      "listed": true,
+      "summary": "RAG chatbot over 2024 blockchain and crypto regulation across jurisdictions, with inline source citations.",
+      "themes": [
+        "RAG & document intelligence",
+        "Agentic AI & LLM systems"
+      ],
+      "industries": [
+        "Legal & compliance",
+        "Crypto & blockchain"
+      ],
+      "domains": [
+        "Generative AI / RAG",
+        "Legal & regulatory",
+        "Crypto / blockchain"
+      ],
+      "skills": [
+        "LangChain",
+        "GPT-4",
+        "Pinecone",
+        "Streamlit",
+        "Vector embeddings",
+        "OCR for scanned PDFs",
+        "CSV/HTML parsing",
+        "Web scraping",
+        "Docker"
+      ],
+      "site_tags": [
+        "Generative Ai",
+        "Llm",
+        "Chat Gpt"
+      ],
+      "role": "Sole architect and builder",
+      "outcomes": [
+        "Sub-second retrieval over legal texts in Pinecone",
+        "Multi-format ingestion (PDF, CSV, HTML, plain text) with automated OCR",
+        "Shipped with deployment scripts, Docker config and README so other teams can adapt it"
+      ],
+      "cv_bullet": "Built a RAG research assistant over multi-jurisdiction crypto regulation (LangChain + GPT-4 + Pinecone, Streamlit UI) with multi-format ingestion including OCR for scanned PDFs, sub-second retrieval and inline source citations.",
+      "links": [
+        {
+          "label": "Private Project Link",
+          "url": "https://rag-2025-crypto-blockchain4242.streamlit.app"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/rag_pinecone.png",
+      "source_text": "Project goals were to build a Retrieval-Augmented Generation (RAG) chatbot that leverages ChatGPT-4 and Pinecone for fast, accurate research on 2024 blockchain and crypto regulations across multiple jurisdictions.\n\n### Project Details\n\n- Designed a LangChain-based backend that embeds legal and regulatory texts (PDFs, CSVs, HTML, plain text) into vector representations and indexes them in Pinecone for sub-second retrieval.\n- Integrated ChatGPT-4 as the LLM backbone, orchestrating prompts to combine retrieved context with generative responses tailored to user queries about crypto laws.\n- Developed a Streamlit frontend, delivering an intuitive conversational UI where users can ask jurisdiction-specific legal questions and view source citations inline.\n- Built flexible ingestion pipelines to handle a variety of document formats—automating OCR for scanned PDFs, parsing CSV tables, and scraping HTML from the Global Legal Insights site.\n- Optimized vector store performance, tuning embedding dimensions and Pinecone index parameters for cost-effective storage and rapid similarity searches at scale.\n- Packaged the solution with deployment scripts, Docker configuration, and clear README instructions so other teams can adapt the RAG chatbot to their own data sources.\n- Ensured extensibility, allowing future connectors (e.g., databases, APIs, streaming sources) to be added with minimal code changes.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-29",
+      "title": "Data Visualization Expert",
+      "site_title": "Data Visualization Expert",
+      "date": "2024-08-15",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-29/",
+      "client": "Alen Kojadinovic",
+      "listed": true,
+      "summary": "High-fidelity animated data visualisations and reports, including a bar-chart-race animation delivered as video and embeddable web components.",
+      "themes": [
+        "Data apps, dashboards & visualisation",
+        "Data engineering & web scraping"
+      ],
+      "industries": [
+        "Media & reporting"
+      ],
+      "domains": [
+        "Data visualisation",
+        "Web development",
+        "Reporting"
+      ],
+      "skills": [
+        "Python",
+        "pandas",
+        "SQLAlchemy",
+        "Plotly Dash",
+        "D3.js",
+        "JavaScript animation",
+        "FFmpeg",
+        "ETL"
+      ],
+      "site_tags": [
+        "Visualization",
+        "Web Development"
+      ],
+      "role": "Architect and builder, including the toolchain decision",
+      "outcomes": [
+        "Switched from Dash to D3.js when Dash could not hit the required smoothness and styling control",
+        "Video export pipeline via FFmpeg for shareable and embeddable output",
+        "Reports delivered with documented, reproducible toolchain"
+      ],
+      "cv_bullet": "Delivered animated data visualisations end to end — pandas/SQLAlchemy ETL, prototyping in Plotly Dash then rebuilding the race chart in D3.js for frame-rate and design control, with an FFmpeg export pipeline for shareable video and embeddable components.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/d3_vis.png",
+      "source_text": "Project goals were to deliver high-fidelity, animated data visualizations and comprehensive reports—integrating Python, relational databases, and modern animation tools—to meet a client’s need for a dynamic race-chart animation.\n\n### Project Details\n\n- Architected the data pipeline using Python (pandas, SQLAlchemy) to extract, transform, and load domain-specific datasets from client databases.\n- Prototyped race-chart animations in Plotly Dash, benchmarking performance and visual quality.\n- Switched to D3.js for the race chart when Dash couldn’t achieve the required smoothness and styling control, implementing custom JavaScript animations for superior frame rates and design fidelity.\n- Integrated video export workflows, using FFmpeg and Python scripts to render D3 animations into sharable video formats and embeddable web components.\n- Produced polished reports combining static graphics and animated sequences, complete with documentation of the toolchain and reproducible code.\n- Showcased a portfolio of prior visualization projects—ranging from interactive dashboards to motion-graphic infographics—to validate expertise in Python, databases, and animation techniques.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-27",
+      "title": "Classification of Industry of Firm",
+      "site_title": "Classification of Industry of Firm",
+      "date": "2024-08-08",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-27/",
+      "client": "Andrew Miles",
+      "listed": true,
+      "summary": "End-to-end pipeline that infers NAICS/SIC industry codes for unlabelled New York firms by registry matching plus a BERT classifier, with GPT-4 few-shot labelling to expand coverage.",
+      "themes": [
+        "NLP & text analytics",
+        "Classical ML & predictive modelling"
+      ],
+      "industries": [
+        "Research & public sector"
+      ],
+      "domains": [
+        "Machine learning",
+        "NLP",
+        "Entity matching",
+        "Research data"
+      ],
+      "skills": [
+        "Python",
+        "BERT",
+        "GPT-4 few-shot labelling",
+        "Fuzzy string matching",
+        "Geospatial matching",
+        "SVM",
+        "Random Forest",
+        "QA process design"
+      ],
+      "site_tags": [
+        "Deep Learning",
+        "Machine Learning",
+        "Generative Ai",
+        "Llm",
+        "Chat Gpt"
+      ],
+      "role": "Sole engineer; delivered documentation and a replication package",
+      "outcomes": [
+        "Labelled training set built by combining registry matches with GPT-4 few-shot augmentation, avoiding manual annotation",
+        "BERT classifier chosen over SVM/Random Forest baselines, optimised for accuracy and inference cost",
+        "Random manual QA reviews of both matching and predictions",
+        "Replication package delivered so stakeholders can reproduce the whole workflow"
+      ],
+      "cv_bullet": "Built an end-to-end industry-classification pipeline for unlabelled firm records: fuzzy name/location matching against registries, GPT-4 few-shot labelling to expand the training set, and a BERT classifier (beating SVM/RF baselines) predicting NAICS/SIC codes at scale, with QA controls and a replication package.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/bert_nyc_orgs.png",
+      "source_text": "Project goals were to infer the industry sectors of New York–based firms—without pre-existing labels—by matching them to reference datasets and then building a machine-learning model to predict NAICS/SIC codes at scale.\n\n### Project Details\n\nIn this project I engineered an end-to-end pipeline that:\n\n- Matched unlabeled firms (with only name, owner, address, zip code, city, state, establishment/dissolution years) against secondary registries to retrieve known NAICS/SIC industry codes via fuzzy string and location‐based matching.\n- Curated a labeled training set by combining successfully matched entries and augmenting it with a few-shot labeling approach using GPT-4 to expand coverage without manual annotation.\n- Developed a BERT-based classifier (experimenting with SVM and Random Forest baselines) in Python to predict industry codes for the remaining unmatched firms, optimizing for accuracy and inference cost.\n- Implemented QA controls, with random manual reviews of both matching results and model predictions to ensure high data quality.\n- Delivered full documentation and a replication package so stakeholders can reproduce the matching logic, labeling strategy, and model training/inference workflows.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-28",
+      "title": "Gemini LangGraph LLM Agent",
+      "site_title": "Gemini LangGraph LLM Agent",
+      "date": "2024-08-06",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-28/",
+      "client": "Alan Arnott",
+      "listed": true,
+      "summary": "Multi-agent document-review API for a law firm's due-diligence workflow, adding dynamic verification checks, external ABN/ACN validation and configurable recommendations.",
+      "themes": [
+        "Agentic AI & LLM systems",
+        "RAG & document intelligence"
+      ],
+      "industries": [
+        "Legal & compliance"
+      ],
+      "domains": [
+        "Generative AI / agents",
+        "Legal tech",
+        "Document intelligence",
+        "API"
+      ],
+      "skills": [
+        "LangChain",
+        "LangGraph",
+        "Google Gemini",
+        "Multi-agent workflows",
+        "Long-context processing",
+        "External API integration",
+        "Python",
+        "Word report generation"
+      ],
+      "site_tags": [
+        "Deep Learning",
+        "Machine Learning",
+        "Generative Ai",
+        "Llm",
+        "Langchain",
+        "Langgraph"
+      ],
+      "role": "Architected and implemented the phase; delivered docs and replication package",
+      "outcomes": [
+        "AI checks for cross-references, page numbers, party addresses, signature blocks and ABN/ACN formatting",
+        "ABN/ACN authenticity verified against an external API",
+        "Hard-coded prompts replaced with arbitrary user-supplied questions and variables",
+        "Long contracts processed end to end via multi-agent workflow on Gemini's extended context",
+        "Ready-to-use Word review reports generated automatically"
+      ],
+      "cv_bullet": "Architected a LangChain + LangGraph multi-agent document-review system on Google Gemini for a law firm's due diligence — dynamic user-defined verification checks, external ABN/ACN validation, long-contract processing and automated Word review reports.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/gemini_langgraph.png",
+      "source_text": "Project goals were to enhance and extend a document‐review API for a law-firm due diligence workflow, adding dynamic verification checks, external ABN/ACN validation, and configurable recommendations—all powered by a MultiAgent AI pipeline.\n\n### Project Details\n\nIn this phase, I architected and implemented a LangChain + LangGraph system backed by Google’s Gemini LLM to:\n\n- Add a Document Verification Section: Introduce AI-driven checks for cross‐references, page numbers, party addresses, signature blocks, and ABN/ACN presence and formatting.\n- Integrate External Validation: Leverage an ABN/ACN verification API to confirm the authenticity and digit‐count correctness of Australian business identifiers.\n- Enable Dynamic Questioning: Refactor the API to accept arbitrary lists of questions and variables from the web app—no more hard-coded prompts—so the AI can answer any set of user-provided checks.\n- Customize Improvement Recommendations: Replace the fixed 10-item recommendation array with a parameterized response, allowing the client to specify how many suggestions they need.\n- Support Long Documents: Use a MultiAgent workflow with Gemini’s extended context window to process lengthy contracts and due-diligence materials end-to-end.\n- Automate Report Generation: Produce ready-to-use Word-formatted AI review reports that seamlessly integrate into the firm’s internal processes.\n- Comprehensive documentation and a replication package ensure the system can be maintained and extended by future developers.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-22",
+      "title": "Multilingual AI Text Generation System",
+      "site_title": "Multilingual AI Text Generation System",
+      "date": "2024-05-28",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-22/",
+      "client": "Rostislav Pankratov",
+      "listed": true,
+      "summary": "Fine-tuned an open-source LLM to generate and paraphrase multilingual content that ChatGPT refuses, then served it as a REST API on rented GPUs.",
+      "themes": [
+        "LLM fine-tuning & generative content",
+        "MLOps, cloud & deployment"
+      ],
+      "industries": [
+        "Content & publishing"
+      ],
+      "domains": [
+        "Generative AI / LLM fine-tuning",
+        "NLP",
+        "MLOps",
+        "API"
+      ],
+      "skills": [
+        "Mistral 7B",
+        "HuggingFace",
+        "LangChain",
+        "Fine-tuning",
+        "FastAPI",
+        "GPU infrastructure (Paperspace, DigitalOcean, Kaggle, GCP GPU VMs)",
+        "Multilingual NLP"
+      ],
+      "site_tags": [
+        "Deep Learning",
+        "Generative Ai",
+        "Llm",
+        "Api"
+      ],
+      "role": "Sole engineer across three contracts",
+      "outcomes": [
+        "Fine-tuned Mistral 7B for client-specific paraphrasing",
+        "Served via FastAPI REST API on rented GPU infrastructure",
+        "Scope extended into two additional contracts"
+      ],
+      "cv_bullet": "Fine-tuned Mistral 7B (HuggingFace + LangChain) for multilingual content paraphrasing beyond hosted-model restrictions, then deployed it as a FastAPI REST service on rented GPU infrastructure across Paperspace, DigitalOcean, Kaggle and GCP.",
+      "links": [
+        {
+          "label": "PaperSpace, Digital Ocean",
+          "url": "https://www.paperspace.com"
+        },
+        {
+          "label": "Kaggle",
+          "url": "https://www.kaggle.com"
+        },
+        {
+          "label": "GCP GPU VMs",
+          "url": "https://cloud.google.com"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/mistral_7b2.jpg",
+      "source_text": "Project goals were to develop and fine-tune LLM model to generate text which CHAT GPT cannot generate due to censorship restrictions.\n\n#### Project Details\n\nAI generated content gained immense popularity. Specificially textual data opens up new prospectives for business operartion optimizations and cutting costs.\n\nClient needed to automate paraphrase of specific content for specific resources and in order to achieve that I have fine-tuned open-source Mistral 7B model using Python’s HuggingFace and Langchain frameworks.\n\nResults were pretty impressive and I have cotinued with development on 2 additional contracts where I have created REST API to serve and deploy with Python Fast framework and cloud providers like [PaperSpace, Digital Ocean](https://www.paperspace.com),[Kaggle](https://www.kaggle.com),[GCP GPU VMs](https://cloud.google.com) to rent GPUs.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-26",
+      "title": "Quant / Python / PCA Analysis",
+      "site_title": "Quant / Python / PCA Analysis",
+      "date": "2024-04-29",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-26/",
+      "client": "Jonathan Cooper",
+      "listed": true,
+      "summary": "Python pipeline applying PCA to yield-curve data by sector, flagging cheap or expensive sectors from reconstruction residuals.",
+      "themes": [
+        "Quantitative finance & trading",
+        "Classical ML & predictive modelling"
+      ],
+      "industries": [
+        "Finance & capital markets"
+      ],
+      "domains": [
+        "Quantitative finance",
+        "Machine learning",
+        "Fixed income"
+      ],
+      "skills": [
+        "Python",
+        "Bloomberg data via xbbg",
+        "pandas",
+        "numpy",
+        "scikit-learn",
+        "PCA",
+        "StandardScaler",
+        "KMeans",
+        "Matplotlib",
+        "Plotly"
+      ],
+      "site_tags": [
+        "Deep Learning",
+        "Machine Learning",
+        "Financial Analysis"
+      ],
+      "role": "Sole quant engineer",
+      "outcomes": [
+        "Dominant curve movements extracted via PCA; residuals automatically flag mispriced segments",
+        "Optional KMeans clustering of similar residual patterns",
+        "Interactive visual output for analyst review"
+      ],
+      "cv_bullet": "Engineered a quant pipeline ingesting sector yield-curve data from Bloomberg (xbbg) and applying scikit-learn PCA to flag cheap/expensive curve sectors from reconstruction residuals, with optional KMeans grouping and interactive Plotly output.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/pca_stocks-anal.png",
+      "source_text": "Project goals were to build a streamlined Python pipeline to perform PCA analysis on different sectors of the yield curve and flag which sectors were cheap or expensive based on their residuals.\n\n### Project Details\n\nIn this project I engineered a Python program that ingests sector-by-sector yield-curve data from Bloomberg (via the xbbg library), preprocesses it using pandas, numpy and StandardScaler, and then applies Principal Component Analysis (PCA) from scikit-learn to extract the dominant curve movements. By reconstructing each sector’s yields from the top principal components and measuring the residuals, the system automatically identifies mispriced (cheap/expensive) segments. Optional KMeans clustering was incorporated for grouping similar residual patterns, and results are visualized with Matplotlib and Plotly for interactive analysis.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-25",
+      "title": "Data Science Consulting & Review",
+      "site_title": "Data Science Consulting & Review",
+      "date": "2024-04-09",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-25/",
+      "client": "Federico Rossi",
+      "listed": true,
+      "summary": "Consulting and technical lead for a team of AI engineers building a hybrid recommender for a leisure app (restaurants, beach parties, night clubs).",
+      "themes": [
+        "Recommender systems & matching",
+        "MLOps, cloud & deployment"
+      ],
+      "industries": [
+        "Consumer & leisure"
+      ],
+      "domains": [
+        "Machine learning",
+        "Recommender systems",
+        "Team leadership",
+        "Cloud"
+      ],
+      "skills": [
+        "Python",
+        "Rule-based + collaborative + content-based filtering",
+        "REST API design",
+        "GCP",
+        "Firebase",
+        "Technical mentoring",
+        "Code review"
+      ],
+      "site_tags": [
+        "Deep Learning",
+        "Machine Learning",
+        "Chat Gpt",
+        "Llm",
+        "Cloud"
+      ],
+      "role": "Consultant and technical lead guiding the client's AI engineering team",
+      "outcomes": [
+        "Hybrid recommender deployed as a REST API on GCP",
+        "Endpoints served recommendations from Firebase data"
+      ],
+      "cv_bullet": "Led and mentored a client's AI engineering team to build a hybrid rule-based / collaborative / content-based recommender, deployed as a REST API on GCP against Firebase data for a leisure-discovery product.",
+      "links": [
+        {
+          "label": "Private Project Link",
+          "url": "https://chilldays.com/"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/chilldays2.png",
+      "source_text": "Project goals were to manage a team of AI engineers to develop hybrid recommender system.\n\n#### Project Details\n\nIn this proejct I was consulting and guiding developer team to create rule-based, collaborative-based, content-based filtering system using Python programming language and deploy as REST API on GCP platform.\n\nSeveral endpoints have been developed which were utilizing data from Firebase and requests were directing recommendations of restaurants to eat, beach parties or night clubs to enjoy leisure time.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-24",
+      "title": "Expert Needed for AI-Generated Recreation of Billboard Publicity Image",
+      "site_title": "Expert Needed for AI-Generated Recreation of Billboard Publicity Image",
+      "date": "2024-04-03",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-24/",
+      "client": "Leonardo Santamaria",
+      "listed": true,
+      "summary": "Pipeline that detects a billboard in a photo, extracts it, upscales it and regenerates its content with Stable Diffusion.",
+      "themes": [
+        "Computer vision",
+        "LLM fine-tuning & generative content"
+      ],
+      "industries": [
+        "Advertising"
+      ],
+      "domains": [
+        "Computer vision",
+        "Generative AI (image)",
+        "Advertising"
+      ],
+      "skills": [
+        "Grounding DINO",
+        "OpenCV",
+        "Stable Diffusion",
+        "ControlNet (tile_resample)",
+        "Ultimate SD Upscale",
+        "Inpainting",
+        "Prompt engineering"
+      ],
+      "site_tags": [
+        "Deep Learning",
+        "Computer Vision",
+        "Stable Diffusion"
+      ],
+      "role": "Sole builder",
+      "outcomes": [
+        "Zero-shot billboard detection with Grounding DINO feeding an SD inpaint/upscale chain",
+        "Full reproducible generation parameters documented"
+      ],
+      "cv_bullet": "Built a billboard recreation pipeline: Grounding DINO zero-shot detection, OpenCV extraction from bounding boxes, then Stable Diffusion with ControlNet tile_resample and Ultimate SD Upscale to regenerate and upscale the advert in place.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/ai_billboard_det_upscale.png",
+      "source_text": "Project goals were to develop AI algorithm to detect billboards in images, extract boundaries, upscale image to higher resolution and change the details in the image.\n\n#### Project Details\n\nI have creared AI algorithm to detect billboard in an image with Grounding DINO.\n\nBillabord was extracted using OPEN CV with coordinates of bounding boxes from detector model. This processed image was sent as input to Stable Diffusion model with the following parameters to produce image on the right. Stable Diffusion parameters to upscale image:\n\na man holding a bottle of soda in front of a billboard sign for a restaurant in mexico, with a picture of a man holding a bottle of soda, Ceferí Olivé, ignacio fernandez rios, a stock photo, regionalism Negative prompt: 16-token-negative-deliberate-neg, black lines Steps: 84, Sampler: DPM2 Karras, CFG scale: 3.5, Seed: 326108416, Size: 1280x1664, Model hash: ef76aa2332, Model: realisticVisionV60B1_v51VAE, Denoising strength: 0.4, Ultimate SD upscale upscaler: 4x-UltraSharp, Ultimate SD upscale tile_width: 512, Ultimate SD upscale tile_height: 512, Ultimate SD upscale mask_blur: 8, Ultimate SD upscale padding: 32, Soft inpainting enabled: True, Soft inpainting schedule bias: 1, Soft inpainting preservation strength: 0.5, Soft inpainting transition contrast boost: 4, Soft inpainting mask influence: 0, Soft inpainting difference threshold: 0.5, Soft inpainting difference contrast: 2, Mask blur: 8, Inpaint area: Only masked, Masked area padding: 32, ControlNet 0: “Module: tile_resample, Model: control_v11f1e_sd15_tile [a371b31b], Weight: 1, Resize Mode: Crop and Resize, Low Vram: False, Threshold A: 2.09, Guidance Start: 0, Guidance End: 1, Pixel Perfect: True, Control Mode: Balanced, Hr Option: Both, Save Detected Map: True”, TI hashes: “16-token-negative-deliberate-neg: ec6a52b7f30d”, Refiner: cyberrealistic_v41BackToBasics (1) [925bd947d7], Refiner switch at: 0.14, Version: v1.8.0",
+      "also_published_as": []
+    },
+    {
+      "id": "project-23",
+      "title": "Data Expert with R",
+      "site_title": "Data Expert with R",
+      "date": "2024-03-07",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-23/",
+      "client": "Andrea Graziano",
+      "listed": true,
+      "summary": "R REST API and interactive Plotly graphs integrated into a Vue.js medical expert-testing application, calculating KPIs for CTE medical image experts.",
+      "themes": [
+        "Data apps, dashboards & visualisation",
+        "Classical ML & predictive modelling"
+      ],
+      "industries": [
+        "Healthcare & insurance"
+      ],
+      "domains": [
+        "Healthcare / medtech",
+        "Statistics in R",
+        "API",
+        "Data visualisation"
+      ],
+      "skills": [
+        "R",
+        "R Plotly",
+        "REST API in R",
+        "Vue.js integration",
+        "KPI design",
+        "Iterative delivery"
+      ],
+      "site_tags": [
+        "Machine Learning",
+        "Visualization",
+        "R"
+      ],
+      "role": "Sole developer across three consecutive contracts",
+      "outcomes": [
+        "Production KPI algorithm for CTE medical image experts served over REST",
+        "Interactive graphs built to client spec inside the existing Vue.js app",
+        "Three consecutive contracts, each extending the previous"
+      ],
+      "cv_bullet": "Productionised a medical-expert scoring algorithm as an R REST API integrated into a Vue.js testing platform, with interactive R Plotly visualisations for CTE medical image experts, across three consecutive contracts.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/R_progm_lang.jpg",
+      "source_text": "Project goals were to develop and integrate R script into existing Vue.js application for medical expert testing system.\n\n#### Project Details\n\nI have creared REST API using R programming language to put into production algorithm developed to calculate KPIs for CTE Medical Image Experts.\n\nBased on client specifications and instructions various interactive graphs were developed using R Plotly framework for the user of the main application. Project involved 3 concescutive contracts with each contract concentrating on the improvement of the current and development of new features. End result was really what client looked for and together we had mutually beneficial cooperation.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-21",
+      "title": "AI Models (Aitana Lopez)",
+      "site_title": "AI Models (Aitana Lopez)",
+      "date": "2024-02-12",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-21/",
+      "client": "W Krogmann",
+      "listed": true,
+      "summary": "Built a photoreal AI persona (in the style of Aitana Lopez) with a fine-tuned Stable Diffusion pipeline producing daily social content.",
+      "themes": [
+        "LLM fine-tuning & generative content",
+        "Computer vision"
+      ],
+      "industries": [
+        "Marketing / B2B services",
+        "Social media"
+      ],
+      "domains": [
+        "Generative AI (image)",
+        "Computer vision",
+        "Influencer marketing"
+      ],
+      "skills": [
+        "Stable Diffusion",
+        "Automatic1111",
+        "Model fine-tuning",
+        "Dataset curation",
+        "Local GPU (NVIDIA 2080 Ti)",
+        "Content pipeline"
+      ],
+      "site_tags": [
+        "Deep Learning",
+        "Generative Ai",
+        "Computer Vision",
+        "Stable Diffusion"
+      ],
+      "role": "Sole builder — setup, data prep, fine-tuning, ongoing generation",
+      "outcomes": [
+        "Fine-tuned model producing consistent, realistic imagery to a defined aesthetic",
+        "Daily content cadence to grow follower base"
+      ],
+      "cv_bullet": "Built an AI-persona content pipeline: curated a dataset and fine-tuned Stable Diffusion (Automatic1111, local 2080 Ti) to generate photoreal, on-brand imagery daily for a social media persona.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/fit_aitana2.jpg",
+      "source_text": "Project goals were to develop AI model like Aitana Lopez (@fit_aitana)\n\n#### Project Details\n\nAI generated content gained immense popularity. Not just textual data but also images and videos generated by AI became high in demand.\n\nI have utilized the Stable Diffusion Automatic1111 tool to generate realistic images. This tool, known for its high-quality output, will be run on a local machine with a powerful NVIDIA 2080 Ti GPU to ensure efficient processing and quick turnaround times.\n\nThe process included\n\n1. Model Setup: Install and configure the Stable Diffusion Automatic1111 tool on the local machine.\n2. Data Preparation: Collect and preprocess data to fine-tune the model for generating images aligned with the desired aesthetic.\n3. Model Training: Fine-tune the Stable Diffusion model on the prepared dataset, leveraging the computational power of the 2080 Ti GPU.\n4. Content Generation: Generate daily content to maintain engagement and grow the follower base. This involves creating images that are both realistic and captivating.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-20",
+      "title": "Data Analysis of Resumes",
+      "site_title": "Data Analysis of Resumes",
+      "date": "2023-12-31",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-20/",
+      "client": "Alejandra Leibovich",
+      "listed": true,
+      "summary": "NLP and LLM analysis comparing two sets of CVs to surface non-obvious differences between high- and low-value prospect candidates.",
+      "themes": [
+        "NLP & text analytics",
+        "Classical ML & predictive modelling"
+      ],
+      "industries": [
+        "HR & recruitment"
+      ],
+      "domains": [
+        "NLP",
+        "Machine learning",
+        "HR / recruitment analytics",
+        "Generative AI"
+      ],
+      "skills": [
+        "EDA",
+        "Feature engineering",
+        "NLP",
+        "LLM / ChatGPT",
+        "Model tuning",
+        "Python"
+      ],
+      "site_tags": [
+        "Machine Learning",
+        "Deep Learning",
+        "Nlp",
+        "Generative Ai",
+        "Llm",
+        "Chat Gpt"
+      ],
+      "role": "Sole analyst and modeller",
+      "outcomes": [
+        "EDA on a client-labelled set of ~30 CVs drove feature engineering and tuning",
+        "High-accuracy classifier separating high- from low-value candidates"
+      ],
+      "cv_bullet": "Analysed and modelled CV corpora with NLP and LLM tooling to separate high- from low-value candidate profiles, using EDA on a client-labelled set to drive feature engineering and a high-accuracy classifier.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/resume_analysis.jpeg",
+      "source_text": "Project goals were to create apply NLP and AI tools, models to analyze and compare two sets of resumes to find not obvious patterns, similarities and differences between 2 major group (High VS Low Value Prospect Candidates)\n\n#### Project Details\n\nI have conducted EDA analysis as a first step to identify relationships and patterns in this 2 groups. Fortunatelly enough, client has provided labeled set of data for around 30 CVs which was extremelly helpfull in EDA and modeling steps. Those insights, allowed powerful feature engineering, fine-tuning of parameters and development of highly accurare model.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-18",
+      "title": "Build a Google Vision AI System",
+      "site_title": "Build a Google Vision AI System",
+      "date": "2023-11-03",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-18/",
+      "client": "Josh Armstrong",
+      "listed": true,
+      "summary": "Visual product-similarity service using Google Cloud Product Search to find clothing items matching a user-supplied image.",
+      "themes": [
+        "Computer vision",
+        "MLOps, cloud & deployment"
+      ],
+      "industries": [
+        "E-commerce & retail"
+      ],
+      "domains": [
+        "Computer vision",
+        "Cloud AI",
+        "E-commerce"
+      ],
+      "skills": [
+        "Google Cloud Product Search API",
+        "GCP",
+        "Python",
+        "Batch image processing",
+        "Excel reporting"
+      ],
+      "site_tags": [
+        "Machine Learning",
+        "Deep Learning",
+        "Cloud"
+      ],
+      "role": "Sole developer",
+      "outcomes": [
+        "Service returns top-10 visually similar products per input image as an Excel export"
+      ],
+      "cv_bullet": "Built a visual product-matching service on Google Cloud Product Search that takes a batch of apparel images and returns the top 10 visually similar catalogue products per item.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/product-search.jpg",
+      "source_text": "Project goals were to utilize Google Cloud Product Search API and detect clothers similar to ones user of this application provides.\n\n#### Project Details\n\nI have developed a service which takes as input list of images and returns excel file for each the product top 10 similar products from reference images.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-16",
+      "title": "Deploying ML with Python Dash",
+      "site_title": "Deploying ML with Python Dash",
+      "date": "2023-11-03",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-16/",
+      "client": "Jacqueline McShan",
+      "listed": true,
+      "summary": "Deployed a Dash Plotly ML application to AWS with a custom domain.",
+      "themes": [
+        "MLOps, cloud & deployment",
+        "Data apps, dashboards & visualisation"
+      ],
+      "industries": [
+        "B2B / SME services"
+      ],
+      "domains": [
+        "MLOps / DevOps",
+        "Web development"
+      ],
+      "skills": [
+        "Python Dash",
+        "Plotly",
+        "AWS EC2",
+        "Route 53",
+        "Dependency/version management",
+        "Documentation"
+      ],
+      "site_tags": [
+        "Web Development",
+        "Ml Ops"
+      ],
+      "role": "Deployment engineer",
+      "outcomes": [
+        "Application hosted on EC2 with Route 53 routing to a custom domain",
+        "Documentation revised and package versions pinned for reproducible hosting"
+      ],
+      "cv_bullet": "Productionised a Dash Plotly analytics application on AWS — dependency pinning and documentation revision, EC2 hosting and Route 53 custom-domain routing.",
+      "links": [
+        {
+          "label": "Private Project Link",
+          "url": "http://jacquelinemcshan.net"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/jacqueline-website.jpg",
+      "source_text": "Project goals were to deploy Dash Plotly application to AWS services.\n\n#### Project Details\n\nApplication went through documentation revision, package version creation and some editing to be hosted on AWS.\n\nI have utilized AWS EC2 instance to host and Route 53 to redirect requests to custom domain.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-19",
+      "title": "Need to develop matching AI powered web app platform",
+      "site_title": "Need to develop matching AI powered web app platform",
+      "date": "2023-07-15",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-19/",
+      "client": "Rania Kabbara",
+      "listed": true,
+      "summary": "AI-powered web platform that calculates synergy scores for SMEs, built in React and deployed to Vercel.",
+      "themes": [
+        "Recommender systems & matching",
+        "Data apps, dashboards & visualisation"
+      ],
+      "industries": [
+        "B2B / SME services"
+      ],
+      "domains": [
+        "Machine learning",
+        "Web development",
+        "B2B matching"
+      ],
+      "skills": [
+        "React",
+        "Custom scoring algorithm",
+        "ML model",
+        "Vercel",
+        "Cloud deployment"
+      ],
+      "site_tags": [
+        "Web Development",
+        "Machine Learning",
+        "Deep Learning",
+        "Cloud"
+      ],
+      "role": "Sole developer",
+      "outcomes": [
+        "Live platform scoring SME synergy from a custom ML-backed algorithm"
+      ],
+      "cv_bullet": "Built and deployed an AI matching platform that scores SME synergy — React frontend over a custom ML scoring algorithm, shipped on Vercel.",
+      "links": [
+        {
+          "label": "Private Project Link",
+          "url": "https://sme-next-davitgadyan.vercel.app"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/react-app.jpg",
+      "source_text": "Project goals were to create AI powered website to calculate synergy scores for SMEs.\n\n#### Project Details\n\nI have developed a React website which utilized custom algorithm to calculate synergy scores using ML model. Application was deployed to Vercel.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-17",
+      "title": "Summarize & extracting information from websites using CHAT GPT",
+      "site_title": "Summarize & extracting information from websites using CHAT GPT",
+      "date": "2023-07-03",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-17/",
+      "client": "Blake Schindler",
+      "listed": true,
+      "summary": "Web app that takes a URL, scrapes the page and returns a ChatGPT summary of client-specified key details as a downloadable Excel table.",
+      "themes": [
+        "Agentic AI & LLM systems",
+        "Data engineering & web scraping"
+      ],
+      "industries": [
+        "B2B / SME services"
+      ],
+      "domains": [
+        "Generative AI / LLM",
+        "Web scraping",
+        "Web development"
+      ],
+      "skills": [
+        "ChatGPT API",
+        "Python Dash",
+        "Web scraping",
+        "Excel export",
+        "MLOps / deployment"
+      ],
+      "site_tags": [
+        "Web Scraping",
+        "Web Development",
+        "Ml Ops",
+        "Chat Gpt"
+      ],
+      "role": "Sole developer",
+      "outcomes": [
+        "URL-in, structured-summary-out app with clean Excel download"
+      ],
+      "cv_bullet": "Built a URL-to-insight web app (Python Dash) that scrapes a page and uses ChatGPT to extract client-specified fields into a clean, downloadable Excel table.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/chatgpt.jpg",
+      "source_text": "Project goals were to create a website which take as input an url and summarize information from it using CHAT GPT providing keys details specified by client.\n\n#### Project Details\n\nI have developed an application using Dash framework which had input field for an url and it was scraping data and sending to CHAT GPT which was summarizing content and presenting in clean downloadble as excel file table.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-13",
+      "title": "KPI Analysis",
+      "site_title": "KPI Analysis",
+      "date": "2021-10-12",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-13/",
+      "client": "Felix Forsgren",
+      "listed": true,
+      "summary": "End-to-end KPI programme for a marketing-heavy business: defining KPIs, sourcing the data from ad and payment APIs, then an interactive Dash app to explore them.",
+      "themes": [
+        "Marketing analytics & growth",
+        "Data apps, dashboards & visualisation",
+        "Data engineering & web scraping"
+      ],
+      "industries": [
+        "Marketing / B2B services"
+      ],
+      "domains": [
+        "Marketing analytics",
+        "Financial analysis",
+        "API integration",
+        "Web development"
+      ],
+      "skills": [
+        "Facebook/Meta API",
+        "Google Ads API",
+        "Stripe API",
+        "Google Analytics",
+        "Python",
+        "Data wrangling",
+        "Plotly Dash",
+        "KPI design"
+      ],
+      "site_tags": [
+        "Financial Analysis",
+        "Web Development",
+        "Api"
+      ],
+      "role": "Sole consultant — from KPI definition to shipped application",
+      "outcomes": [
+        "KPI framework defined against the client's actual business questions",
+        "Data extracted from Meta, Google Ads, Stripe and Google Analytics",
+        "Interactive Dash app showing KPIs over time and by sector with filters"
+      ],
+      "cv_bullet": "Ran a KPI programme end to end for a marketing-driven business — defined the KPIs, sourced data from the Meta, Google Ads, Stripe and Google Analytics APIs, and shipped an interactive Plotly Dash application showing performance over time and by segment.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/kpis.jpg",
+      "source_text": "Goal of the project was to extract, store, analyze and visualize KPIs.\n\n#### Project Details\n\nExact details cannot be disclosed as this was done for the client. Nevertheless, some details are following. After operating a few years a company wanted to understand whether and how much marketing campaigns it organizes boost its performance. The first stage was to establish KPI with regards to these goals. The next stage was to understand what data we need, whether the company stores this data, where it stores, and if not where we can access it. In the third step, I have started the actual implementation of data extraction. As a necessary step, I looked through dozens of documentation pages to extract data from Facebook/Meta API, Google Ads, Stripe, Google Analytics, etc. After data wrangling I have implemented KPI calculation and as a final step created an interactive web-based Dash application which was demonstrating KPI over time and within specific sectors when appropriate filters were applied from dropdowns or input fields.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-14",
+      "title": "Document OCR & data extraction",
+      "site_title": "Document OCR & data extraction",
+      "date": "2021-09-29",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-14/",
+      "client": "Shayan Nafisi",
+      "listed": true,
+      "summary": "Document OCR and field extraction for driver licences and insurance cards, replacing manual data entry in a healthcare booking platform.",
+      "themes": [
+        "Computer vision",
+        "RAG & document intelligence"
+      ],
+      "industries": [
+        "Healthcare & insurance"
+      ],
+      "domains": [
+        "Computer vision / OCR",
+        "Healthcare",
+        "API",
+        "Document intelligence"
+      ],
+      "skills": [
+        "AWS Textract",
+        "AWS Comprehend",
+        "AWS Rekognition",
+        "YOLO",
+        "Regex extraction",
+        "NLP",
+        "REST API",
+        "Latency optimisation"
+      ],
+      "site_tags": [
+        "Computer Vision",
+        "Ocr",
+        "Api"
+      ],
+      "role": "Sole engineer — prototyping through production API",
+      "outcomes": [
+        "Prototyped OCR+NLP and custom YOLO field-detection approaches; both too slow at ~10s per image",
+        "Shipped Textract + regex instead, extracting fields in under 5 seconds",
+        "Deployed as a REST API replacing manual data entry at scale for Sick.org / Curogram"
+      ],
+      "cv_bullet": "Replaced manual document data entry at a healthcare booking platform with an OCR extraction API for driver licences and insurance cards — benchmarked custom YOLO and NLP models against AWS Textract, then shipped a Textract + regex approach that cut per-image latency from ~10s to under 5s.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/ocr.jpg",
+      "source_text": "Goal of the project was to extract data from company’s various documents like driver licenses, insurance cards.\n\n#### Project Details\n\nSick.org/Curogram helps customers to get an appointment with doctors and tests. As an integral part of their business users supply their documents which should be entered into Curogram’s system. As the number of users grows large there was a vital need of automating this procedure in order to process large volumes of requests.\n\nThe solution was to develop an algorithm that does this job instead of manual data entry. In the prototyping stage, we have tried various methods like applying OCR i.e. extracting text and creating an NLP model which extracts custom labels. Another method was to create a Computer Vision model which detects each field like name, address, gender, etc. We build and trained custom models with Yolo and used AWS services like Textract, Comprehend, Rekognition. However, inference time was high for the client around 10 seconds for each image. That is why I have applied Textract + Regex to extract details from driver licenses and insurance cards in under 5 seconds and deployed it as REST API.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-15",
+      "title": "Automated Valution model & Real Estate Bot",
+      "site_title": "Automated Valution model & Real Estate Bot",
+      "date": "2021-07-07",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-15/",
+      "client": "Chris Ambas",
+      "listed": true,
+      "summary": "Automated Valuation Model and broker bot for the Australian real-estate market, from data collection through to a profit-maximising evaluation algorithm.",
+      "themes": [
+        "Classical ML & predictive modelling",
+        "Data engineering & web scraping"
+      ],
+      "industries": [
+        "Real estate & construction"
+      ],
+      "domains": [
+        "Machine learning",
+        "Real estate",
+        "Web scraping",
+        "API integration"
+      ],
+      "skills": [
+        "XGBoost",
+        "Python",
+        "Domain.com.au API",
+        "Web scraping",
+        "Feature engineering",
+        "Model comparison"
+      ],
+      "site_tags": [
+        "Machine Learning",
+        "Web Scraping",
+        "Api"
+      ],
+      "role": "Sole data scientist and developer",
+      "outcomes": [
+        "XGBoost AVM reached ~84% R² on Australian property prices, outperforming alternatives",
+        "Alpha bot implementing the client's broker evaluation algorithm, feature-complete pending data coverage"
+      ],
+      "cv_bullet": "Built an Automated Valuation Model for the Australian property market — data collected via the Domain.com.au API and direct scraping, with an XGBoost model reaching ~84% R² and outperforming the alternatives tested — plus a broker bot implementing the client's profit-maximising evaluation logic.",
+      "links": [
+        {
+          "label": "Referenced",
+          "url": "https://developer.domain.com.au/"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/avm.jpg",
+      "source_text": "Project goals were to create Automated Valuation model and Bot for Australian Real Estate Market.\n\n#### Project Details\n\nInitially, the task was to create an AVM model which will predict property prices as close as possible. Target was the Australian estate market and I started from data collection by combing APIs like https://developer.domain.com.au/ and scraping directly from real estate websites. After gathering much-needed data I created an XGBoost model which has outperformed other algorithms. My target was to improve R2 and I have reached around 84% which was a pretty good result for my use case.\n\nAs a next stage client shared an algorithm which was basically how a real estate broker will evaluate the property under consideration to yield the highest profit. Details were clear and after some time prototype was ready and I have started testing. But as you can imagine it required much-needed data. However, the alpha version all features and currently it is just a matter of having enough data to cover all combinations.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-4",
+      "title": "Entity Resolution",
+      "site_title": "Entity Resolution",
+      "date": "2021-06-30",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-4/",
+      "client": "Dave Imrem",
+      "listed": true,
+      "summary": "Entity resolution to deduplicate records referring to the same real-world entity across and within client datasets.",
+      "themes": [
+        "Classical ML & predictive modelling"
+      ],
+      "industries": [
+        "Research & public sector"
+      ],
+      "domains": [
+        "Machine learning",
+        "Data quality",
+        "Record linkage"
+      ],
+      "skills": [
+        "dedupe (Python)",
+        "JedAI evaluation",
+        "Active-learning labelling",
+        "Python",
+        "Compute/performance benchmarking"
+      ],
+      "site_tags": [
+        "Machine Learning"
+      ],
+      "role": "Sole data scientist",
+      "outcomes": [
+        "Benchmarked JedAI and rejected it on compute cost",
+        "Selected and tuned the ML-based dedupe library against a labelled training set, with output analysis confirming quality"
+      ],
+      "cv_bullet": "Delivered an entity-resolution solution for deduplicating customer records — benchmarked JedAI, rejected it on compute cost, and trained the ML-based dedupe library on a labelled set with output analysis confirming match quality.",
+      "links": [
+        {
+          "label": "Referenced",
+          "url": "https://github.com/dedupeio/dedupe"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/entity-resolution.jpg",
+      "source_text": "Entity resolution (ER) is the task of disambiguating records that correspond to real world entities across and within datasets. The applications of entity resolution are tremendous, particularly for public sector and federal datasets related to health, transportation, finance, law enforcement, and antiterrorism.\n\nIn more lemon terms, companies may record same client/user multiple times in their system. Entity resolution aims to detect those entities and remove duplicates for future analysis.\n\n#### Project Details\n\nInitially, we tried JedAI open-source software but compute time was too high. After some research I have found a good open-source library called dedupe https://github.com/dedupeio/dedupe. This library was using ML methods and training model based on labeled training set. After output analysis it was clear this method was doing good job and it was considered to be one solution to this problem.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-11",
+      "title": "Scrapy + BigQuery + Cloud",
+      "site_title": "Scrapy + BigQuery + Cloud",
+      "date": "2021-06-09",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-11/",
+      "client": "Josh",
+      "listed": true,
+      "summary": "Scrapy pipeline for damaged-car listings from a site without API support, reading input URLs from BigQuery and writing results back to BigQuery tables.",
+      "themes": [
+        "Data engineering & web scraping",
+        "MLOps, cloud & deployment"
+      ],
+      "industries": [
+        "Automotive"
+      ],
+      "domains": [
+        "Web scraping",
+        "Data engineering",
+        "Cloud"
+      ],
+      "skills": [
+        "Scrapy",
+        "BigQuery",
+        "Scrapy pipelines",
+        "Cloud deployment",
+        "24/7 scheduling"
+      ],
+      "site_tags": [
+        "Web Scraping",
+        "Cloud"
+      ],
+      "role": "Sole developer",
+      "outcomes": [
+        "BigQuery-in, BigQuery-out scraping pipeline running 24/7 in the cloud"
+      ],
+      "cv_bullet": "Built a Scrapy pipeline for a site with no API, reading target URLs from BigQuery and writing extracted listings back into BigQuery tables, deployed to run 24/7 in the cloud.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/scrapy+python.jpg",
+      "source_text": "Goal of the project was to extract information for damaged cars from a website that did not have proper API support.\n\n#### Project Details\n\nScraper was receiving input urls from a BigQuery table and pushing into several other ones. So I have created appropriate pipeline files with Scrapy. Eventually, Scrapy bot was deployed on cloud to run 24/7.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-5",
+      "title": "Scrapy + AWS EC2 + S3",
+      "site_title": "Scrapy + AWS EC2 + S3",
+      "date": "2021-04-19",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-5/",
+      "client": "Cary Sparrow",
+      "listed": true,
+      "summary": "Large-scale Scrapy crawler collecting millions of Indeed pages into structured S3 storage on a schedule.",
+      "themes": [
+        "Data engineering & web scraping",
+        "MLOps, cloud & deployment"
+      ],
+      "industries": [
+        "HR & recruitment"
+      ],
+      "domains": [
+        "Web scraping",
+        "Data engineering",
+        "Cloud"
+      ],
+      "skills": [
+        "Scrapy",
+        "Crawlera proxy rotation",
+        "AWS S3",
+        "AWS EC2",
+        "Scrapy middleware",
+        "Scheduled jobs"
+      ],
+      "site_tags": [
+        "Web Scraping",
+        "Cloud"
+      ],
+      "role": "Sole engineer",
+      "outcomes": [
+        "Millions of data points extracted and stored in S3 under a defined folder and naming convention",
+        "Ran on schedule from an EC2 Ubuntu instance without being blocked"
+      ],
+      "cv_bullet": "Built a large-scale Scrapy crawler with Crawlera proxy rotation and a custom S3 middleware, running scheduled on AWS EC2 to extract millions of job-listing data points into structured S3 storage.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/scrapy_awsec2.jpg",
+      "source_text": "The main goal of project was to develop a web scraping solution to collect data from millions of pages from indeed.com and store inside of AWS S3 bucket under specific folder and naming conventions.\n\n#### Project Details\n\nPython’s Scrapy framework was used with Crawlera as proxy rotator so bot does not get blocked. There was a middleware in place which was pushing data into S3. Scrapy bot was deployed on AWS EC2 Ubuntu instance was running on specified schedule. As a result, we have extracted millions of data points and stored inside of an S3 bucket.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-3",
+      "title": "Computer Vision | IOT",
+      "site_title": "Computer Vision | IOT",
+      "date": "2021-04-19",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-3/",
+      "client": "Private",
+      "listed": true,
+      "summary": "Driver-fatigue detection from video, running on-device on Raspberry Pi 4 / Jetson Nano with real-time alarms.",
+      "themes": [
+        "Computer vision",
+        "MLOps, cloud & deployment"
+      ],
+      "industries": [
+        "Automotive",
+        "IoT & edge"
+      ],
+      "domains": [
+        "Computer vision",
+        "Deep learning",
+        "Edge / IoT",
+        "Automotive safety"
+      ],
+      "skills": [
+        "ONNX",
+        "Facial landmark detection",
+        "XGBoost",
+        "Time-series features (FFT/FFV)",
+        "Docker",
+        "Raspberry Pi 4",
+        "Jetson Nano",
+        "Applied research"
+      ],
+      "site_tags": [
+        "Computer Vision",
+        "Deep Learning",
+        "Iot"
+      ],
+      "role": "Sole engineer — research, modelling, edge deployment",
+      "outcomes": [
+        "Research-led approach based on a published facial-motion-entropy fatigue algorithm",
+        "XGBoost over current and 10 previous FFT/FFV values to read head position over a 3-5 second window",
+        "Rule-based yawn and eye-closure triggers layered on top",
+        "Dockerised and deployed to Jetson Nano and Pi 4 within edge compute limits"
+      ],
+      "cv_bullet": "Built an on-device driver-fatigue detection system: ONNX face and landmark detection feeding an XGBoost model over FFT/FFV time-series features to read head position across a 3-5 second window, with rule-based yawn and eye-closure alarms, dockerised onto Jetson Nano and Raspberry Pi 4.",
+      "links": [
+        {
+          "label": "Referenced",
+          "url": "https://www.researchgate.net/publication/342193728_A_Fatigue_Driving_Detection_Algorithm_Based_on_Facial_Motion_Information_Entropy"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/cv-iot.jpg",
+      "source_text": "This project was one of the most complex ones. The ultimate goal was to detect driver fatigue and issue warnings to driver via alarms. In addition, this system should have been deployed into IOT device like Raspberry PI 4, which introduced some limitations in terms of algorithms and methods we can use.\n\n#### Project Details\n\nAs usual, I have started with some research for best practices and found good papers which I have used for final solution. https://www.researchgate.net/publication/342193728_A_Fatigue_Driving_Detection_Algorithm_Based_on_Facial_Motion_Information_Entropy\n\nThe first step was to detect face in video stream using ONNX library and then detect facial landmarks for further analysis. The key point was to identify FFT and FFV (for more details please look into paper attached). Based on labeled data which was collected using simple web-camera we have trained an XGBoost model with current value and n-previous values of FFT and FFV (n=10). Based on it we were able to identify person’s head position also in time dimension approximately for last 3-5 seconds and based on that issue alerts if driver keeps head down and does not move it. Later means person is fatigued and cannot drive, whereas if driver actively looks around and watches traffic there should be no alarm issued.\n\nIn addition, if person was yawning or having eyes closed alarm has been also triggered by separate rule-based algorithms.\n\nEventually everything was dockerized and deployed onto Jetson Nano/ PI 4 IOT devices.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-12",
+      "title": "Stock Analysis",
+      "site_title": "Stock Analysis",
+      "date": "2021-03-29",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-12/",
+      "client": "Yisroel Weisz",
+      "listed": true,
+      "summary": "Statistical test of a client hypothesis about price co-movement between similarly named stock tickers.",
+      "themes": [
+        "Quantitative finance & trading"
+      ],
+      "industries": [
+        "Finance & capital markets"
+      ],
+      "domains": [
+        "Financial analysis",
+        "Statistics"
+      ],
+      "skills": [
+        "Python",
+        "Hypothesis testing",
+        "Time-series analysis",
+        "Market data"
+      ],
+      "site_tags": [
+        "Financial Analysis"
+      ],
+      "role": "Sole analyst",
+      "outcomes": [
+        "Confirmed a measurable relationship between price changes in similarly named tickers"
+      ],
+      "cv_bullet": "Tested and confirmed a market hypothesis on price co-movement between similarly named tickers, delivering the statistical evidence behind the result.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/stock-analysis.jpg",
+      "source_text": "Goal of the project was to test a hypothesis with regards to stock market.\n\n#### Project Details\n\nExact details cannot be disclosed as again the idea was suggested by the client. But I can share that the hypothesis was related to the relationship between similarly named tickers and how price changes in ones are affecting others. Based on results we have identified that indeed there is some relationship.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-7",
+      "title": "Algorithmic Trading in Python",
+      "site_title": "Algorithmic Trading in Python",
+      "date": "2021-03-02",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-7/",
+      "client": "Dale Hefferman",
+      "listed": true,
+      "summary": "Crypto trading bot exploiting lag on a smaller exchange, plus a bot executing signals from a custom TradingView strategy.",
+      "themes": [
+        "Quantitative finance & trading"
+      ],
+      "industries": [
+        "Crypto & blockchain"
+      ],
+      "domains": [
+        "Algorithmic trading",
+        "Machine learning",
+        "Crypto",
+        "Cloud"
+      ],
+      "skills": [
+        "Python",
+        "Binance API",
+        "TradingView webhooks/signals",
+        "Market microstructure analysis",
+        "Cloud deployment"
+      ],
+      "site_tags": [
+        "Machine Learning",
+        "Algorithmic Trading",
+        "Cloud"
+      ],
+      "role": "Sole developer",
+      "outcomes": [
+        "Identified and traded a timezone/size-driven lag on a smaller exchange",
+        "Signal-following bot deployed against a custom TradingView strategy",
+        "Honest reported outcome: profitable at times, but trading fees and regime change mean the strategy needs constant monitoring and tuning"
+      ],
+      "cv_bullet": "Built and deployed crypto trading bots — one exploiting price lag on a smaller exchange, one executing a custom TradingView strategy's signals — with a clear-eyed read on where fees and regime change ate the edge.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/algo-trading.jpg",
+      "source_text": "Goal of the project was to create a trading bot which will trade cryptocurrencies on few exchanges like Binance etc.\n\n#### Project Details\n\nAfter analyzing exchange of interest it was clear that particular exchange was lagging behind due to different time zone and relative small size of it. So, by identifying general trends in markets for specific cryptocurrency like BTC we can capitalize on that.\n\nIn addition, I have developed and deployed a trading bot which was listening to signals from Tradingview custom strategy.\n\nImportant question is whether we made money. The answer is it depends.. We made some money but due to high trading fees and changing environment algorithm should be constantly monitored and tweaked.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-10",
+      "title": "LDA and LIWC Analysis of Tweets",
+      "site_title": "LDA and LIWC Analysis of Tweets",
+      "date": "2021-01-27",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-10/",
+      "client": "Hamad S.",
+      "listed": true,
+      "summary": "LDA topic modelling and LIWC psycholinguistic analysis of Trump's Covid-era tweets.",
+      "themes": [
+        "NLP & text analytics",
+        "Data apps, dashboards & visualisation"
+      ],
+      "industries": [
+        "Research & public sector"
+      ],
+      "domains": [
+        "NLP",
+        "Research / social science",
+        "Data visualisation"
+      ],
+      "skills": [
+        "LDA topic modelling",
+        "pyLDAvis",
+        "LIWC2015",
+        "Text preprocessing",
+        "EDA",
+        "Python"
+      ],
+      "site_tags": [
+        "Nlp",
+        "Machine Learning",
+        "Visualization"
+      ],
+      "role": "Sole analyst",
+      "outcomes": [
+        "Interactive pyLDAvis HTML outputs of discovered topic clusters",
+        "LIWC analysis completed in Python after resolving dictionary encoding with the original author, Dr. James W. Pennebaker"
+      ],
+      "cv_bullet": "Ran LDA topic modelling (pyLDAvis) and LIWC2015 psycholinguistic analysis on a political Twitter corpus, delivering interactive topic-cluster visualisations alongside the linguistic scoring.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/lda-liwc.jpg",
+      "source_text": "Goal of the project was to conduct LDA and LIWC analysis on Trump’s tweets regarding Covid and few other topics.\n\n#### Project Details\n\nAfter initial EDA analysis and some text preprocessing, I have conducted LDA analysis using python tools such as pyLDAvis. As an output, we have interactive html formated files to look into clusters discovered by LDA algorithm. Using LIWC2015 Dictionary.dic I have conducted LIWC analysis in Python although initially there were some problems with encoded files we managed to contact the author of the work and he sent decoded version so many thanks to Dr. James W. Pennebaker.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-2",
+      "title": "Stock Trend & Sentiment Analysis",
+      "site_title": "Stock Trend & Sentiment Analysis",
+      "date": "2020-12-04",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-2/",
+      "client": "Equeum (fka Machina Software)",
+      "listed": true,
+      "summary": "Web UI analysing trending stocks against search-trend and sentiment signals, including Reddit sentiment around the GameStop episode.",
+      "themes": [
+        "NLP & text analytics",
+        "Quantitative finance & trading",
+        "Data apps, dashboards & visualisation"
+      ],
+      "industries": [
+        "Finance & capital markets"
+      ],
+      "domains": [
+        "NLP / sentiment",
+        "Financial analysis",
+        "Web development"
+      ],
+      "skills": [
+        "Google Trends API",
+        "Sentiment analysis APIs",
+        "Reddit data",
+        "Python",
+        "Correlation analysis",
+        "Web app development"
+      ],
+      "site_tags": [
+        "Machine Learning",
+        "Nlp",
+        "Web Development"
+      ],
+      "role": "Sole developer",
+      "outcomes": [
+        "Two linked apps surfacing trend and sentiment series per ticker with correlation charts",
+        "Reddit sentiment analysed against price changes and returns for meme stocks such as GameStop"
+      ],
+      "cv_bullet": "Built a stock trend and sentiment web application combining Google Trends and multiple sentiment APIs with correlation visualisations, extended with Reddit sentiment analysis against price and return movements during the GameStop episode.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/stock-trend-sentiment.jpg",
+      "source_text": "Project aims to create a web-based UI to analyse trending stocks and sentiment with regards to specific stocks.\n\n#### Project Details\n\nUser can select from list of tickers and based on that 2 separate apps will select latest trends for stock based on Google Trends API and Sentiment Scores from several APIs. After this various graphs will showcase correlation and patterns for stock sentiments and trends.\n\nIn addition, data from Reddit was also analyzed to see relationships between price changes, returns and public sentiment towards specific stocks like GameStop.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-6",
+      "title": "Image Background Removal",
+      "site_title": "Image Background Removal",
+      "date": "2020-12-03",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-6/",
+      "client": "Rashed Buqaraa",
+      "listed": true,
+      "summary": "U-Net background removal for apparel images, deployed as a service on AWS.",
+      "themes": [
+        "Computer vision",
+        "MLOps, cloud & deployment"
+      ],
+      "industries": [
+        "E-commerce & retail"
+      ],
+      "domains": [
+        "Computer vision",
+        "Deep learning",
+        "E-commerce",
+        "Cloud"
+      ],
+      "skills": [
+        "U-Net",
+        "Encoder-decoder networks",
+        "Python",
+        "AWS EC2",
+        "Image segmentation"
+      ],
+      "site_tags": [
+        "Computer Vision",
+        "Cloud"
+      ],
+      "role": "Sole developer",
+      "outcomes": [
+        "High-quality background removal on apparel photography, deployed and demoable on EC2"
+      ],
+      "cv_bullet": "Built and deployed a U-Net image-segmentation service on AWS EC2 that removes backgrounds from apparel photography.",
+      "links": [
+        {
+          "label": "Private Project Link",
+          "url": "http://3.236.211.1:5000/?url=https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        }
+      ],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/back-rem.jpg",
+      "source_text": "Goal of the project was to remove background from images of apparel.\n\n#### Project Details\n\nIn order to remove background from an image U-Net was used which a neural network of encode-decoder structure. The results we very good and this solution was deployed on AWS EC2 instance. Project link showcases an example where background of an image was removed.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-1",
+      "title": "Python Cluster Analysis App",
+      "site_title": "Python Cluster Analysis App",
+      "date": "2020-05-25",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-1/",
+      "client": "Reuben Vandeventer",
+      "listed": true,
+      "summary": "No-code clustering workbench: upload a dataset, pick dimensions and an algorithm, explore an interactive D3 network graph and export enriched results.",
+      "themes": [
+        "Classical ML & predictive modelling",
+        "Data apps, dashboards & visualisation"
+      ],
+      "industries": [
+        "B2B / SME services"
+      ],
+      "domains": [
+        "Machine learning",
+        "Web development",
+        "Data visualisation",
+        "Cloud"
+      ],
+      "skills": [
+        "DBSCAN",
+        "MeanShift",
+        "MST clustering",
+        "D3.js force-directed graphs",
+        "Python",
+        "CSV/XLSX I/O",
+        "Data normalisation",
+        "Heroku"
+      ],
+      "site_tags": [
+        "Machine Learning",
+        "Web Development",
+        "Cloud"
+      ],
+      "role": "Sole developer (product owned by SecondSight)",
+      "outcomes": [
+        "Usable by non-coders and ML engineers alike: upload, normalise, choose X/Y/Z lenses, tune hyperparameters",
+        "Interactive D3 force-directed graph with node selection and colouring by dimension",
+        "Export back to CSV/Excel with cluster IDs appended for downstream analysis"
+      ],
+      "cv_bullet": "Built a self-serve clustering application for non-technical analysts — CSV/XLSX upload, normalisation, choice of DBSCAN / MeanShift / MST with tunable hyperparameters, an interactive D3 force-directed graph, and export of cluster IDs back to Excel.",
+      "links": [
+        {
+          "label": "Private Project Link",
+          "url": "https://synth3-s2shape.herokuapp.com/"
+        },
+        {
+          "label": "Referenced",
+          "url": "https://observablehq.com/@d3/force-directed-graph"
+        }
+      ],
+      "notes": [
+        "New Item: SecondSight has all rights to this product."
+      ],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/input-section-clust-app-black.jpg",
+      "source_text": "The goal of this project was to create a tool using which users can analyse data in various ways by applying machine learning clusterization and other methods on specific datasets. Target users may vary from person having some knowledge of clustering techniques but not coding and ML engineers as well. You can input your data, analyze it and output a file with insights.\n\n#### Project Details\n\nIn order to use web application there was a workflow established. First, user should upload input dataset in csv or xlsx format. Then, so called record name column should be selected, which is considered a unique column. After that users can normalize data, select X, Y and Z lens, i.e. 3 dimesions for further analysis. Next user chooses from 3 available clustering algorithms DBSCAN, MeanShift, MST and hyperparameters for them. As output you get interactive D3 powered network graph. https://observablehq.com/@d3/force-directed-graph\n\nFinally, users can select nodes interesting for them which will be colored in specific colors based on dimensions. User chooses and outputs to csv or excel format with new columns which indicates some cluster ids and other useful information for future analysis.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-8",
+      "title": "AI powered Scrapy bot",
+      "site_title": "AI powered Scrapy bot",
+      "date": "2019-12-30",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-8/",
+      "client": "Robin Tar",
+      "listed": true,
+      "summary": "Scrapy bot that extracts company and employee data from thousands of structurally different websites by using an LSTM model to locate the right HTML tags.",
+      "themes": [
+        "Data engineering & web scraping",
+        "NLP & text analytics"
+      ],
+      "industries": [
+        "B2B data / lead generation"
+      ],
+      "domains": [
+        "Machine learning / deep learning",
+        "Web scraping",
+        "Cloud"
+      ],
+      "skills": [
+        "Scrapy",
+        "LSTM",
+        "Deep learning",
+        "Training-set labelling",
+        "Python",
+        "Cloud deployment"
+      ],
+      "site_tags": [
+        "Machine Learning",
+        "Deep Learning",
+        "Cloud",
+        "Web Scraping"
+      ],
+      "role": "Sole engineer",
+      "outcomes": [
+        "Replaced per-site xpath rules with a learned tag-detection model, making the crawler generalise across thousands of layouts",
+        "Model deployed to the cloud in production"
+      ],
+      "cv_bullet": "Solved cross-site scraping at scale by training an LSTM to detect which HTML tags hold the target fields — replacing thousands of hand-written xpaths — and deploying it behind a Scrapy crawler in the cloud.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/ai-powered-bot.jpeg",
+      "source_text": "Goal of the project was to create a Scrapy bot which will go to thousands of websites from particular sector and extract most important data points like company about page, address, news and specifically employee realted information.\n\n#### Project Details\n\nThe complexity of task was that all webpages had different html strucuture. So, practically there was no way to create so many rules and xpaths to capture all data points.\n\nMy solution to this problem was to develop a model, which will detect tags containing needed information and then Scrapy bot will just extract text or other attributes from it. Model of choice in this case was LSTM and it performed well for this task. So with some help I have labelled training set to train model for this task and successfully deployed model on the cloud.",
+      "also_published_as": []
+    },
+    {
+      "id": "project-9",
+      "title": "Recommender System",
+      "site_title": "Recommender System",
+      "date": "2019-02-10",
+      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-9/",
+      "client": "Rafi Newman",
+      "listed": true,
+      "summary": "Hybrid three-layer recommender system for a matchmaking website, combining client rules, collaborative filtering and an ML ensemble.",
+      "themes": [
+        "Recommender systems & matching",
+        "Classical ML & predictive modelling"
+      ],
+      "industries": [
+        "Consumer & leisure"
+      ],
+      "domains": [
+        "Machine learning",
+        "Recommender systems",
+        "Consumer product"
+      ],
+      "skills": [
+        "Collaborative filtering",
+        "Content-based filtering",
+        "Logistic Regression",
+        "Random Forest",
+        "Neural networks",
+        "Ensemble modelling",
+        "Python"
+      ],
+      "site_tags": [
+        "Machine Learning",
+        "Deep Learning",
+        "Recommender System"
+      ],
+      "role": "Sole data scientist",
+      "outcomes": [
+        "Three-layer architecture: client rules, collaborative filtering, then an ensemble content model",
+        "Recommendations matched the pairs the company's human experts were recommending manually"
+      ],
+      "cv_bullet": "Designed a three-layer hybrid recommender for a matchmaking platform — business rules, collaborative filtering and a Logistic Regression / Random Forest / neural-network ensemble — producing matches that agreed with the company's human expert pairings.",
+      "links": [],
+      "notes": [],
+      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/recommender-system.jpg",
+      "source_text": "Goal of the project was to create a recommender system for a matchmaking website.\n\n#### Project Details\n\nAs a final solution I have created a hybrid recommender system with 3 layers: rule-based, collaborative-based and content-based filtering. Rules were defined by client like male-female, limit for maximum age difference etc.. Then there was collaborative-based filtering which in this context was suggesting pairs together based on their previous choices. As last stage content-based filtering layer was defined as ML model. Ensemble model was created which consisted of Logistic Regression, Random Foresta and Neural Network.\n\nResults were decent and matched to pairs that experts from company manual had been recommending.",
+      "also_published_as": []
+    }
+  ]
+}

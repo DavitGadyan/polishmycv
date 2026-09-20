@@ -1,0 +1,58 @@
+ David Gadyan
+
+ Data Scientist | AI Architect | AI SAAS Engineer | Generative AI Dev | Full Stack
+
+
+ Email: david.gadyan@bse.eu
+ Linkedin: linkedin.com/in/davidgadyan
+ Upwork: upwork.com/freelancers/davidgadyan
+
+ Portfolio: davidgadyan.com/portfolio
+
+PROFESSIONAL EXPERIENCE
+
+ Upwork (Freelancer)                                                                            Yerevan, Armenia
+ Data Scientist                                                                                   01/2018– Present
+ ●       Bringing AI Transformation to businesses more than 8 years
+ ●       Working with 180+ clients around the globe to leverage the data to drive business solutions, cut costs,
+ increase profits
+ ●       "Expert-Vetted Data Scientist" badge TOP 1% of Platform
+ ●       500k+ USD earnings
+
+
+                                                                                                 Yerevan, Armenia
+                                                                                                  10/2017– 05/2018
+ Ernst & Young
+ Tax Accountant
+ ●        Focusing on tax consulting, tax accounting and tax compliance as well as assisting with internal control
+ deficiencies of a company with turnover and assets close to $10,000,000
+ •       Working on tax compliance process, including review of tax returns and tax projections for more than 3
+     clients at the same time
+
+EDUCATION
+
+ Barcelona School of Economics                                                                     Barcelona, Spain
+ Master Program in Data Science for Decision Making                                                09/2022– 08/2023
+ Relevant courses: Computational Machine Learning, Data Visualization, Deep Learning
+ Degree awarded by Universitat Pompeu Fabra and Universitat Autònoma de Barcelona
+
+ American University of Armenia                                                                   Yerevan, Armenia
+ Master of Business Administration/ Finance, Data Science/ Applications of Data Science/           09/2017– 06/2020
+ Degree awarded by American University of Armenia
+
+LANGUAGES & TECHNICAL SKILLS
+
+Language skills: English (Fluent), Russian (Fluent), Armenian (Native), Spanish (Conversational)
+
+Technical skills: Python, R, SQL, Data Science, Generative AI, Agentic Systems, Machine Learning, Deep Learning,
+SAAS, LLMOps DevOps, HIPPA, GDPR, SOC20
+
+
+ADDITIONAL INFORMATION & PERSONAL PROJECTS
+
+ ●      Expert-vetted status on Upwork top 1 percent of 10+ million developers, Toptal Developer
+ ●      AI powered Crypto Algorithmic Trading Strategy: XGBoost model with hundreds of features to predict
+ Long/Neutral/Short positions, Meta Labeler XGBoost model to predict regime Up, Flat, Down. Breakout, Trendline
+ and Stop Loss, Take Profit logic integrated
+ ●      ImprovTalk (Beta) IOS application to practice improvisation and communication skills
+
