@@ -1,7 +1,7 @@
 # refresh — full workflow
 
 Goal: `docs/portfolio-catalogue.{json,md}` and `docs/cv/` reflect what is on
-https://davitgadyan.github.io/portfolio_app/ *today*, while the curated wording for unchanged
+https://davitgadyan.github.io/portfolio/ *today*, while the curated wording for unchanged
 projects stays exactly as it was (so a CV polished last month and one polished today pull the
 same bullet for the same project).
 

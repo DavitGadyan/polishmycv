@@ -245,6 +245,17 @@ def score_project(p: dict, terms: dict[str, float], idf: dict[str, float]) -> tu
     return round(score, 1), [t for t, _ in top[:10]]
 
 
+#: Work David has asked never to be shown (unfinished): dropped even if a
+#: stale catalogue still lists it, so no CV can pick it up again.
+WITHHELD = ("s1mple", "s1mpleai")
+
+
+def withheld(project) -> bool:
+    import json as _json
+
+    return any(term in _json.dumps(project, ensure_ascii=False).lower() for term in WITHHELD)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--jd", required=True, help="job description text file, or '-' for stdin")
@@ -258,7 +269,9 @@ def main() -> int:
         from home import resolve  # sibling script
         args.catalogue = str(resolve() / "docs" / "portfolio-catalogue.json")
     cat = json.load(open(args.catalogue, encoding="utf-8"))
-    projects = cat["projects"]
+    projects = [p for p in cat["projects"] if not withheld(p)]
+    if len(projects) != len(cat["projects"]):
+        print(f"{len(cat['projects']) - len(projects)} withheld project(s) excluded — unfinished work is never shown.")
     terms = jd_terms(jd)
 
     # idf-ish: a term that appears in every project tells us nothing

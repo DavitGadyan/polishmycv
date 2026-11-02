@@ -2,7 +2,7 @@
 
 A Claude Code skill that tailors David Gadyan's CV to a specific job — the right portfolio
 projects, quantified bullets, one page, clickable links — and keeps the project catalogue it
-draws from in sync with [davitgadyan.github.io/portfolio_app](https://davitgadyan.github.io/portfolio_app/).
+draws from in sync with [davitgadyan.github.io/portfolio](https://davitgadyan.github.io/portfolio/).
 
 ```
 /polishmycv polish <job description | path/to/jd.txt | https://job-url>   [--cv <pdf|json>] [--out <dir>]

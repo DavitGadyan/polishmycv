@@ -4,7 +4,7 @@
 {
   "catalogue_version": "1.1",
   "generated": "YYYY-MM-DD",                 // set by build_catalogue.py
-  "source": "https://davitgadyan.github.io/portfolio_app/ (site content extracted from the published pages)",
+  "source": "https://davitgadyan.github.io/portfolio/ (site content extracted from the published pages)",
   "purpose": "…",
   "profile": { … },                          // see below
   "counts": {"projects": 37, "needs_curation": 0},

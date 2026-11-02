@@ -1,6 +1,6 @@
 ---
 name: polishmycv
-description: Tailor David Gadyan's CV to a specific job and keep his portfolio project catalogue fresh. Use `/polishmycv polish <job description | file | URL>` whenever David wants to apply for a role, tailor/adapt/customise/rewrite his CV or resume for a job, make it fit one page, make it more quantitative, or attach relevant portfolio projects to it — even if he just pastes a job post and says "make my CV fit this". Use `/polishmycv refresh` whenever he wants to update, sync, re-scrape or refresh the project catalogue / portfolio stats in docs/ from https://davitgadyan.github.io/portfolio_app/ or re-download his original CV. Also trigger for "which of my projects fit this job", "update docs from my portfolio", or any CV/resume work for David.
+description: Tailor David Gadyan's CV to a specific job and keep his portfolio project catalogue fresh. Use `/polishmycv polish <job description | file | URL>` whenever David wants to apply for a role, tailor/adapt/customise/rewrite his CV or resume for a job, make it fit one page, make it more quantitative, or attach relevant portfolio projects to it — even if he just pastes a job post and says "make my CV fit this". Use `/polishmycv refresh` whenever he wants to update, sync, re-scrape or refresh the project catalogue / portfolio stats in docs/ from https://davitgadyan.github.io/portfolio/ or re-download his original CV. Also trigger for "which of my projects fit this job", "update docs from my portfolio", or any CV/resume work for David.
 ---
 
 # polishmycv
@@ -96,6 +96,22 @@ session; it has the bullet formula, the selection rules and the fit loop in deta
 6. Write `notes.md` (requirement → evidence → strong/partial/gap; projects used with links;
    what changed vs the base CV; honest gaps to prepare for). Report paths + gaps to David.
 
+## polish for an Upwork proposal (no contact details) — David, 2026-10-23
+
+When the CV goes on an Upwork proposal (the job is an upwork.com link, or David says Upwork / "attach to
+the proposal"), Upwork forbids contact details before a contract. Reference version:
+https://davitgadyan.github.io/portfolio_app_upwork/CV_David_Gadyan_no_contact.pdf. Same steps as above, plus:
+
+- `cv.json` `contact` is `[]`: no email, phone, LinkedIn, Upwork URL or personal-site link.
+- Project title links point to `https://davitgadyan.github.io/portfolio_app_upwork/...` (the Upwork copy of
+  the site), never `.../portfolio_app/` (it shows the phone and LinkedIn). If unsure, drop the link.
+- Name the file `CV_David_Gadyan_no_contact_<Company>.pdf`.
+- Before handing it over: `pdftotext <pdf> - | grep -inE '@|\+?[0-9][0-9 ()-]{7,}|linkedin|wa\.me|t\.me|portfolio_app/'`
+  must print nothing.
+- David uploads it in Up Assistant (proposal → Files → Upload, then tick "When a post asks for a CV" for the
+  default one). Up Assistant attaches the ticked CV by itself when a post asks for a CV, and blocks submitting
+  a proposal on such a post without one.
+
 ## refresh — the short version
 
 Read `references/refresh-workflow.md` for the curation rules and `references/catalogue-schema.md`
@@ -121,5 +137,5 @@ for the field definitions. Use the scratchpad for intermediates (`S`). Outline:
 /polishmycv polish <job description | file | URL> [--cv <pdf|json>] [--out <dir>]
     Tailor the CV to the job: relevant projects + numbers, one page, PDF in output/.
 /polishmycv refresh
-    Re-scrape https://davitgadyan.github.io/portfolio_app/ into docs/ (catalogue + original CV).
+    Re-scrape https://davitgadyan.github.io/portfolio/ into docs/ (catalogue + original CV).
 ```

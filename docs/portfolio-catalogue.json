@@ -1,7 +1,7 @@
 {
   "catalogue_version": "1.1",
-  "generated": "2026-09-20",
-  "source": "https://davitgadyan.github.io/portfolio_app/ (site content extracted from the published pages)",
+  "generated": "2026-09-21",
+  "source": "https://davitgadyan.github.io/portfolio/ (site content extracted from the published pages)",
   "purpose": "Reference catalogue for tailoring David's CV to a job post and picking the most relevant portfolio projects to attach.",
   "profile": {
     "name": "David Gadyan",
@@ -118,8 +118,8 @@
       "Federico Rossi — Founder | Chilldays"
     ],
     "links": {
-      "portfolio": "https://davitgadyan.github.io/portfolio_app/",
-      "all_projects": "https://davitgadyan.github.io/portfolio_app/portfolio/",
+      "portfolio": "https://davitgadyan.github.io/portfolio/",
+      "all_projects": "https://davitgadyan.github.io/portfolio/portfolio/",
       "cv_pdf": "https://davitgadyan.github.io/portfolio_app/David_Gadyan_Resume4.pdf",
       "linkedin": "https://www.linkedin.com/in/davidgadyan/",
       "github": "https://github.com/DavitGadyan",
@@ -241,7 +241,7 @@
     ]
   },
   "counts": {
-    "projects": 37,
+    "projects": 35,
     "needs_curation": 0
   },
   "themes": [
@@ -260,7 +260,6 @@
   ],
   "index_by_theme": {
     "Classical ML & predictive modelling": [
-      "project-35",
       "project-30",
       "project-27",
       "project-26",
@@ -272,7 +271,6 @@
       "project-9"
     ],
     "Data apps, dashboards & visualisation": [
-      "project-33",
       "project-30",
       "project-29",
       "project-23",
@@ -305,15 +303,6 @@
       "project-3",
       "project-6"
     ],
-    "Agentic AI & LLM systems": [
-      "project-35",
-      "project-34",
-      "project-33",
-      "project-32",
-      "project-31",
-      "project-28",
-      "project-17"
-    ],
     "Computer vision": [
       "project-24",
       "project-21",
@@ -321,6 +310,13 @@
       "project-14",
       "project-3",
       "project-6"
+    ],
+    "Agentic AI & LLM systems": [
+      "project-34",
+      "project-32",
+      "project-31",
+      "project-28",
+      "project-17"
     ],
     "NLP & text analytics": [
       "project-27",
@@ -335,17 +331,16 @@
       "project-24",
       "project-21"
     ],
-    "Marketing analytics & growth": [
-      "project-38",
-      "project-36",
-      "project-35",
-      "project-13"
-    ],
     "Quantitative finance & trading": [
       "project-26",
       "project-12",
       "project-7",
       "project-2"
+    ],
+    "Marketing analytics & growth": [
+      "project-38",
+      "project-36",
+      "project-13"
     ],
     "RAG & document intelligence": [
       "project-31",
@@ -359,18 +354,17 @@
     ]
   },
   "index_by_industry": {
-    "Marketing / B2B services": [
-      "project-38",
-      "project-36",
-      "project-35",
-      "project-21",
-      "project-13"
-    ],
     "B2B / SME services": [
       "project-16",
       "project-19",
       "project-17",
       "project-1"
+    ],
+    "Marketing / B2B services": [
+      "project-38",
+      "project-36",
+      "project-21",
+      "project-13"
     ],
     "Finance & capital markets": [
       "project-26",
@@ -386,11 +380,6 @@
       "project-27",
       "project-4",
       "project-10"
-    ],
-    "SaaS": [
-      "project-35",
-      "project-33",
-      "project-32"
     ],
     "Automotive": [
       "project-11",
@@ -439,6 +428,9 @@
       "project-29"
     ],
     "Productivity": [
+      "project-32"
+    ],
+    "SaaS": [
       "project-32"
     ],
     "Social media": [
@@ -492,13 +484,6 @@
       "project-3",
       "project-6"
     ],
-    "Generative AI / agents": [
-      "project-35",
-      "project-34",
-      "project-33",
-      "project-32",
-      "project-28"
-    ],
     "API": [
       "project-28",
       "project-22",
@@ -522,10 +507,10 @@
       "project-12",
       "project-2"
     ],
-    "Full-stack": [
-      "project-35",
+    "Generative AI / agents": [
       "project-34",
-      "project-33"
+      "project-32",
+      "project-28"
     ],
     "API integration": [
       "project-13",
@@ -566,10 +551,6 @@
     "Recommender systems": [
       "project-25",
       "project-9"
-    ],
-    "Workflow automation": [
-      "project-33",
-      "project-32"
     ],
     "AI video": [
       "project-36"
@@ -619,6 +600,9 @@
     "Fixed income": [
       "project-26"
     ],
+    "Full-stack": [
+      "project-34"
+    ],
     "Generative AI / LLM": [
       "project-17"
     ],
@@ -643,9 +627,6 @@
     "Influencer marketing": [
       "project-21"
     ],
-    "Lead scoring & churn": [
-      "project-35"
-    ],
     "Legal & regulatory": [
       "project-31"
     ],
@@ -660,9 +641,6 @@
     ],
     "Machine learning / deep learning": [
       "project-8"
-    ],
-    "Marketing automation": [
-      "project-35"
     ],
     "Mobile / iOS": [
       "project-36"
@@ -708,6 +686,9 @@
     ],
     "Web performance": [
       "project-38"
+    ],
+    "Workflow automation": [
+      "project-32"
     ]
   },
   "index_by_skill": {
@@ -733,24 +714,16 @@
       "project-8",
       "project-9"
     ],
-    "LangChain": [
-      "project-35",
-      "project-34",
-      "project-33",
-      "project-31",
-      "project-28",
-      "project-22"
-    ],
     "Cloud deployment": [
       "project-19",
       "project-11",
       "project-7",
       "project-8"
     ],
-    "FastAPI": [
-      "project-38",
-      "project-35",
+    "LangChain": [
       "project-34",
+      "project-31",
+      "project-28",
       "project-22"
     ],
     "AWS EC2": [
@@ -762,6 +735,11 @@
       "project-34",
       "project-31",
       "project-3"
+    ],
+    "FastAPI": [
+      "project-38",
+      "project-34",
+      "project-22"
     ],
     "Scrapy": [
       "project-11",
@@ -799,21 +777,9 @@
       "project-23",
       "project-13"
     ],
-    "Kubernetes": [
-      "project-35",
-      "project-34"
-    ],
-    "MCP": [
-      "project-34",
-      "project-33"
-    ],
     "NLP": [
       "project-20",
       "project-14"
-    ],
-    "OpenAI GPT-4o": [
-      "project-33",
-      "project-32"
     ],
     "Plotly": [
       "project-26",
@@ -822,10 +788,6 @@
     "Plotly Dash": [
       "project-29",
       "project-13"
-    ],
-    "PostgreSQL": [
-      "project-38",
-      "project-35"
     ],
     "Prompt engineering": [
       "project-36",
@@ -838,10 +800,6 @@
     "Random Forest": [
       "project-27",
       "project-9"
-    ],
-    "React": [
-      "project-33",
-      "project-19"
     ],
     "SQLAlchemy": [
       "project-30",
@@ -871,9 +829,6 @@
     ],
     "Active-learning labelling": [
       "project-4"
-    ],
-    "Apify": [
-      "project-33"
     ],
     "Applied research": [
       "project-3"
@@ -1034,9 +989,6 @@
     "Gmail": [
       "project-32"
     ],
-    "Gmail API": [
-      "project-33"
-    ],
     "Google Ads": [
       "project-38"
     ],
@@ -1049,9 +1001,6 @@
     "Google Calendar": [
       "project-32"
     ],
-    "Google Calendar API": [
-      "project-33"
-    ],
     "Google Cloud Product Search API": [
       "project-18"
     ],
@@ -1063,9 +1012,6 @@
     ],
     "Google Tag Manager": [
       "project-38"
-    ],
-    "Google Trends": [
-      "project-33"
     ],
     "Google Trends API": [
       "project-2"
@@ -1081,9 +1027,6 @@
     ],
     "Higgsfield API": [
       "project-36"
-    ],
-    "HubSpot": [
-      "project-35"
     ],
     "HuggingFace": [
       "project-22"
@@ -1118,6 +1061,9 @@
     "Kling 2.6 Pro": [
       "project-36"
     ],
+    "Kubernetes": [
+      "project-34"
+    ],
     "LDA topic modelling": [
       "project-10"
     ],
@@ -1148,8 +1094,8 @@
     "Long-context processing": [
       "project-28"
     ],
-    "MCP servers": [
-      "project-35"
+    "MCP": [
+      "project-34"
     ],
     "ML model": [
       "project-19"
@@ -1187,32 +1133,23 @@
     "Model tuning": [
       "project-20"
     ],
-    "Monday": [
-      "project-35"
-    ],
-    "MongoDB": [
-      "project-35"
-    ],
     "Multi-agent workflows": [
       "project-28"
     ],
     "Multilingual NLP": [
       "project-22"
     ],
-    "MySQL": [
-      "project-35"
-    ],
     "Neural networks": [
       "project-9"
-    ],
-    "Next.js": [
-      "project-35"
     ],
     "OCR for scanned PDFs": [
       "project-31"
     ],
     "ONNX": [
       "project-3"
+    ],
+    "OpenAI GPT-4o": [
+      "project-32"
     ],
     "OpenAI GPT-o4": [
       "project-34"
@@ -1227,6 +1164,9 @@
       "project-31"
     ],
     "Playwright": [
+      "project-38"
+    ],
+    "PostgreSQL": [
       "project-38"
     ],
     "Pro forma / scenario modelling": [
@@ -1253,11 +1193,11 @@
     "REST API in R": [
       "project-23"
     ],
-    "REST over HTTPS": [
-      "project-33"
-    ],
     "Raspberry Pi 4": [
       "project-3"
+    ],
+    "React": [
+      "project-19"
     ],
     "Reddit data": [
       "project-2"
@@ -1300,9 +1240,6 @@
     ],
     "Stripe API": [
       "project-13"
-    ],
-    "Supabase": [
-      "project-35"
     ],
     "Technical SEO": [
       "project-38"
@@ -1355,9 +1292,6 @@
     "YOLO": [
       "project-14"
     ],
-    "Zoho": [
-      "project-35"
-    ],
     "dedupe (Python)": [
       "project-4"
     ],
@@ -1383,7 +1317,7 @@
       "title": "AI Marketing — Tracking, SEO & GEO/AEO",
       "site_title": "AI Marketing — Tracking, SEO & GEO/AEO",
       "date": "2026-08-29",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-38/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/ai-marketing-ga4-seo-geo/",
       "client": null,
       "listed": false,
       "summary": "Rebuilt the missing measurement layer for a business site so every enquiry is counted and traced back to the ad click that paid for it, plus technical SEO and AI-answer-engine readiness.",
@@ -1453,7 +1387,7 @@
       "title": "Generative AI: Video Ads",
       "site_title": "Gene rative AI: Video Ads",
       "date": "2026-08-20",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-36/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/ai-video-ads-improvtalk/",
       "client": null,
       "listed": true,
       "summary": "AI-generated video ad content to promote ImprovTalk, an iOS app for charisma and communication skills, targeted per customer segment and social platform.",
@@ -1505,67 +1439,11 @@
       "also_published_as": []
     },
     {
-      "id": "project-35",
-      "title": "AI Lead Scoring — S1mple.ai",
-      "site_title": "AI Lead Scoring — S1mple.ai",
-      "date": "2026-03-28",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-35/",
-      "client": null,
-      "listed": true,
-      "summary": "AI lead-scoring and churn-risk engine inside the S1mple.ai platform, so marketing spend concentrates on customers likely to convert again.",
-      "themes": [
-        "Agentic AI & LLM systems",
-        "Classical ML & predictive modelling",
-        "Marketing analytics & growth"
-      ],
-      "industries": [
-        "Marketing / B2B services",
-        "SaaS"
-      ],
-      "domains": [
-        "Generative AI / agents",
-        "Lead scoring & churn",
-        "Marketing automation",
-        "Full-stack"
-      ],
-      "skills": [
-        "Next.js",
-        "FastAPI",
-        "LangChain",
-        "MCP servers",
-        "HubSpot",
-        "Monday",
-        "Zoho",
-        "PostgreSQL",
-        "MySQL",
-        "Supabase",
-        "MongoDB",
-        "Kubernetes"
-      ],
-      "site_tags": [
-        "Generative Ai",
-        "Llm",
-        "Chat Gpt",
-        "N8n",
-        "Mcp"
-      ],
-      "role": "Designed and built the scoring engine, backend and dashboard",
-      "outcomes": [
-        "Scores leads by repeat-conversion likelihood and flags churn risk for targeted campaigns"
-      ],
-      "cv_bullet": "Built an AI lead-scoring and churn-detection engine (Next.js + FastAPI + LangChain, MCP server connectors into HubSpot/Monday/Zoho and Postgres/MySQL/Supabase/Mongo, Kubernetes-scaled) so marketing effort concentrates on high-conversion and at-risk accounts.",
-      "links": [],
-      "notes": [],
-      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/aileadscores.png",
-      "source_text": "Project goals were to build a AI Lead Score algorithm to detect customers who are more likely to convert again and ones at the risk of churn to concentrate marketing efforts with targeted high-impact campaings\n\n### Project Details\n\n🚀 Lead SCoring S1mple AI Engine that seamlessly connects with your custom data connectors ranging from , trading and other tools.Advanced AI Agent platform created by David G. Connects data, management tools, trading systems, and deploy powerful analytics for all your use cases at scale.\n\n### 💼 Capabilities\n\n- Lead Scroing using AI\n- Churn rate detection using AI\n\n### 🧠 Technologies Used\n\n- **Next.js** – frontend dashboard\n- **FastAPI** – backend\n- **LangChain** – AI Frameworks\n- **Hubspot Monday Zoho** – CRM systems\n- **Postgress MySQL Supabase Mongo** – databases\n- **MCPs** – MCP servers for AI Agentic system\n- **Kubernestess** – scaling and management of containers",
-      "also_published_as": []
-    },
-    {
       "id": "project-34",
       "title": "AI Health care — Virgil.ai",
       "site_title": "AI Health care — Virgil.ai",
       "date": "2026-02-03",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-34/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/virgil-ai-health-insurance-agent/",
       "client": null,
       "listed": true,
       "summary": "Virgil.ai — an agentic AI system that onboards US users and finds them the best health-insurance plan, automating medication price lookup and underwriting under HIPAA constraints.",
@@ -1618,66 +1496,11 @@
       "also_published_as": []
     },
     {
-      "id": "project-33",
-      "title": "S1mple.ai",
-      "site_title": "S1mple.ai",
-      "date": "2025-07-04",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-33/",
-      "client": null,
-      "listed": true,
-      "summary": "S1mple.ai — an agentic AI platform with custom tools and MCP support that connects a client's data, management and trading systems.",
-      "themes": [
-        "Agentic AI & LLM systems",
-        "Data apps, dashboards & visualisation"
-      ],
-      "industries": [
-        "SaaS"
-      ],
-      "domains": [
-        "Generative AI / agents",
-        "Workflow automation",
-        "Full-stack"
-      ],
-      "skills": [
-        "LangChain",
-        "OpenAI GPT-4o",
-        "MCP",
-        "React",
-        "Apify",
-        "Google Calendar API",
-        "Gmail API",
-        "Google Trends",
-        "REST over HTTPS"
-      ],
-      "site_tags": [
-        "Generative Ai",
-        "Llm",
-        "Chat Gpt",
-        "N8n"
-      ],
-      "role": "Product owner and builder (platform created by David G.)",
-      "outcomes": [
-        "Agent researches the web, manages calendar events, sends email and detects trending topics through custom tools",
-        "Video demo published"
-      ],
-      "cv_bullet": "Created S1mple.ai, an agentic AI platform (LangChain + GPT-4o backend, React frontend) with custom tools and MCP support that plugs into client data, management and trading systems — web research via Apify, calendar, Gmail and Google Trends actions.",
-      "links": [
-        {
-          "label": "Referenced",
-          "url": "https://youtu.be/qQK39qO-mBI?t=37"
-        }
-      ],
-      "notes": [],
-      "image": "https://davitgadyan.github.io/portfolio_app/images/portfolio/s1mpleai.png",
-      "source_text": "Project goals were to build a AI Agentic system with support of custom tools, MCP and complete customizations based on client needs.\n\n### Project Details\n\n🚀 S1mple AI that seamlessly connects with your custom data management, trading and other tools.Advanced AI Agent platform created by David G. Connects data, management tools, trading systems, and deploy powerful analytics for all your use cases at scale.\n\n### 💼 Capabilities\n\n- Research any topic from the Web. (Apify)\n- Create, update, and delete calendar events.\n- Send emails using Gmail.\n- Look for trending topics with Google Trends.\n\n### 🧠 Technologies Used\n\n- **Langchain** – Langchain Framework\n- **OpenAI GPT-4o** – Embedding and content generation\n- **Google Calendar** – For scheduling and event management\n- **Gmail** – For sending emails\n- **Google Trends** – For trends detection\n\n> ✅ Backend built with Langchain and custom tools, Frontend built React, data is stored and communicated with secure HTTPS endpoints. You can view video demo following link »> https://youtu.be/qQK39qO-mBI?t=37",
-      "also_published_as": []
-    },
-    {
       "id": "project-32",
       "title": "AI Assistant n8n",
       "site_title": "AI Assistant n8n",
       "date": "2025-06-01",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-32/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/n8n-ai-assistant/",
       "client": null,
       "listed": true,
       "summary": "Low-code AI assistant built in n8n that handles research, calendar, email, contact capture and social post generation.",
@@ -1729,7 +1552,7 @@
       "title": "AI Real Estate Analysis Program",
       "site_title": "AI Real Estate Analysis Program",
       "date": "2024-10-30",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-30/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/ai-real-estate-development-platform/",
       "client": "Jake Happe",
       "listed": true,
       "summary": "AI real-estate analysis platform that models new-construction scenarios per lot and ranks them by projected profit, ROI and time-to-sell.",
@@ -1780,7 +1603,7 @@
       "title": "Crypto Blockchain Analysis RAG",
       "site_title": "Crypto Blockchain Analysis RAG",
       "date": "2024-09-30",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-31/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/crypto-regulation-rag-chatbot/",
       "client": null,
       "listed": true,
       "summary": "RAG chatbot over 2024 blockchain and crypto regulation across jurisdictions, with inline source citations.",
@@ -1836,7 +1659,7 @@
       "title": "Data Visualization Expert",
       "site_title": "Data Visualization Expert",
       "date": "2024-08-15",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-29/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/animated-data-visualization-d3/",
       "client": "Alen Kojadinovic",
       "listed": true,
       "summary": "High-fidelity animated data visualisations and reports, including a bar-chart-race animation delivered as video and embeddable web components.",
@@ -1884,7 +1707,7 @@
       "title": "Classification of Industry of Firm",
       "site_title": "Classification of Industry of Firm",
       "date": "2024-08-08",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-27/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/industry-classification-bert/",
       "client": "Andrew Miles",
       "listed": true,
       "summary": "End-to-end pipeline that infers NAICS/SIC industry codes for unlabelled New York firms by registry matching plus a BERT classifier, with GPT-4 few-shot labelling to expand coverage.",
@@ -1937,7 +1760,7 @@
       "title": "Gemini LangGraph LLM Agent",
       "site_title": "Gemini LangGraph LLM Agent",
       "date": "2024-08-06",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-28/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/legal-document-review-langgraph-agent/",
       "client": "Alan Arnott",
       "listed": true,
       "summary": "Multi-agent document-review API for a law firm's due-diligence workflow, adding dynamic verification checks, external ABN/ACN validation and configurable recommendations.",
@@ -1992,7 +1815,7 @@
       "title": "Multilingual AI Text Generation System",
       "site_title": "Multilingual AI Text Generation System",
       "date": "2024-05-28",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-22/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/mistral-7b-fine-tuning-api/",
       "client": "Rostislav Pankratov",
       "listed": true,
       "summary": "Fine-tuned an open-source LLM to generate and paraphrase multilingual content that ChatGPT refuses, then served it as a REST API on rented GPUs.",
@@ -2055,7 +1878,7 @@
       "title": "Quant / Python / PCA Analysis",
       "site_title": "Quant / Python / PCA Analysis",
       "date": "2024-04-29",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-26/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/yield-curve-pca-quant-pipeline/",
       "client": "Jonathan Cooper",
       "listed": true,
       "summary": "Python pipeline applying PCA to yield-curve data by sector, flagging cheap or expensive sectors from reconstruction residuals.",
@@ -2106,7 +1929,7 @@
       "title": "Data Science Consulting & Review",
       "site_title": "Data Science Consulting & Review",
       "date": "2024-04-09",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-25/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/recommender-api-gcp-chilldays/",
       "client": "Federico Rossi",
       "listed": true,
       "summary": "Consulting and technical lead for a team of AI engineers building a hybrid recommender for a leisure app (restaurants, beach parties, night clubs).",
@@ -2161,7 +1984,7 @@
       "title": "Expert Needed for AI-Generated Recreation of Billboard Publicity Image",
       "site_title": "Expert Needed for AI-Generated Recreation of Billboard Publicity Image",
       "date": "2024-04-03",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-24/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/billboard-recreation-stable-diffusion/",
       "client": "Leonardo Santamaria",
       "listed": true,
       "summary": "Pipeline that detects a billboard in a photo, extracts it, upscales it and regenerates its content with Stable Diffusion.",
@@ -2208,7 +2031,7 @@
       "title": "Data Expert with R",
       "site_title": "Data Expert with R",
       "date": "2024-03-07",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-23/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/r-rest-api-medical-kpis/",
       "client": "Andrea Graziano",
       "listed": true,
       "summary": "R REST API and interactive Plotly graphs integrated into a Vue.js medical expert-testing application, calculating KPIs for CTE medical image experts.",
@@ -2256,7 +2079,7 @@
       "title": "AI Models (Aitana Lopez)",
       "site_title": "AI Models (Aitana Lopez)",
       "date": "2024-02-12",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-21/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/ai-persona-stable-diffusion/",
       "client": "W Krogmann",
       "listed": true,
       "summary": "Built a photoreal AI persona (in the style of Aitana Lopez) with a fine-tuned Stable Diffusion pipeline producing daily social content.",
@@ -2304,7 +2127,7 @@
       "title": "Data Analysis of Resumes",
       "site_title": "Data Analysis of Resumes",
       "date": "2023-12-31",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-20/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/resume-analysis-nlp/",
       "client": "Alejandra Leibovich",
       "listed": true,
       "summary": "NLP and LLM analysis comparing two sets of CVs to surface non-obvious differences between high- and low-value prospect candidates.",
@@ -2354,7 +2177,7 @@
       "title": "Build a Google Vision AI System",
       "site_title": "Build a Google Vision AI System",
       "date": "2023-11-03",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-18/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/visual-product-search-google-vision/",
       "client": "Josh Armstrong",
       "listed": true,
       "summary": "Visual product-similarity service using Google Cloud Product Search to find clothing items matching a user-supplied image.",
@@ -2398,7 +2221,7 @@
       "title": "Deploying ML with Python Dash",
       "site_title": "Deploying ML with Python Dash",
       "date": "2023-11-03",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-16/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/dash-app-deployment-aws/",
       "client": "Jacqueline McShan",
       "listed": true,
       "summary": "Deployed a Dash Plotly ML application to AWS with a custom domain.",
@@ -2447,7 +2270,7 @@
       "title": "Need to develop matching AI powered web app platform",
       "site_title": "Need to develop matching AI powered web app platform",
       "date": "2023-07-15",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-19/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/sme-synergy-matching-platform/",
       "client": "Rania Kabbara",
       "listed": true,
       "summary": "AI-powered web platform that calculates synergy scores for SMEs, built in React and deployed to Vercel.",
@@ -2497,7 +2320,7 @@
       "title": "Summarize & extracting information from websites using CHAT GPT",
       "site_title": "Summarize & extracting information from websites using CHAT GPT",
       "date": "2023-07-03",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-17/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/chatgpt-website-summarizer/",
       "client": "Blake Schindler",
       "listed": true,
       "summary": "Web app that takes a URL, scrapes the page and returns a ChatGPT summary of client-specified key details as a downloadable Excel table.",
@@ -2542,7 +2365,7 @@
       "title": "KPI Analysis",
       "site_title": "KPI Analysis",
       "date": "2021-10-12",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-13/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/marketing-kpi-dashboard-dash/",
       "client": "Felix Forsgren",
       "listed": true,
       "summary": "End-to-end KPI programme for a marketing-heavy business: defining KPIs, sourcing the data from ad and payment APIs, then an interactive Dash app to explore them.",
@@ -2593,7 +2416,7 @@
       "title": "Document OCR & data extraction",
       "site_title": "Document OCR & data extraction",
       "date": "2021-09-29",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-14/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/document-ocr-extraction-api/",
       "client": "Shayan Nafisi",
       "listed": true,
       "summary": "Document OCR and field extraction for driver licences and insurance cards, replacing manual data entry in a healthcare booking platform.",
@@ -2643,7 +2466,7 @@
       "title": "Automated Valution model & Real Estate Bot",
       "site_title": "Automated Valution model & Real Estate Bot",
       "date": "2021-07-07",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-15/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/automated-valuation-model-real-estate/",
       "client": "Chris Ambas",
       "listed": true,
       "summary": "Automated Valuation Model and broker bot for the Australian real-estate market, from data collection through to a profit-maximising evaluation algorithm.",
@@ -2695,7 +2518,7 @@
       "title": "Entity Resolution",
       "site_title": "Entity Resolution",
       "date": "2021-06-30",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-4/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/entity-resolution-deduplication/",
       "client": "Dave Imrem",
       "listed": true,
       "summary": "Entity resolution to deduplicate records referring to the same real-world entity across and within client datasets.",
@@ -2742,7 +2565,7 @@
       "title": "Scrapy + BigQuery + Cloud",
       "site_title": "Scrapy + BigQuery + Cloud",
       "date": "2021-06-09",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-11/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/scrapy-bigquery-pipeline/",
       "client": "Josh",
       "listed": true,
       "summary": "Scrapy pipeline for damaged-car listings from a site without API support, reading input URLs from BigQuery and writing results back to BigQuery tables.",
@@ -2785,7 +2608,7 @@
       "title": "Scrapy + AWS EC2 + S3",
       "site_title": "Scrapy + AWS EC2 + S3",
       "date": "2021-04-19",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-5/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/large-scale-web-scraping-aws/",
       "client": "Cary Sparrow",
       "listed": true,
       "summary": "Large-scale Scrapy crawler collecting millions of Indeed pages into structured S3 storage on a schedule.",
@@ -2830,7 +2653,7 @@
       "title": "Computer Vision | IOT",
       "site_title": "Computer Vision | IOT",
       "date": "2021-04-19",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-3/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/driver-fatigue-detection-edge-ai/",
       "client": "Private",
       "listed": true,
       "summary": "Driver-fatigue detection from video, running on-device on Raspberry Pi 4 / Jetson Nano with real-time alarms.",
@@ -2887,7 +2710,7 @@
       "title": "Stock Analysis",
       "site_title": "Stock Analysis",
       "date": "2021-03-29",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-12/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/stock-ticker-hypothesis-testing/",
       "client": "Yisroel Weisz",
       "listed": true,
       "summary": "Statistical test of a client hypothesis about price co-movement between similarly named stock tickers.",
@@ -2926,7 +2749,7 @@
       "title": "Algorithmic Trading in Python",
       "site_title": "Algorithmic Trading in Python",
       "date": "2021-03-02",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-7/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/crypto-trading-bot-python/",
       "client": "Dale Hefferman",
       "listed": true,
       "summary": "Crypto trading bot exploiting lag on a smaller exchange, plus a bot executing signals from a custom TradingView strategy.",
@@ -2972,7 +2795,7 @@
       "title": "LDA and LIWC Analysis of Tweets",
       "site_title": "LDA and LIWC Analysis of Tweets",
       "date": "2021-01-27",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-10/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/lda-liwc-tweet-analysis/",
       "client": "Hamad S.",
       "listed": true,
       "summary": "LDA topic modelling and LIWC psycholinguistic analysis of Trump's Covid-era tweets.",
@@ -3018,7 +2841,7 @@
       "title": "Stock Trend & Sentiment Analysis",
       "site_title": "Stock Trend & Sentiment Analysis",
       "date": "2020-12-04",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-2/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/stock-trend-sentiment-dashboard/",
       "client": "Equeum (fka Machina Software)",
       "listed": true,
       "summary": "Web UI analysing trending stocks against search-trend and sentiment signals, including Reddit sentiment around the GameStop episode.",
@@ -3065,7 +2888,7 @@
       "title": "Image Background Removal",
       "site_title": "Image Background Removal",
       "date": "2020-12-03",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-6/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/image-background-removal-unet-aws/",
       "client": "Rashed Buqaraa",
       "listed": true,
       "summary": "U-Net background removal for apparel images, deployed as a service on AWS.",
@@ -3114,7 +2937,7 @@
       "title": "Python Cluster Analysis App",
       "site_title": "Python Cluster Analysis App",
       "date": "2020-05-25",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-1/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/cluster-analysis-web-app/",
       "client": "Reuben Vandeventer",
       "listed": true,
       "summary": "No-code clustering workbench: upload a dataset, pick dimensions and an algorithm, explore an interactive D3 network graph and export enriched results.",
@@ -3175,7 +2998,7 @@
       "title": "AI powered Scrapy bot",
       "site_title": "AI powered Scrapy bot",
       "date": "2019-12-30",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-8/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/ai-web-scraper-lstm/",
       "client": "Robin Tar",
       "listed": true,
       "summary": "Scrapy bot that extracts company and employee data from thousands of structurally different websites by using an LSTM model to locate the right HTML tags.",
@@ -3222,7 +3045,7 @@
       "title": "Recommender System",
       "site_title": "Recommender System",
       "date": "2019-02-10",
-      "url": "https://davitgadyan.github.io/portfolio_app/portfolio/project-9/",
+      "url": "https://davitgadyan.github.io/portfolio/portfolio/hybrid-recommender-system-matchmaking/",
       "client": "Rafi Newman",
       "listed": true,
       "summary": "Hybrid three-layer recommender system for a matchmaking website, combining client rules, collaborative filtering and an ML ensemble.",

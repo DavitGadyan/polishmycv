@@ -31,7 +31,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-DEFAULT_BASE = "https://davitgadyan.github.io/portfolio_app/"
+DEFAULT_BASE = "https://davitgadyan.github.io/portfolio/"
 UA = {"User-Agent": "polishmycv-refresh/1.0 (+https://github.com/DavitGadyan)"}
 MONTHS = {m: i for i, m in enumerate(
     ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
