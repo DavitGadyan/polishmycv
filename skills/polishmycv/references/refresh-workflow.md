@@ -1,7 +1,7 @@
 # refresh — full workflow
 
 Goal: `docs/portfolio-catalogue.{json,md}` and `docs/cv/` reflect what is on
-https://davitgadyan.github.io/portfolio/ *today*, while the curated wording for unchanged
+https://davidgadyan.com/ *today*, while the curated wording for unchanged
 projects stays exactly as it was (so a CV polished last month and one polished today pull the
 same bullet for the same project).
 
@@ -108,9 +108,9 @@ python3 $K/build_catalogue.py --catalogue docs/portfolio-catalogue.json --raw $S
 shasum -a 256 $S/cv.pdf   # compare with docs/cv/base-cv.json → source_pdf_sha256
 ```
 Different hash →
-1. `cp $S/cv.pdf docs/cv/David_Gadyan_Resume4.pdf` and `pdftotext -layout` it to
-   `docs/cv/David_Gadyan_Resume4.txt`.
-2. `pdfimages -png docs/cv/David_Gadyan_Resume4.pdf $S/img` → if a ~square image came out,
+1. `cp $S/cv.pdf docs/cv/David_Gadyan_Resume.pdf` and `pdftotext -layout` it to
+   `docs/cv/David_Gadyan_Resume.txt`.
+2. `pdfimages -png docs/cv/David_Gadyan_Resume.pdf $S/img` → if a ~square image came out,
    copy it to `docs/cv/headshot.png`.
 3. Re-transcribe `docs/cv/base-cv.json` from the new text (same schema; keep facts verbatim,
    fix nothing), set `source_pdf_sha256` to the new hash.

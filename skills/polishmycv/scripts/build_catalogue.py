@@ -339,7 +339,7 @@ def main() -> int:
     out["generated"] = dt.date.today().isoformat()
     out["source"] = (raw or cat).get("source") or cat.get("source") or ""
     if not out["source"].startswith("http"):
-        out["source"] = "https://davitgadyan.github.io/portfolio/"
+        out["source"] = "https://davidgadyan.com/"
     out["source"] = out["source"].split(" ")[0] + " (site content extracted from the published pages)"
     out["purpose"] = cat.get("purpose") or ("Reference catalogue for tailoring David's CV to a job post and picking "
                                              "the most relevant portfolio projects to attach.")

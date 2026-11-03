@@ -4,7 +4,7 @@
 {
   "catalogue_version": "1.1",
   "generated": "YYYY-MM-DD",                 // set by build_catalogue.py
-  "source": "https://davitgadyan.github.io/portfolio/ (site content extracted from the published pages)",
+  "source": "https://davidgadyan.com/ (site content extracted from the published pages)",
   "purpose": "…",
   "profile": { … },                          // see below
   "counts": {"projects": 37, "needs_curation": 0},
@@ -98,7 +98,7 @@ A JSON list. Each object has `id` plus any curated fields to set; `"drop": true`
     "cv_bullet": "Built … cutting … from 3 days to 20 minutes.",
     "links": [{"label": "Referenced", "url": "https://github.com/…"}],
     "notes": [],
-    "also_published_as": ["https://davitgadyan.github.io/portfolio_app/portfolio/project-40/"]
+    "also_published_as": ["https://davidgadyan.com/portfolio/<duplicate-slug>/"]
   },
   {"id": "project-40", "drop": true}
 ]

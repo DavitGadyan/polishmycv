@@ -31,7 +31,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-DEFAULT_BASE = "https://davitgadyan.github.io/portfolio/"
+DEFAULT_BASE = "https://davidgadyan.com/"
 UA = {"User-Agent": "polishmycv-refresh/1.0 (+https://github.com/DavitGadyan)"}
 MONTHS = {m: i for i, m in enumerate(
     ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
@@ -450,7 +450,7 @@ def main() -> int:
     log(f"wrote {args.out} ({len(projects)} projects)", args.quiet)
 
     if args.cv_out:
-        cv_url = site_profile["links"].get("cv_pdf") or urljoin(base, "David_Gadyan_Resume4.pdf")
+        cv_url = site_profile["links"].get("cv_pdf") or urljoin(base, "David_Gadyan_Resume.pdf")
         r = get(cv_url)
         if r and r.content[:4] == b"%PDF":
             with open(args.cv_out, "wb") as f:

@@ -2,7 +2,7 @@
 
 A Claude Code skill that tailors David Gadyan's CV to a specific job — the right portfolio
 projects, quantified bullets, one page, clickable links — and keeps the project catalogue it
-draws from in sync with [davitgadyan.github.io/portfolio](https://davitgadyan.github.io/portfolio/).
+draws from in sync with [davidgadyan.com](https://davidgadyan.com/).
 
 ```
 /polishmycv polish <job description | path/to/jd.txt | https://job-url>   [--cv <pdf|json>] [--out <dir>]
@@ -11,7 +11,7 @@ draws from in sync with [davitgadyan.github.io/portfolio](https://davitgadyan.gi
 
 | Command | What it does |
 |---|---|
-| `polish` | Reads the job post, ranks the 37+ catalogued projects against it, picks the 3–6 that prove the must-haves, rewrites the CV around them (every number sourced from the portfolio or the original CV), renders a one-page PDF with the headshot and links, and writes a `notes.md` with requirement → evidence → gaps. Output lands in `output/<date>-<company>-<role>/`. |
+| `polish` | First syncs the vector index of every project on [davidgadyan.com](https://davidgadyan.com/#portfolio) (reindexes only when the project count or list changed), then reads the job post, ranks all live projects against it by semantic similarity, picks the 3–6 that prove the must-haves, rewrites the CV around them (every number sourced from the portfolio or the original CV), renders a one-page PDF with the headshot and links, and writes a `notes.md` with requirement → evidence → gaps. Output lands in `output/<date>-<company>-<role>/`. |
 | `refresh` | Scrapes the portfolio site (RSS + sitemap + every project page + home-page counters and testimonials), diffs it against `docs/portfolio-catalogue.json`, has Claude curate only the new/changed projects (summary, themes, outcomes, CV bullet), rebuilds both catalogue files and re-downloads the original CV PDF. Unchanged projects keep their curated wording. |
 
 ## Installation
@@ -27,7 +27,7 @@ cd ~/Desktop/Github/polishmycv
 mkdir -p ~/.claude/skills
 ln -sfn "$(pwd)/skills/polishmycv" ~/.claude/skills/polishmycv
 
-pip install -r skills/polishmycv/requirements.txt      # requests, beautifulsoup4, lxml, jinja2, markupsafe, pypdf
+pip install -r skills/polishmycv/requirements.txt      # scraping, rendering + numpy/torch/transformers for the vector index
 brew install poppler                                   # pdftotext / pdftoppm / pdfimages (macOS; apt: poppler-utils)
 ```
 
@@ -45,14 +45,52 @@ instead; it then only loads inside that repo.
 Prefer a copy over a symlink? `cp -R skills/polishmycv ~/.claude/skills/polishmycv` works too, and
 `POLISHMYCV_HOME=/path/to/this/repo` in your shell profile tells it where `docs/` is.
 
+## Reinstalling / updating the skill on your Mac
+
+The installed skill is a symlink into this repo, so updating it is just a pull. Do this whenever
+the skill changed on GitHub, or after moving or re-cloning the repo:
+
+```bash
+cd ~/Desktop/Github/polishmycv            # wherever the repo lives on the Mac
+git pull                                  # get the latest skill + docs/site-index
+
+# (re)create the global symlink; safe to run again, -n replaces an old link
+mkdir -p ~/.claude/skills
+rm -rf ~/.claude/skills/polishmycv        # removes an old copy or a broken link (not the repo)
+ln -sfn "$(pwd)/skills/polishmycv" ~/.claude/skills/polishmycv
+ls -l ~/.claude/skills/polishmycv         # should show: polishmycv -> …/polishmycv/skills/polishmycv
+
+# dependencies (new ones get added to requirements.txt over time)
+python3 -m pip install -r skills/polishmycv/requirements.txt
+brew install poppler                      # once
+
+# check it works
+python3 ~/.claude/skills/polishmycv/scripts/home.py --check
+python3 ~/.claude/skills/polishmycv/scripts/site_index.py check   # site vs index project count
+```
+
+Then **start a new Claude Code session** (skills load at session start) and type `/polishmycv`.
+
+Notes:
+- If you installed by copying (`cp -R`) instead of symlinking, re-copy after every pull, or switch
+  to the symlink above so pulls apply automatically.
+- On Apple Silicon `pip install torch` installs the native arm64 build; the first `site_index.py
+  ensure` downloads the embedding model (~130 MB) from HuggingFace, after that it runs offline.
+- `pip` refusing with "externally-managed-environment" (Homebrew Python): use
+  `python3 -m pip install --user -r …`, or a venv: `python3 -m venv ~/.venvs/polishmycv &&
+  ~/.venvs/polishmycv/bin/pip install -r skills/polishmycv/requirements.txt`, and run the scripts
+  with that venv's `python3`.
+
 ## Repository layout
 
 ```
 docs/
   portfolio-catalogue.json    curated catalogue of portfolio projects + profile stats (source of truth for polish)
   portfolio-catalogue.md      the same, readable, with indexes by theme / industry / skill  (generated)
+  site-index/                 vector index of every live project on davidgadyan.com: meta.json (count, slugs),
+                              projects.json (page text), chunks.json, embeddings.npy  (site_index.py)
   cv/
-    David_Gadyan_Resume4.pdf  original CV as published on the site (+ .txt extraction)
+    David_Gadyan_Resume.pdf  original CV as published on the site (+ .txt extraction)
     base-cv.json              structured transcription of it — the default reference polish starts from
     headshot.png              photo extracted from the PDF, embedded in every tailored CV
 output/
@@ -60,17 +98,21 @@ output/
 skills/polishmycv/
   SKILL.md                    the skill (what Claude reads)
   references/                 polish-workflow.md · refresh-workflow.md · catalogue-schema.md
-  scripts/                    fetch_portfolio · diff_catalogue · build_catalogue · select_projects · render_cv · home
+  scripts/                    site_index · vector_rank · fetch_portfolio · diff_catalogue · build_catalogue · select_projects · render_cv · home
   assets/cv-template.html     HTML/CSS template that mirrors the original CV layout
   requirements.txt
 ```
 
 ## How a tailored CV is built
 
-1. The JD is saved verbatim; role, must-haves, nice-to-haves and vocabulary are extracted.
-2. `select_projects.py` scores every catalogue project (keyword overlap weighted by field, recency,
-   whether outcomes already carry numbers) and prints the JD terms that have **no** evidence — those
-   are never claimed.
+0. `site_index.py ensure` reads the project count on https://davidgadyan.com/#portfolio and the
+   sitemap's project list. If either differs from `docs/site-index/meta.json`, every project page is
+   re-scraped, chunked and embedded (BAAI/bge-small-en-v1.5), and new/removed projects are reported.
+1. The JD is saved verbatim; role, must-haves, nice-to-haves and vocabulary are extracted, plus an
+   English one-requirement-per-line version (`jd_en.txt`).
+2. `vector_rank.py --index docs/site-index` scores every project by semantic similarity to each
+   requirement (coverage + peak) and shows the best project per requirement. `select_projects.py`
+   (keyword) is a secondary check that lists the JD terms with **no** evidence, which are never claimed.
 3. Claude writes `cv.json`: headline mirrors the JD title, a two-line summary, one scope bullet with
    the platform stats (8 years, 180+ projects, 50+ long-term clients, top 1%, 8,700+ hours), one
    linked bullet per chosen project (`**[Title](portfolio url)** — verb + what/tech + outcome with

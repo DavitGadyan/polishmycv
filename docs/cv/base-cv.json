@@ -1,6 +1,6 @@
 {
-  "_about": "Structured transcription of docs/cv/David_Gadyan_Resume4.pdf (the original CV published on the portfolio site). `/polishmycv polish` starts from this file; `/polishmycv refresh` re-downloads the PDF and flags this file if the PDF text changed. Inline **bold** and [text](url) are allowed in strings.",
-  "source_pdf": "docs/cv/David_Gadyan_Resume4.pdf",
+  "_about": "Structured transcription of docs/cv/David_Gadyan_Resume.pdf (the original CV published on the portfolio site). `/polishmycv polish` starts from this file; `/polishmycv refresh` re-downloads the PDF and flags this file if the PDF text changed. Inline **bold** and [text](url) are allowed in strings.",
+  "source_pdf": "docs/cv/David_Gadyan_Resume.pdf",
   "source_pdf_sha256": "d3f0045508feaa6e91f9ad87ade7576a9dfb24d667120839c10c9324a86fd9a0",
   "name": "David Gadyan",
   "headline": "Data Scientist | AI Architect | AI SAAS Engineer | Generative AI Dev | Full Stack",
@@ -25,8 +25,8 @@
     },
     {
       "label": "Portfolio",
-      "text": "davitgadyan.github.io/portfolio",
-      "url": "https://davitgadyan.github.io/portfolio/",
+      "text": "davidgadyan.com",
+      "url": "https://davidgadyan.com/",
       "underline": true
     }
   ],

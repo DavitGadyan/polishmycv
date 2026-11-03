@@ -42,12 +42,19 @@ Write this down (it goes into `notes.md` later):
 
 ## 2. Shortlist projects
 
+Primary: semantic vector ranking over the **live** site (https://davidgadyan.com/).
+
 ```
+python3 $K/site_index.py ensure      # 1. reindex only if the #portfolio count or sitemap slugs changed
+# 2. jd_en.txt = one English requirement per line (translate French/Spanish JDs; the model is English-only)
+python3 $K/vector_rank.py --index $H/docs/site-index --jd <OUT>/jd_en.txt --top 20 --json <OUT>/ranking_vector.json
+# 3. secondary keyword check
 python3 $K/select_projects.py --jd <OUT>/jd.txt --top 12 --json <OUT>/ranking.json
 ```
 
-Read the "recognised" and "NO project evidence" lines first — the second list is what you must
-not claim. Then choose **3–6 projects** (4–5 is the usual sweet spot for one page):
+Pick from the vector top ranks. For data science / ML / analytics roles, lead with data science
+and ML projects, not AI Marketing (GA4/SEO) work (David, 2026-11-03). Links must be the site's slug
+URLs. In the keyword output, the "NO project evidence" list is what you must not claim. Then choose **3–6 projects** (4–5 is the usual sweet spot for one page):
 
 1. Cover every must-have that David has evidence for; one strong project per must-have beats
    three weak ones.
@@ -55,8 +62,8 @@ not claim. Then choose **3–6 projects** (4–5 is the usual sweet spot for one
 3. Prefer recent (2024+) over old, unless an old one is the only evidence for a must-have.
 4. Diversity: don't spend three bullets on the same theme; industry match is a tie-breaker,
    not a requirement.
-5. Read the chosen entries in full in the catalogue (`summary`, `outcomes`, `cv_bullet`,
-   `source_text`) — the numbers and the exact tools live there.
+5. Read the chosen project pages in full (scraped `text`, or catalogue `outcomes`/`source_text`):
+   the numbers and the exact tools live there.
 
 ## 3. Write `cv.json`
 
@@ -108,9 +115,9 @@ must-haves, each with a number, in JD vocabulary. Example for an LLM/healthcare 
   **[Project title](portfolio url)** — <verb> <what you built, naming the JD's tools> <, so/which> <outcome with the number>.
   ```
   Examples (all numbers from the catalogue):
-  - `**[Virgil.ai — AI health-insurance assistant](https://…/project-34/)** — Built the agentic backend (LangChain + FastAPI + GPT, MCP tools, Docker/Kubernetes on AWS) that automates plan selection, medication-coverage lookup and underwriting under HIPAA controls, cutting underwriting from days to minutes.`
-  - `**[Document OCR & data extraction](https://…/project-14/)** — Replaced manual entry of driver licences and insurance cards at a healthcare booking platform with an AWS Textract + regex REST API after benchmarking YOLO/NLP alternatives; per-image latency ~10 s → under 5 s.`
-  - `**[Crypto regulation RAG assistant](https://…/project-31/)** — Shipped a LangChain + GPT-4 + Pinecone RAG chatbot over multi-jurisdiction regulation with OCR ingestion of scanned PDFs, sub-second retrieval and inline citations, delivered with Docker config and deployment scripts.`
+  - `**[Virgil.ai — AI health-insurance assistant](https://davidgadyan.com/portfolio/virgil-ai-health-insurance-agent/)** — Built the agentic backend (LangChain + FastAPI + GPT, MCP tools, Docker/Kubernetes on AWS) that automates plan selection, medication-coverage lookup and underwriting under HIPAA controls, cutting underwriting from days to minutes.`
+  - `**[Document OCR & data extraction](https://davidgadyan.com/portfolio/document-ocr-extraction-api/)** — Replaced manual entry of driver licences and insurance cards at a healthcare booking platform with an AWS Textract + regex REST API after benchmarking YOLO/NLP alternatives; per-image latency ~10 s → under 5 s.`
+  - `**[Crypto regulation RAG assistant](https://davidgadyan.com/portfolio/crypto-regulation-rag-chatbot/)** — Shipped a LangChain + GPT-4 + Pinecone RAG chatbot over multi-jurisdiction regulation with OCR ingestion of scanned PDFs, sub-second retrieval and inline citations, delivered with Docker config and deployment scripts.`
 
   Rules for these bullets:
   - Start with the linked bold title, then a past-tense verb (Built, Shipped, Architected,

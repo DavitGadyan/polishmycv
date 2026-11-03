@@ -1,0 +1,291 @@
+{
+ "site": "https://davidgadyan.com/",
+ "count": 40,
+ "slugs": [
+  "ai-lead-scoring-churn-crm",
+  "ai-marketing-ga4-seo-geo",
+  "ai-persona-stable-diffusion",
+  "ai-real-estate-development-platform",
+  "ai-trading-assistant-strategy-copilot",
+  "ai-video-ads-improvtalk",
+  "ai-voice-receptionist-saas",
+  "ai-web-scraper-lstm",
+  "animated-data-visualization-d3",
+  "automated-valuation-model-real-estate",
+  "billboard-recreation-stable-diffusion",
+  "chatgpt-website-summarizer",
+  "cluster-analysis-web-app",
+  "computer-vision-yolo26-demos",
+  "crypto-regulation-rag-chatbot",
+  "crypto-trading-bot-python",
+  "dash-app-deployment-aws",
+  "document-ocr-extraction-api",
+  "driver-fatigue-detection-edge-ai",
+  "entity-resolution-deduplication",
+  "hubaiops-hubspot-ai-readiness-audit",
+  "hybrid-recommender-system-matchmaking",
+  "image-background-removal-unet-aws",
+  "industry-classification-bert",
+  "large-scale-web-scraping-aws",
+  "lda-liwc-tweet-analysis",
+  "legal-document-review-langgraph-agent",
+  "marketing-kpi-dashboard-dash",
+  "mistral-7b-fine-tuning-api",
+  "n8n-ai-assistant",
+  "r-rest-api-medical-kpis",
+  "recommender-api-gcp-chilldays",
+  "resume-analysis-nlp",
+  "scrapy-bigquery-pipeline",
+  "sme-synergy-matching-platform",
+  "stock-ticker-hypothesis-testing",
+  "stock-trend-sentiment-dashboard",
+  "virgil-ai-health-insurance-agent",
+  "visual-product-search-google-vision",
+  "yield-curve-pca-quant-pipeline"
+ ],
+ "built": "2026-11-03T14:04:26",
+ "model": "BAAI/bge-small-en-v1.5",
+ "n_chunks": 293,
+ "projects": [
+  {
+   "slug": "hubaiops-hubspot-ai-readiness-audit",
+   "title": "HubAIOps: HubSpot AI-Readiness Audit App with Claude-Written Plans",
+   "date": "2026-11-02",
+   "updated": "2026-11-02"
+  },
+  {
+   "slug": "computer-vision-yolo26-demos",
+   "title": "Computer Vision with YOLO26/27: Three Edge-Ready Demos",
+   "date": "2026-10-31",
+   "updated": "2026-10-31"
+  },
+  {
+   "slug": "ai-voice-receptionist-saas",
+   "title": "Receptra: AI Voice Receptionist SaaS for Small Businesses",
+   "date": "2026-10-23",
+   "updated": "2026-10-31"
+  },
+  {
+   "slug": "ai-trading-assistant-strategy-copilot",
+   "title": "AI Trading Assistant: a Copilot That Holds You to Your Own Strategy",
+   "date": "2026-10-12",
+   "updated": "2026-11-01"
+  },
+  {
+   "slug": "ai-video-ads-improvtalk",
+   "title": "ImprovTalk: React Native AI Coach for Charisma and Rapport",
+   "date": "2026-09-07",
+   "updated": "2026-10-31"
+  },
+  {
+   "slug": "ai-marketing-ga4-seo-geo",
+   "title": "AI Marketing: GA4, Ads, SEO & GEO/AEO",
+   "date": "2026-08-29",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "ai-lead-scoring-churn-crm",
+   "title": "AI Lead Scoring & Churn Detection Engine (S1mple.ai)",
+   "date": "2026-03-28",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "virgil-ai-health-insurance-agent",
+   "title": "Virgil.ai: Agentic Health-Insurance Assistant",
+   "date": "2026-02-03",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "n8n-ai-assistant",
+   "title": "AI Productivity Assistant in n8n | AI & Agents",
+   "date": "2025-06-01",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "ai-real-estate-development-platform",
+   "title": "AI Real Estate Lot Analysis Platform for a Residential Builder",
+   "date": "2024-10-30",
+   "updated": "2026-10-31"
+  },
+  {
+   "slug": "crypto-regulation-rag-chatbot",
+   "title": "Crypto Regulation RAG Chatbot (GPT-4 + Pinecone)",
+   "date": "2024-09-30",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "animated-data-visualization-d3",
+   "title": "Animated Data Visualisation (D3.js Race Charts)",
+   "date": "2024-08-15",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "industry-classification-bert",
+   "title": "Industry Classification of Firms (BERT + GPT-4 Labelling)",
+   "date": "2024-08-08",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "legal-document-review-langgraph-agent",
+   "title": "Legal Document Review Agent (Gemini + LangGraph)",
+   "date": "2024-08-06",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "mistral-7b-fine-tuning-api",
+   "title": "Multilingual Text Generation: Mistral 7B Fine-Tuning & API",
+   "date": "2024-05-28",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "yield-curve-pca-quant-pipeline",
+   "title": "Yield-Curve PCA Quant Pipeline (Bloomberg)",
+   "date": "2024-04-29",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "recommender-api-gcp-chilldays",
+   "title": "Hybrid Recommender API on GCP (Chilldays)",
+   "date": "2024-04-09",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "billboard-recreation-stable-diffusion",
+   "title": "AI Billboard Recreation (Grounding DINO + Stable Diffusion)",
+   "date": "2024-04-03",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "r-rest-api-medical-kpis",
+   "title": "R REST API & Plotly Graphs for a Medical Testing Platform",
+   "date": "2024-03-07",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "ai-persona-stable-diffusion",
+   "title": "AI Persona Content Pipeline (Stable Diffusion)",
+   "date": "2024-02-12",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "resume-analysis-nlp",
+   "title": "Resume Analysis with NLP and LLMs | Data Science & ML",
+   "date": "2023-12-31",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "dash-app-deployment-aws",
+   "title": "Deploying a Dash ML App on AWS | Cloud, DevOps & LLMOps",
+   "date": "2023-11-03",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "visual-product-search-google-vision",
+   "title": "Visual Product Search with Google Vision AI",
+   "date": "2023-11-03",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "sme-synergy-matching-platform",
+   "title": "AI-Powered SME Synergy Matching Platform",
+   "date": "2023-07-15",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "chatgpt-website-summarizer",
+   "title": "ChatGPT Website Summariser & Extractor | AI & Agents",
+   "date": "2023-07-03",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "marketing-kpi-dashboard-dash",
+   "title": "Marketing KPI Dashboard (Meta, Google Ads, Stripe, GA)",
+   "date": "2021-10-12",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "document-ocr-extraction-api",
+   "title": "Document OCR & Data Extraction API",
+   "date": "2021-09-29",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "automated-valuation-model-real-estate",
+   "title": "Automated Valuation Model & Real Estate Bot",
+   "date": "2021-07-07",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "entity-resolution-deduplication",
+   "title": "Entity Resolution & Record Deduplication",
+   "date": "2021-06-30",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "scrapy-bigquery-pipeline",
+   "title": "Scrapy + BigQuery Data Pipeline",
+   "date": "2021-06-09",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "driver-fatigue-detection-edge-ai",
+   "title": "Driver Fatigue Detection on Edge Devices",
+   "date": "2021-04-19",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "large-scale-web-scraping-aws",
+   "title": "Large-Scale Web Scraping on AWS (Scrapy, EC2, S3)",
+   "date": "2021-04-19",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "stock-ticker-hypothesis-testing",
+   "title": "Stock Ticker Hypothesis Testing | Finance & Quant",
+   "date": "2021-03-29",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "crypto-trading-bot-python",
+   "title": "Crypto Trading Bots in Python | Finance & Quant",
+   "date": "2021-03-02",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "lda-liwc-tweet-analysis",
+   "title": "LDA & LIWC Analysis of Tweets | Data Science & ML",
+   "date": "2021-01-27",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "stock-trend-sentiment-dashboard",
+   "title": "Stock Trend & Sentiment Dashboard | Data Science & ML",
+   "date": "2020-12-04",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "image-background-removal-unet-aws",
+   "title": "Image Background Removal Service (U-Net on AWS)",
+   "date": "2020-12-03",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "cluster-analysis-web-app",
+   "title": "Python Cluster Analysis Web App | Data Science & ML",
+   "date": "2020-05-25",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "ai-web-scraper-lstm",
+   "title": "AI-Powered Web Scraper (LSTM + Scrapy)",
+   "date": "2019-12-30",
+   "updated": "2026-10-29"
+  },
+  {
+   "slug": "hybrid-recommender-system-matchmaking",
+   "title": "Hybrid Recommender System for a Matchmaking Platform",
+   "date": "2019-02-10",
+   "updated": "2026-10-29"
+  }
+ ]
+}
