@@ -13,7 +13,7 @@ Generated: 2026-11-03 · 40 projects · Companion machine-readable file: `portfo
 
 Builds AI and machine learning systems that reach production — agentic workflows, RAG pipelines, computer vision, forecasting and full-stack data applications — and sets up the analytics and conversion tracking that prove those systems moved a business number.
 
-- Experience: 8 years, 180+ projects delivered, 50+ long-term clients, 8,700+ hours worked
+- Experience: 8 years, 190+ projects delivered, 50+ long-term clients, 8,700+ hours worked
 - Location: Remote, working worldwide
 - Education: Barcelona School of Economics — MSc Data Science for Decision Making (graduated with honours, 2023)
 - Education: American University of Armenia — PMBA, Data Science

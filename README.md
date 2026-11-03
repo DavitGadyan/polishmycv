@@ -114,7 +114,7 @@ skills/polishmycv/
    requirement (coverage + peak) and shows the best project per requirement. `select_projects.py`
    (keyword) is a secondary check that lists the JD terms with **no** evidence, which are never claimed.
 3. Claude writes `cv.json`: headline mirrors the JD title, a two-line summary, one scope bullet with
-   the platform stats (8 years, 180+ projects, 50+ long-term clients, top 1%, 8,700+ hours), one
+   the platform stats (8 years, 190+ projects, 50+ long-term clients, top 1%, 8,700+ hours), one
    linked bullet per chosen project (`**[Title](portfolio url)** — verb + what/tech + outcome with
    number`), skills regrouped in the JD's categories using only evidenced tools.
 4. `render_cv.py --fit --png` renders HTML → PDF in headless Chrome, shrinks type only between

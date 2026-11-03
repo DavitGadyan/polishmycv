@@ -61,7 +61,7 @@ poppler (`brew install poppler`) for `pdftotext` / `pdftoppm` / `pdfimages`.
 
 ## Ground rules (both commands)
 
-1. **Every number is sourced.** Stats come from the catalogue profile (8 years, 180+ projects,
+1. **Every number is sourced.** Stats come from the catalogue profile (8 years, 190+ projects,
    50+ long-term clients, 8,700+ hours, Expert-Vetted top 1%, 100+ Upwork clients) or the base CV
    ($500k+ earnings, Toptal), and project metrics come from that project's `outcomes` /
    `source_text` (e.g. 84% R², 0/3 → 3/3 enquiry routes, underwriting days → minutes, <5s OCR).

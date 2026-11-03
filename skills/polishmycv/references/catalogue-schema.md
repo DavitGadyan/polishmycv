@@ -74,7 +74,7 @@ Reuse these names before inventing a new one.
 |---|---|
 | `name`, `headline` | site JSON-LD (`jobTitle`) |
 | `positioning`, `experience_years`, `location`, `education`, `previously`, `credentials`, `core_stack` | curated — edit in the JSON directly |
-| `projects_delivered`, `long_term_clients`, `hours_worked` | site counters (`data-count`), rendered as "180+", "50+", "8,700+" |
+| `projects_delivered`, `long_term_clients`, `hours_worked` | site counters (`data-count`), rendered as "190+", "50+", "8,700+" |
 | `services` | site service cards + curated extras |
 | `knows_about`, `about_text`, `self_rated_skills_pct` | site |
 | `testimonials` (name, role, quote) and `named_clients_and_references` | site testimonial carousel |

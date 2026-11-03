@@ -99,7 +99,7 @@ only if there is spare room.
 
 **Summary (recommended, 2 lines).** Who + tenure + two or three proof points that answer the
 must-haves, each with a number, in JD vocabulary. Example for an LLM/healthcare role:
-> Data scientist and AI engineer with 8 years, 180+ delivered projects and 50+ long-term clients
+> Data scientist and AI engineer with 8 years, 190+ delivered projects and 50+ long-term clients
 > (Upwork Expert-Vetted, top 1%). Ships production LLM systems — RAG, LangChain/LangGraph agents,
 > MCP tool use — on AWS/Kubernetes, incl. a HIPAA-compliant underwriting assistant that cut
 > turnaround from days to minutes.
@@ -107,7 +107,7 @@ must-haves, each with a number, in JD vocabulary. Example for an LLM/healthcare 
 **Professional Experience → Upwork entry.**
 - `subheading`: the role name the JD would search for, kept true:
   `Data Scientist / ML Engineer (freelance consultant)`.
-- Bullet 1 = scope: `8 years, 180+ projects for 100+ clients worldwide (50+ long-term);
+- Bullet 1 = scope: `8 years, 190+ projects for 100+ clients worldwide (50+ long-term);
   Upwork Expert-Vetted (top 1%), $500k+ earned, 8,700+ hours.`
 - Then one bullet per chosen project, **ordered by relevance to the must-haves**, not by date:
 
