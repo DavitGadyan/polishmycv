@@ -105,6 +105,9 @@ must-haves, each with a number, in JD vocabulary. Example for an LLM/healthcare 
 > turnaround from days to minutes.
 
 **Professional Experience → Upwork entry.**
+- Fractional CTO / AI-leadership roles: see "polish for Fractional CTO / AI-leadership roles" in
+  SKILL.md. Major client engagements (anchors: Virgil.ai, Curogram, ChillDays) are framed as
+  fractional CTO work: advising + leading the AI transformation + hands-on building.
 - `subheading`: the role name the JD would search for, kept true:
   `Data Scientist / ML Engineer (freelance consultant)`.
 - Bullet 1 = scope: `8 years, 190+ projects for 100+ clients worldwide (50+ long-term);

@@ -125,6 +125,28 @@ https://davitgadyan.github.io/portfolio_app_upwork/CV_David_Gadyan_no_contact.pd
   default one). Up Assistant attaches the ticked CV by itself when a post asks for a CV, and blocks submitting
   a proposal on such a post without one.
 
+## polish for Fractional CTO / AI-leadership roles — David, 2026-11-03
+
+David worked on his major client engagements as a **fractional CTO**: advising the founder or team
+on AI strategy and architecture, leading the AI transformation, and building key parts himself when
+needed. For Fractional CTO, CTO, Head of AI, AI transformation lead, technical advisor or AI architect
+roles, frame those engagements that way:
+
+- **Named anchors** (always eligible): Virgil.ai (`virgil-ai-health-insurance-agent`),
+  Sick.org / Curogram (`document-ocr-extraction-api`), ChillDays (`recommender-api-gcp-chilldays`).
+- **Also eligible:** every other big client project, meaning a real client and a production
+  system David architected or led (e.g. S1mple.ai lead scoring, the AI trading copilot, the legal
+  review agent for Arnotts, the real-estate lot-analysis platform). **Not eligible:** small one-off
+  tasks, demos, open-source/personal builds (n8n workflow, Stable Diffusion/YOLO demos, ImprovTalk).
+- Upwork `subheading`: `Fractional CTO & AI Architect (freelance consultant)`.
+- Bullet shape: `**[Client — project](url)** (fractional CTO) — Advised <who> on <AI decision>, set
+  the architecture for <system> and <built / led the team that built> it; <outcome with number>.`
+  Lead with the advisory and leadership verbs (Advised, Led, Set, Steered, Reviewed), then the
+  hands-on part. Put the three anchors first when they fit the JD.
+- The summary may say "fractional CTO and AI architect for startups and SMBs".
+- Still no invented facts: no team sizes, hires, budgets or a formal "CTO of <company>" title
+  unless the project page states them. Numbers come from the project page as usual.
+
 ## refresh — the short version
 
 Read `references/refresh-workflow.md` for the curation rules and `references/catalogue-schema.md`
