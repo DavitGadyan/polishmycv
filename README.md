@@ -94,7 +94,7 @@ docs/
     base-cv.json              structured transcription of it — the default reference polish starts from
     headshot.png              photo extracted from the PDF, embedded in every tailored CV
 output/
-  <date>-<company>-<role>/    one folder per application: jd.txt, cv.json, PDF, HTML, preview PNG, notes.md
+  <date>-<company>-<role>/    one folder per application: jd.txt, cv.json, PDF, HTML, preview PNG, notes.md  (local only, git-ignored)
 skills/polishmycv/
   SKILL.md                    the skill (what Claude reads)
   references/                 polish-workflow.md · refresh-workflow.md · catalogue-schema.md

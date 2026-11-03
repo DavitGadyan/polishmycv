@@ -16,14 +16,17 @@ python3 $K/fetch_portfolio.py --out $S/raw.json --cv-out $S/cv.pdf
 ```
 
 What it pulls (all deterministic, no summarising):
-- `portfolio/index.xml` (RSS) and `sitemap.xml` for the project list; then probes
-  `project-<max+1..max+5>` for live-but-unlisted pages (project-38 was one).
-- Per project page: `h1` title, hero image, body → markdown (`body_markdown`), sidebar Date /
-  Categories / Client / link rows (`links`), anchors in the body (`body_links`), any other
-  sidebar row (`sidebar_other`), and `possible_duplicate_of` (pages sharing a hero image).
-- Home page: `data-count` counters (projects, long-term clients, hours), JSON-LD person
-  (job title, knowsAbout), testimonials (name, role, quote), services, self-rated skill
-  percentages, About text, links (LinkedIn, GitHub, Calendly, CV PDF).
+- `sitemap.xml` for the project list: every English page `https://davidgadyan.com/portfolio/<slug>/`
+  (the `/es/` copies are skipped), checked against the count on the home page's `#portfolio`
+  section ("These 40 projects …"); a mismatch is printed.
+- Ids: a page whose URL is already in the catalogue keeps that entry's id (`project-N` for
+  projects curated on the old site); a brand-new page gets its slug as id.
+- Per project page: `h1` title, category eyebrow (`site_tags`), published/updated dates
+  (`article:published_time`), `Client:` from the byline, hero image, lead + body + the aside's
+  "Outcome" and "By the numbers" (as `body_markdown`), aside "Links" (`links`), body anchors
+  (`body_links`).
+- Home page: JSON-LD person (job title, description), links.
+- The original CV from https://davidgadyan.com/David_Gadyan_Resume.pdf (`--cv-out`).
 
 If it fails on the network, retry once; if the site structure changed (0 projects parsed,
 or titles empty), stop and tell David — do not rebuild the catalogue from a broken scrape.

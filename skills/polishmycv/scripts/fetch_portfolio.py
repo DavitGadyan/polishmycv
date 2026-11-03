@@ -1,21 +1,25 @@
 #!/usr/bin/env python3
-"""Fetch David's portfolio site (a Hugo static site) into one raw JSON file.
+"""Fetch David's portfolio site (https://davidgadyan.com/) into one raw JSON file.
 
 This is the deterministic half of `/polishmycv refresh`. It pulls facts only —
 no summarising, no theme tagging. The curation happens afterwards in Claude,
 on the *delta* reported by diff_catalogue.py.
 
 Sources used, in order:
-  1. portfolio/index.xml  — RSS feed: canonical list of published projects + dates
-  2. sitemap.xml          — catches anything the feed missed
-  3. probing project-N+1… — unlisted-but-live pages (project-38 was one of these)
-  4. each project page    — title, hero image, body (as markdown), sidebar facts
-  5. home page            — counters (data-count), JSON-LD, testimonials, services
-  6. the CV PDF           — downloaded next to the output so refresh can spot changes
+  1. sitemap.xml          — every English project page, /portfolio/<slug>/  (Spanish /es/ copies skipped)
+  2. home page #portfolio — the published project count ("These 40 projects …"), checked against 1
+  3. each project page    — title, category eyebrow, dates, client, hero image, lead + body + the
+                            "Outcome" / "By the numbers" aside (as markdown), aside links
+  4. home page            — JSON-LD, links, counters if present
+  5. the CV PDF           — https://davidgadyan.com/David_Gadyan_Resume.pdf, downloaded so refresh can
+                            spot changes
+
+Project ids: a page whose URL is already in the catalogue keeps that entry's id (older entries are
+`project-N` from the previous site); a new page gets its slug as id.
 
 Usage:
   python3 fetch_portfolio.py --out raw.json [--base-url URL] [--cv-out path.pdf]
-                             [--probe 5] [--quiet]
+                             [--catalogue docs/portfolio-catalogue.json] [--quiet]
 """
 from __future__ import annotations
 
@@ -32,6 +36,7 @@ import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 DEFAULT_BASE = "https://davidgadyan.com/"
+CV_URL = "https://davidgadyan.com/David_Gadyan_Resume.pdf"
 UA = {"User-Agent": "polishmycv-refresh/1.0 (+https://github.com/DavitGadyan)"}
 MONTHS = {m: i for i, m in enumerate(
     ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
@@ -176,7 +181,7 @@ def parse_sitemap(xml: str) -> list[str]:
 
 
 def lower_host(u: str | None) -> str | None:
-    """GitHub Pages hosts are case-insensitive; the site links to itself as DavitGadyan.github.io."""
+    """Lower-case the host part of a URL (hosts are case-insensitive)."""
     if not u:
         return u
     m = re.match(r"^(https?://)([^/]+)(.*)$", u)
@@ -257,6 +262,112 @@ def parse_project_page(html: str, url: str) -> dict:
         "body_markdown": body_md,
         "sidebar_other": {k: v for k, v in sidebar.items() if k not in ("Date", "Categories", "Client")},
     }
+
+
+def slug_of(url: str) -> str:
+    return url.rstrip("/").split("/")[-1]
+
+
+def parse_long_date(text: str) -> str | None:
+    for fmt in ("%B %d, %Y", "%b %d, %Y"):
+        try:
+            return dt.datetime.strptime(text.strip(), fmt).date().isoformat()
+        except ValueError:
+            continue
+    return None
+
+
+def parse_site_page(html: str, url: str) -> dict:
+    """Project page of the Next.js site (davidgadyan.com/portfolio/<slug>/)."""
+    soup = BeautifulSoup(html, "lxml")
+    meta = lambda **k: ((soup.find("meta", attrs=k) or {}).get("content") or "").strip()
+    art = soup.find("article") or soup.body
+    header = art.find("header") if art else None
+    h1 = (header or art).find("h1") if art else None
+    title = h1.get_text(" ", strip=True) if h1 else re.sub(r"\s*\|\s*David Gadyan\s*$", "", meta(property="og:title"))
+    eyebrow = header.select_one("p.eyebrow") if header else None
+    tags = [t.strip(" ·") for t in (eyebrow.get_text("|", strip=True).split("|") if eyebrow else []) if t.strip(" ·")]
+    byline = header.get_text(" ", strip=True) if header else ""
+    m = re.search(r"Client\s*:\s*(.+?)(?:\s+·|$)", byline)
+    client = m.group(1).strip() if m else None
+    date = (meta(property="article:published_time") or "")[:10] or None
+    updated = (meta(property="article:modified_time") or "")[:10] or None
+    if not date:
+        times = header.find_all("time") if header else []
+        date = parse_long_date(times[0].get_text()) if times else None
+
+    hero = art.find("figure").find("img") if art and art.find("figure") else None
+    image = urljoin(url, hero["src"]) if hero and hero.get("src") else (meta(property="og:image") or None)
+
+    # main column: lead paragraph + prose body; aside: Outcome / By the numbers / Links / Stack
+    grid = None
+    for d in art.find_all("div", recursive=True):
+        if d.find("aside", recursive=False):
+            grid = d
+            break
+    main_col = grid.find("div", recursive=False) if grid else None
+    aside = grid.find("aside", recursive=False) if grid else None
+    parts: list[str] = []
+    if main_col:
+        lead = main_col.find("p", class_="lead")
+        if lead:
+            parts.append(inline_md(lead).strip())
+        prose = main_col.select_one(".prose-dg")
+        if prose:
+            parts.append(html_to_markdown(prose))
+    links: list[dict] = []
+    if aside:
+        for sec in aside.find_all("section", recursive=False):
+            head = sec.find(["h2", "h3", "h4"])
+            name = head.get_text(" ", strip=True) if head else ""
+            if name.lower().startswith("links"):
+                for a in sec.find_all("a", href=True):
+                    u = urljoin(url, htmlmod.unescape(a["href"].strip()))
+                    if u not in [l["url"] for l in links]:
+                        links.append({"label": a.get_text(" ", strip=True) or "Link", "url": u,
+                                      "text": a.get_text(" ", strip=True)})
+            elif name.lower().startswith("outcome"):
+                items = [li.get_text(" ", strip=True) for li in sec.find_all("li")]
+                if items:
+                    parts.append("### Outcome\n\n" + "\n".join(f"- {i}" for i in items))
+            elif name.lower().startswith("by the numbers"):
+                rows = []
+                for it in sec.select(".metrics__item") or sec.find_all("div"):
+                    v, l = it.find("dd"), it.find("dt")
+                    if v and l:
+                        rows.append(f"- **{v.get_text(' ', strip=True)}** {l.get_text(' ', strip=True)}")
+                if rows:
+                    parts.append("### By the numbers\n\n" + "\n".join(dict.fromkeys(rows)))
+    body_links = []
+    if main_col:
+        for a in main_col.find_all("a", href=True):
+            href = urljoin(url, htmlmod.unescape(a["href"].strip()))
+            if href.startswith("http") and href not in [b["url"] for b in body_links]:
+                body_links.append({"text": a.get_text(" ", strip=True), "url": href})
+    return {
+        "id": slug_of(url),
+        "slug": slug_of(url),
+        "num": None,
+        "title": title,
+        "url": url,
+        "date": date,
+        "updated": updated,
+        "client": client,
+        "site_tags": tags,
+        "links": links,
+        "body_links": body_links,
+        "image": image,
+        "meta_description": meta(name="description") or None,
+        "body_markdown": "\n\n".join(p for p in parts if p.strip()).strip(),
+        "sidebar_other": {},
+    }
+
+
+def portfolio_count(html: str) -> int | None:
+    soup = BeautifulSoup(html, "lxml")
+    sec = soup.find(id="portfolio")
+    m = re.search(r"(\d+)\s+projects", sec.get_text(" ", strip=True) if sec else "")
+    return int(m.group(1)) if m else None
 
 
 def parse_home(html: str, base: str) -> dict:
@@ -359,7 +470,7 @@ def parse_home(html: str, base: str) -> dict:
         h = a["href"].strip()
         if "linkedin.com" in h:
             profile["links"].setdefault("linkedin", h)
-        elif "github.com" in h and "portfolio_app" not in h:
+        elif "github.com" in h and "github.io" not in h:
             profile["links"].setdefault("github", h)
         elif "calendly.com" in h:
             profile["links"].setdefault("book_a_call", h)
@@ -378,10 +489,19 @@ def main() -> int:
     ap.add_argument("--base-url", default=DEFAULT_BASE)
     ap.add_argument("--out", required=True, help="where to write the raw JSON")
     ap.add_argument("--cv-out", help="also download the CV PDF linked from the site to this path")
-    ap.add_argument("--probe", type=int, default=5, help="how many ids above the max listed one to probe")
+    ap.add_argument("--catalogue", help="catalogue JSON, to keep existing ids (default: $H/docs/portfolio-catalogue.json)")
     ap.add_argument("--quiet", action="store_true")
     args = ap.parse_args()
     base = args.base_url if args.base_url.endswith("/") else args.base_url + "/"
+    if args.catalogue is None:
+        try:
+            import subprocess
+            from pathlib import Path
+            h = subprocess.run([sys.executable, str(Path(__file__).with_name("home.py"))],
+                               capture_output=True, text=True, check=True).stdout.strip()
+            args.catalogue = str(Path(h) / "docs" / "portfolio-catalogue.json")
+        except Exception:
+            args.catalogue = None
 
     log(f"fetching {base}", args.quiet)
     home = get(base)
@@ -390,44 +510,42 @@ def main() -> int:
         return 1
     site_profile = parse_home(home.text, base)
 
-    urls: dict[str, dict] = {}
-    rss = get(urljoin(base, "portfolio/index.xml"))
-    if rss:
-        for it in parse_rss(rss.text):
-            n = project_num(it["url"])
-            if n is not None:
-                urls[f"project-{n}"] = {"url": lower_host(it["url"]), "rss": it}
+    # catalogue url -> id, so pages already curated keep their id (project-N from the old site)
+    url_to_id: dict[str, str] = {}
+    if args.catalogue:
+        try:
+            for p in json.load(open(args.catalogue, encoding="utf-8")).get("projects", []):
+                for u in [p.get("url")] + list(p.get("also_published_as") or []):
+                    if u:
+                        url_to_id[slug_of(u)] = p["id"]
+        except FileNotFoundError:
+            pass
+
     sm = get(urljoin(base, "sitemap.xml"))
-    if sm:
-        for loc in parse_sitemap(sm.text):
-            n = project_num(loc)
-            if n is not None:
-                urls.setdefault(f"project-{n}", {"url": lower_host(loc), "rss": None})
-    max_n = max((project_num(v["url"]) or 0 for v in urls.values()), default=0)
-    log(f"  {len(urls)} listed projects (max id {max_n}); probing {args.probe} ids above", args.quiet)
-    for n in range(max_n + 1, max_n + 1 + args.probe):
-        u = urljoin(base, f"portfolio/project-{n}/")
-        r = get(u, retries=1)
-        if r and r.status_code == 200 and "<h1" in r.text:
-            urls[f"project-{n}"] = {"url": u, "rss": None, "unlisted": True, "_html": r.text}
-            log(f"  + unlisted live page: {u}", args.quiet)
+    if not sm:
+        print("could not fetch sitemap.xml", file=sys.stderr)
+        return 1
+    pat = re.compile(re.escape(base) + r"portfolio/([^/]+)/?$")
+    page_urls = sorted({loc if loc.endswith("/") else loc + "/" for loc in parse_sitemap(sm.text) if pat.match(loc)})
+    count = portfolio_count(home.text)
+    log(f"  {len(page_urls)} project pages in the sitemap; #portfolio says {count}", args.quiet)
+    if count is not None and count != len(page_urls):
+        log(f"  ! count mismatch: home page {count} vs sitemap {len(page_urls)}", args.quiet)
 
     projects = []
-    for pid, info in sorted(urls.items(), key=lambda kv: -(project_num(kv[1]["url"]) or 0)):
-        html = info.get("_html")
-        if html is None:
-            r = get(info["url"])
-            if not r:
-                log(f"  ! skipping {info['url']}", args.quiet)
-                continue
-            html = r.text
-        rec = parse_project_page(html, info["url"])
-        rec["listed"] = not info.get("unlisted", False)
-        if info.get("rss"):
-            rec["rss_description"] = info["rss"]["description"]
-            rec["date"] = rec["date"] or parse_rfc822(info["rss"]["pubDate"])
+    for u in page_urls:
+        r = get(u)
+        if not r:
+            log(f"  ! skipping {u}", args.quiet)
+            continue
+        rec = parse_site_page(r.text, u)
+        rec["id"] = url_to_id.get(rec["slug"], rec["slug"])
+        rec["listed"] = True
+        if len(rec["body_markdown"]) < 200:
+            log(f"  ! little body text parsed from {u}", args.quiet)
         projects.append(rec)
-        log(f"  ✓ {pid}: {rec['title']} ({rec['date']})", args.quiet)
+        log(f"  ✓ {rec['id']}: {rec['title']} ({rec['date']})", args.quiet)
+    projects.sort(key=lambda p: p.get("date") or "", reverse=True)
 
     # duplicates: same hero image or same body → flag, do not decide
     by_img: dict[str, list[str]] = {}
@@ -442,7 +560,8 @@ def main() -> int:
         "fetched": dt.datetime.now(dt.timezone.utc).astimezone().isoformat(timespec="seconds"),
         "source": base,
         "site_profile": site_profile,
-        "counts": {"projects": len(projects), "listed": sum(p["listed"] for p in projects)},
+        "counts": {"projects": len(projects), "listed": sum(p["listed"] for p in projects),
+                   "portfolio_count": count},
         "projects": projects,
     }
     with open(args.out, "w", encoding="utf-8") as f:
@@ -450,7 +569,7 @@ def main() -> int:
     log(f"wrote {args.out} ({len(projects)} projects)", args.quiet)
 
     if args.cv_out:
-        cv_url = site_profile["links"].get("cv_pdf") or urljoin(base, "David_Gadyan_Resume.pdf")
+        cv_url = CV_URL if base == DEFAULT_BASE else urljoin(base, "David_Gadyan_Resume.pdf")
         r = get(cv_url)
         if r and r.content[:4] == b"%PDF":
             with open(args.cv_out, "wb") as f:
